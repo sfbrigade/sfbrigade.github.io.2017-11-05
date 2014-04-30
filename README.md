@@ -1,6 +1,6 @@
 # Open Gov Hack Night
 
-Website for Chicago's weekly Open Gov Hack Night
+Website for San Antonio's brigade
 
 Built in plain HTML, Javascript and CSS
 
