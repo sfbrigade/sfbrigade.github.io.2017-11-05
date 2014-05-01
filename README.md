@@ -1,4 +1,4 @@
-# Open Gov Hack Night
+# openSATX website
 
 Website for San Antonio's brigade
 
