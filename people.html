@@ -38,9 +38,10 @@
         </div>
 
         <!-- Begin page content-->
-        <h1>People <!--<small id='people-count'></small>--></h1>
+        <h1>People <small id='people-count'></small></h1>
 
-        <p>Developers, designers, and data scientists that work on <a href='projects.html'>civic tech projects</a> in San Antonio. <!--<a href='http://civic-json.e-vz.com/data/people.json'>View the data powering this page</a>.</p>
+        <p>Developers, designers, and data scientists that work on <a href='projects.html'>civic tech projects</a> in San Antonio.
+        <a href='http://codeforamerica.org/api/organizations/Open-San-Antonio'>View the data powering this page</a>.</p>
         <br>
 
         <table id='hack-night-people' class='table people'>
@@ -81,10 +82,7 @@
     <script src="js/jquery.spin.js"></script>
 
     <script>
-      // Set this up like this to make it easier to dev this locally -- evz
-      var data_host = 'http://worker.opengovhacknight.org'
-      // var data_host = 'http://civic-json.datamade.dev.work'
-
+      var data_host = 'http://codeforamerica.org/api/organizations/Open-San-Antonio/projects'
       var people_table;
 
       // this is a template used for mustache.js. Each one represents a table row.
@@ -104,13 +102,25 @@
 
       $('#hack-night-people tbody').spin({top: '40px'}); //show a spinner while loading data
 
-      $.when( $.getJSON( data_host + "/data/people.json" ) ).then(function( data, textStatus, jqXHR ) {
+      $.when( $.getJSON( data_host ) ).then(function( data, textStatus, jqXHR ) {
+
+        // Loop through each project and add the contributors to the list
+        var projects = data.objects
+        var people = []
+        $.each(projects, function (i, project){
+
+            // Lots of Chicago people worked on the website. Don't show them on the people page.
+            if (project.name != "opensatx.github.io") {
+                people = people.concat(project.github_details.contributors);
+            }
+
+        });
 
         // update project count at the top of the page
-        $('#people-count').html(data.length);
+        $('#people-count').html(people.length);
 
         // loop through our json data
-        $.each(data, function(i, json){
+        $.each(people, function(i, json){
           if (json['name'] == null)
             json['name'] = json['login'];
 
