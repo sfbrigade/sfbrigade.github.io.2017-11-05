@@ -28,20 +28,17 @@
       <div class='col-md-12'>
         <div class="header">
           <ul class="nav nav-pills pull-right">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="events.html">Events</a></li>
             <li class="active"><a href="projects.html">Projects</a></li>
             <li><a href="people.html">People</a></li>
-            <li><a href="resources.html">Resources</a></li>
           </ul>
-          <h3 class="text-muted"><a href="index.html" >openSATX</a></h3>
+          <h3 class="text-muted"><a href="index.html" >labplc.mx</a></h3>
         </div>
 
         <!-- Begin page content-->
         <h1>Projects <small id='project-count'></small></h1>
 
-        <p>Open source civic tech projects from San Antonio's open gov community.</p>
-<!--        
+        <p>Open source civic tech projects from mexico city's open gov community.</p>
+<!--
         <ol>
           <li>
             <strong><a href='http://hacknight.hackdash.org/'>Start a new project</a></strong> - Share ideas and Find collaborators for your project on our <a href='http://hacknight.hackdash.org/'>Hack Dash page</a>.
@@ -96,7 +93,7 @@
         <!-- End page content-->
 
         <div class="footer">
-          <p class='pull-right'>&copy; openSATX 2014 | <a href='https://github.com/open-city/open-gov-hack-night'><i class='icon-github'></i> Pull requests welcome!</a></p>
+          <p class='pull-right'>&copy; labplc 2014 | <a href='https://github.com/open-city/open-gov-hack-night'><i class='icon-github'></i> Pull requests welcome!</a></p>
         </div>
       </div>
     </div> <!-- /container -->
@@ -121,7 +118,7 @@
     <script>
       var projects_table;
       // Set this up like this to make it easier to dev this locally -- evz
-      var data_host = 'http://codeforamerica.org/api/organizations/Open-San-Antonio/projects'
+      var data_host = 'http://codeforamerica.org/api/organizations/El-Laboratorio-Para-La-Ciudad/projects'
       // var data_host = 'http://civic-json.datamade.dev.work'
 
       // helper function for displaying messages when submitting projects
@@ -230,78 +227,94 @@
 
       $('#hack-night-projects tbody').spin({top: '40px'}); //show a spinner while loading data
 
-      $.when( $.getJSON( data_host ) ).then(function( data, textStatus, jqXHR ) {
-		  data=data.objects;
-        // update project count at the top of the page
-        $('#project-count').html(data.length);
+      // The projects list to display
+      var projects = []
 
-        // loop through our json data
-        $.each(data, function(i, json){
-        json=json.github_details;
-          var participation = [];
-          var max_participation = 50;
+      // Show off the projects
+      function showProjects(data, textStatus, jqXHR){
 
-          if (json['participation']) {
-            for (var i = 0; i < json['participation'].length; i++) {
-              var val = ((json['participation'][i] + 1) / parseFloat(max_participation)) * 100;
-              if (val > 100) val = 100;
-              participation.push(val)
+        // Fill up the projects list
+        projects = projects.concat(data.objects);
+
+        // Follow next page links
+        if (data.pages.next) {
+          $.when( $.getJSON(data.pages.next) ).then(showProjects);
+
+        } else {
+          // update project count at the top of the page
+          $('#project-count').html(data.length);
+
+          // loop through our json data
+          $.each(projects, function(i, json){
+          json=json.github_details;
+            var participation = [];
+            var max_participation = 50;
+
+            if (json['participation']) {
+              for (var i = 0; i < json['participation'].length; i++) {
+                var val = ((json['participation'][i] + 1) / parseFloat(max_participation)) * 100;
+                if (val > 100) val = 100;
+                participation.push(val)
+              }
+              json['participation_percent'] = participation;
+
+              var recent_commits = 0;
+              var recent_commits_arr = json['participation'].splice(48,4); // get the last 4 weeks
+              $.each(recent_commits_arr, function() {
+                  recent_commits += this;
+              });
+
+              json['recent_commits'] = recent_commits;
             }
-            json['participation_percent'] = participation;
 
-            var recent_commits = 0;
-            var recent_commits_arr = json['participation'].splice(48,4); // get the last 4 weeks
-            $.each(recent_commits_arr, function() {
-                recent_commits += this;
-            });
+            // to display text like 'x days ago' we use moment.js's awesome fromNow function
+            // http://momentjs.com/docs/#/displaying/fromnow/
+            json['created_at_formatted'] = moment(json['created_at']).fromNow();
+            json['updated_at_formatted'] = moment(json['updated_at']).fromNow();
+            json['has_project_needs'] = (json['project_needs'].length > 0);
 
-            json['recent_commits'] = recent_commits;
-          }
+            // check to make sure all our URL's have http:// in front of them
+            // otherwise they won't link properly
+            var prefix_regex = /^https?:\/\/.*/;
+            var homepage = json['homepage'];
+            if (homepage != null && !prefix_regex.test(homepage))
+              json['homepage_formatted'] = "http://" + homepage;
+            else
+              json['homepage_formatted'] = homepage;
 
-          // to display text like 'x days ago' we use moment.js's awesome fromNow function
-          // http://momentjs.com/docs/#/displaying/fromnow/
-          json['created_at_formatted'] = moment(json['created_at']).fromNow();
-          json['updated_at_formatted'] = moment(json['updated_at']).fromNow();
-          json['has_project_needs'] = (json['project_needs'].length > 0);
+            // using the template above, add the project as a new row to our table
+            $("#hack-night-projects tbody").append(Mustache.render(template, json));
+          })
 
-          // check to make sure all our URL's have http:// in front of them
-          // otherwise they won't link properly
-          var prefix_regex = /^https?:\/\/.*/;
-          var homepage = json['homepage'];
-          if (homepage != null && !prefix_regex.test(homepage))
-            json['homepage_formatted'] = "http://" + homepage;
-          else
-            json['homepage_formatted'] = homepage;
+          // initialize datatables for sorting and searching
+          // http://datatables.net/
+          projects_table = $('#hack-night-projects').dataTable( {
+              "aaSorting": [ [2,'desc'], [3, 'desc'] ],
+              "aoColumns": [
+                  null,
+                  null,
+                  { "sType": "num-html" },
+                  { "sType": "num-html" },
+                  { "sType": "num-html" },
+                  { "sType": "num-html" }
+              ],
+              "bInfo": false,
+              "bPaginate": false
+          } );
 
-          // using the template above, add the project as a new row to our table
-          $("#hack-night-projects tbody").append(Mustache.render(template, json));
-        })
+          // allows linking directly to searches
+          if ($.address.parameter('search') != undefined)
+            projects_table.fnFilter( $.address.parameter('search') );
 
-        // initialize datatables for sorting and searching
-        // http://datatables.net/
-        projects_table = $('#hack-night-projects').dataTable( {
-            "aaSorting": [ [2,'desc'], [3, 'desc'] ],
-            "aoColumns": [
-                null,
-                null,
-                { "sType": "num-html" },
-                { "sType": "num-html" },
-                { "sType": "num-html" },
-                { "sType": "num-html" }
-            ],
-            "bInfo": false,
-            "bPaginate": false
-        } );
+          // when someone types a search value, it updates the URL
+          $('#hack-night-projects_filter input').keyup(function(e){
+            $.address.parameter('search', $('#hack-night-projects_filter input').val());
+          });
+        }
+      }
 
-        // allows linking directly to searches
-        if ($.address.parameter('search') != undefined)
-          projects_table.fnFilter( $.address.parameter('search') );
-
-        // when someone types a search value, it updates the URL
-        $('#hack-night-projects_filter input').keyup(function(e){
-          $.address.parameter('search', $('#hack-night-projects_filter input').val());
-        });
-      });
+      // Go get projects! Then show them off.
+      $.when( $.getJSON(data_host) ).then(showProjects);
     </script>
   </body>
 </html>

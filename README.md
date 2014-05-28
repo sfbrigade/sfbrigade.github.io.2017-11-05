@@ -1,6 +1,6 @@
 # openSATX website
 
-Website for San Antonio's brigade
+Website for mexico city's brigade
 
 Built in plain HTML, Javascript and CSS
 
