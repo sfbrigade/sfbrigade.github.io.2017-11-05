@@ -1,0 +1,3 @@
+permalink: /:categories/:title/
+markdown: kramdown
+baseurl: http://jasonlally.com/labplc_projects_page/
