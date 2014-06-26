@@ -1,8 +1,8 @@
-# openSATX website
+# CodeForSanFrancisco.org version 2
 
-Website for mexico city's brigade
+Website for San Francisco's brigade
 
-Built in plain HTML, Javascript and CSS
+Built using Jekyll, plain HTML, CSS, javascript and a little bit of Markdown and Liquid templates
 
 ## Javascript libraries
 
@@ -13,7 +13,6 @@ Built in plain HTML, Javascript and CSS
 
 ## Projects and People
 
-The [projects](http://opengovhacknight.org/projects.html) and [people](http://opengovhacknight.org/people.html) pages are powered by [Github](https://github.com/) and [civic-json-worker](https://github.com/open-city/civic-json-worker), 
-a script we run every 5 minutes that fetches data from the [Github API](http://developer.github.com/). 
-
-The JSON files are backed up every hour in the [civic-json-files](https://github.com/open-city/civic-json-files) repository.
+The [projects](http://codeforsanfrancisco.org/beta/projects) and [people](http://codeforsanfrancisco.org/beta/people) pages are powered by [CFAPI](https://github.com/codeforamerica/cfapi#readme) based on a script run every hour that fetches data from the [Github API](http://developer.github.com/) as well as other sources. 
+ 
+You can access the API [here](http://codeforamerica.org/api)
