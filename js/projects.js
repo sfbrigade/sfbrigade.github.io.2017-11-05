@@ -55,54 +55,54 @@ var projects_table;
         var template = "\
         <tr>\
         <td>\
-        <h3><a href='{{html_url}}'>{{name}}</a></h3>\
-        {{#homepage}}\
+        <h3><a href='{{code_url}}'>{{name}}</a></h3>\
+        {{#github_details.homepage}}\
         <a href='{{homepage_formatted}}'>Website</a>\
-        {{/homepage}}\
+        {{/github_details.homepage}}\
         <br /><strong>Created</strong>\
-        {{created_at_formatted}}\
-        {{#language}}\
+        {{github_details.created_at_formatted}}\
+        {{#github_details.language}}\
         <br /><strong>Language</strong>\
-        {{language}}\
-        {{/language}}\
+        {{github_details.language}}\
+        {{/github_details.language}}\
         <div class='clearfix'></div>\
-        {{#participation_percent}}\
+        {{#github_details.participation_percent}}\
         <div class='bar'><span style='height: {{.}}%;'>{{.}}%</span></div>\
-        {{/participation_percent}}\
+        {{/github_details.participation_percent}}\
         </td>\
         <td>\
-        <p>{{description}}</p>\
+        <p>{{github_details.description}}</p>\
         <h4>Contributors</h4>\
         <p class='contributors'>\
-        {{#owner}}\
+        {{#github_details.owner}}\
         <a href='{{html_url}}' class='contributor-owner'><img class='img-thumbnail' src='{{avatar_url}}' alt='Owner: {{login}}' title='Owner: {{login}}'/></a>\
         <span style='display: none;'>{{login}}</span>\
-        {{/owner}}\
-        {{#contributors}}\
+        {{/github_details.owner}}\
+        {{#github_details.contributors}}\
         {{^owner}}\
         <a href='{{html_url}}'><img class='img-thumbnail' src='{{avatar_url}}' alt='{{login}}' title='{{login}}'/></a>\
         <span style='display: none;'>{{login}}</span>\
         {{/owner}}\
-        {{/contributors}}\
+        {{/github_details.contributors}}\
         </p>\
         {{#has_project_needs}}\
         <h4 class='project-needs'>Project needs</h4>\
-        {{#project_needs}}\
-        <a href='{{issue_url}}'><span class='label label-success'>{{title}}</span></a>\
-        {{/project_needs}}\
+        {{#issues}}\
+        <a href='{{html_url}}'><span class='label label-success'>{{title}}</span></a>\
+        {{/issues}}\
         {{/has_project_needs}}\
         </td>\
         <td>\
-        <a class='btn btn-default' href='{{html_url}}/commits/master'>{{recent_commits}} <i class='icon-plus-sign'></i></a>\
+        <a class='btn btn-default' href='{{github_details.html_url}}/commits/master'>{{github_details.recent_commits}} <i class='icon-plus-sign'></i></a>\
         </td>\
         <td>\
-        <a class='btn btn-default' href='{{html_url}}/stargazers'>{{watchers_count}} <i class='icon-star'></i></a>\
+        <a class='btn btn-default' href='{{github_details.html_url}}/stargazers'>{{github_details.watchers_count}} <i class='icon-star'></i></a>\
         </td>\
         <td>\
-        <a class='btn btn-default' href='{{html_url}}/network'>{{forks_count}} <i class='icon-code-fork'></i></a>\
+        <a class='btn btn-default' href='{{github_details.html_url}}/network'>{{github_details.forks_count}} <i class='icon-code-fork'></i></a>\
         </td>\
         <td>\
-        <a class='btn btn-default' href='{{html_url}}/issues'>{{open_issues}} <i class='icon-exclamation-sign'></i></a>\
+        <a class='btn btn-default' href='{{github_details.html_url}}/issues'>{{github_details.open_issues}} <i class='icon-exclamation-sign'></i></a>\
         </td>\
         </tr>\
         ";
@@ -128,36 +128,37 @@ var projects_table;
             $('#project-count').html(Object.keys(projects).length);
             // loop through our json data
             $.each(projects, function(i, json){
-              json=json.github_details;
+        
               var participation = [];
               var max_participation = 50;
-              if (json['participation']) {
-                for (var i = 0; i < json['participation'].length; i++) {
-                  var val = ((json['participation'][i] + 1) / parseFloat(max_participation)) * 100;
+              if (json['github_details']['participation']) {
+                for (var i = 0; i < json['github_details']['participation'].length; i++) {
+                  var val = ((json['github_details']['participation'][i] + 1) / parseFloat(max_participation)) * 100;
                   if (val > 100) val = 100;
                   participation.push(val)
                 }
-                json['participation_percent'] = participation;
+                json['github_details']['participation_percent'] = participation;
 
                 var recent_commits = 0;
-                var recent_commits_arr = json['participation'].splice(48,4); // get the last 4 weeks
+                var recent_commits_arr = json['github_details']['participation'].splice(48,4); // get the last 4 weeks
                 $.each(recent_commits_arr, function() {
                   recent_commits += this;
                 });
 
-                json['recent_commits'] = recent_commits;
+                json['github_details']['recent_commits'] = recent_commits;
               }
 
               // to display text like 'x days ago' we use moment.js's awesome fromNow function
               // http://momentjs.com/docs/#/displaying/fromnow/
-              json['created_at_formatted'] = moment(json['created_at']).fromNow();
-              json['updated_at_formatted'] = moment(json['updated_at']).fromNow();
-              json['has_project_needs'] = (json['project_needs'].length > 0);
+              json['github_details']['created_at_formatted'] = moment(json['github_details']['created_at']).fromNow();
+              json['github_details']['updated_at_formatted'] = moment(json['github_details']['updated_at']).fromNow();
+              json['has_project_needs'] = (json['issues'].length > 0);
+
 
               // check to make sure all our URL's have http:// in front of them
               // otherwise they won't link properly
               var prefix_regex = /^https?:\/\/.*/;
-              var homepage = json['homepage'];
+              var homepage = json['link_url'];
               if (homepage != null && !prefix_regex.test(homepage))
                 json['homepage_formatted'] = "http://" + homepage;
               else
