@@ -32,6 +32,10 @@ body {
   padding-left: 15px;
 }
 
+/* MOBILE ALERT */
+.alert.visible-xs .glyphicon {
+  margin-right:10px;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
