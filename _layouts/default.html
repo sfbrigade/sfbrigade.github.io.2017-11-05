@@ -54,6 +54,9 @@
         <!-- /.navbar-collapse -->
       </nav>
       {% if page.is_front %}
+         <div class="alert alert-success visible-xs" role="alert">
+           <span class="glyphicon glyphicon-ok-sign pull-left" style="font-size:24pt;"></span>
+           If you're currently at the Meetup, <a href="https://docs.google.com/forms/d/1kcHc3gZQXVHkLg2mxXfjEiPeyVZWf6__HrbAqftZuFE/viewform">why not check in?</a></div>
          <!-- Carousel - only using one at the moment
          ================================================== -->
          <div id="banner" class="carousel slide" data-ride="carousel" data-interval="10000">
@@ -114,6 +117,6 @@
         {% for script in page.scripts %}
           <script src="{{ site.baseurl }}/js/{{script}}"></script>
         {% endfor %}
-        
+
     </body>
     </html>
