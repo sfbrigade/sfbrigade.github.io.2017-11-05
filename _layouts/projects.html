@@ -1,0 +1,99 @@
+{% include header.html %}
+<div class="row main-row">
+	<div class="col-md-7">
+  	{{ content }}
+  	<h2>Updates</h2>
+  		{% for post in site.categories.updates %}
+  		{% for tag in post.tags %}
+  		{% if page.project == tag %}
+			<div class="panel panel-default">
+			  <div class="panel-heading">
+			    <h3 class="panel-title">{{post.title}} <small>{{ post.date | date: "%-d %B %Y" }}</small></h3>
+			  </div>
+			  <div class="panel-body">
+			    {{post.content | markdownify}}
+			  </div>
+			</div>
+    	{% endif %}
+    	{% endfor %}
+  		{% endfor %}
+	</div>
+	<div class="col-md-4">
+		<div class="list-group">
+			<h2 class="first needs">Needs</h2>
+			<button type="button" class="btn btn-success btn-block">I want to Help!</button>
+		</div>
+
+		<h2 class="code">Code</h2>
+
+	</div>
+</div>
+{% include footer.html%}
+<script id="needsList" type="text/html">
+    {% raw %}
+    {{#needs}}
+    	<a href="{{html_url}}" class="list-group-item">{{title}}</a>
+    {{/needs}}
+    {% endraw %}
+</script>
+<script id="repoPanels" type="text/html">
+    {% raw %}
+    {{#repos}}
+    <div class="panel panel-default">
+		 <div class="panel-heading"> <a href="{{code_url}}"><h3 class="panel-title">/{{name}}</h3></a></div>
+		  <div class="panel-body">
+		    <p>{{description}}</p>
+		  </div>
+		  <div class="list-group">
+		    <a href="{{code_url}}/issues" class="list-group-item">Issues<span class="badge">{{issue_count}}</span></a>
+		    <a href="{{code_url}}/contributors" class="list-group-item">Contributors<span class="badge">{{contributor_count}}</span></a>
+		  </div>
+		</div>
+    {{/repos}}
+    {% endraw %}
+</script>
+<script>
+var github_urls = {{ page.github_urls | jsonify }};
+var data_host = 'http://codeforamerica.org/api/organizations/Code-for-San-Francisco/projects';
+var projects = [];
+var issues = [];
+var repos = [];
+var needs = [];
+
+function showProjects(data, textStatus, jqXHR) {
+	// Fill up the projects list
+  projects = projects.concat(data.objects);
+	// Follow next page links
+  if (data.pages.next) {
+    $.when($.getJSON(data.pages.next)).then(showProjects);
+  } else {
+  	$.each(projects, function(i,json){
+  		if(github_urls.indexOf(json.code_url) > -1) {
+  			json.issue_count = json.issues.length;
+  			json.contributor_count = json.github_details.contributors.length;
+  			issues = issues.concat(json.issues);
+  			repos = repos.concat(json);
+  		}
+  	});
+  	$.each(issues, function(i,json){
+  		$.each(json.labels, function(j,label){
+  			if(label.name == 'project-needs') {
+  				needs = needs.concat(json);
+  			}
+  		});
+  	});
+  	var needsList = ich.needsList({needs: needs});
+  	var repoPanels = ich.repoPanels({repos: repos});
+  	$("h2.needs").after(needsList);
+  	$("h2.code").after(repoPanels);
+  	console.log(repos);
+  	console.log(projects);
+  }
+}
+
+$.when($.getJSON(data_host)).then(showProjects);
+
+console.log(github_urls);
+</script>
+</body>
+</html>
