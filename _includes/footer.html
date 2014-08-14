@@ -1,0 +1,21 @@
+ 	<!-- FOOTER -->
+  <div class="footer">
+    <p class="pull-right">© Code for San Francisco 2014 | <a href="https://github.com/sfbrigade/codeforsanfrancisco.org"><i class="icon-github"></i> Pull requests welcome!</a></p>
+  </div>
+</div><!-- /.container -->
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+<script src="{{ site.baseurl }}/js/moment.min.js"></script>
+<script src="{{ site.baseurl }}/js/jquery.dataTables.min.js"></script>
+<script src="{{ site.baseurl }}/js/jquery.dataTables.sorting.js"></script>
+<script src="{{ site.baseurl }}/js/jquery.address.js"></script>
+<script src="{{ site.baseurl }}/js/ICanHaz.min.js"></script>
+<script src="{{ site.baseurl }}/js/spin.min.js"></script>
+<script src="{{ site.baseurl }}/js/jquery.spin.js"></script>
+<script src="{{ site.baseurl }}/js/jquery.scrollto.js"></script>
+{% for script in page.scripts %}
+  <script src="{{ site.baseurl }}/js/{{script}}"></script>
+{% endfor %}

@@ -297,3 +297,15 @@ body {
 }
 
 .project-needs { margin-top: 20px;}
+
+.wide {
+  width: 100%;
+}
+
+.main-row {
+  margin-top: 20px;
+}
+
+h2.first {
+  margin-top: 0;
+}

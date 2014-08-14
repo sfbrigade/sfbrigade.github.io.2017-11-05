@@ -1,21 +1,6 @@
 var data_host = 'http://codeforamerica.org/api/organizations/Code-for-San-Francisco/projects'
       var people_table;
 
-      // this is a template used for mustache.js. Each one represents a table row.
-      var template = "\
-        <tr>\
-          <td>\
-            <a href='{{html_url}}'>\
-              <img class='img-thumbnail' src='{{avatar_url}}' alt='{{login}}' />\
-              {{name}}\
-            </a>\
-          </td>\
-          <td>{{location}}</td>\
-          <td><a href='projects.html#/?search={{login}}'>{{projects}}</a></td>\
-          <td><a href='https://github.com/{{login}}?tab=activity'>{{contributions}}</a></td>\
-        </tr>\
-      ";
-
       $('#hack-night-people tbody').spin({top: '40px'}); //show a spinner while loading data
 
       // The projects list to work on
@@ -64,7 +49,7 @@ var data_host = 'http://codeforamerica.org/api/organizations/Code-for-San-Franci
         $.each(peopleHash, function(i, json){
           console.log(i);
           console.log(json);
-          $("#hack-night-people tbody").append(Mustache.render(template, json));
+          $("#hack-night-people tbody").append(ich.people({people:json}));
         });
 
         //
