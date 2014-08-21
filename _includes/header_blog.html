@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <title>{{page.title}}</title>
+  <meta name="description" content="San Francisco locals helping San Francisco government and local organiztions open their data and create meaningful tools" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="{{site.baseurl}}/css/style.css" rel="stylesheet" />
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target=".navbar">
+
+    <!-- NAVBAR
+    ================================================== -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ site.baseurl }}/">Code for San Francisco</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
+          <!--<li><a href="{{ site.baseurl }}/events">Events</a></li>-->
+          <li><a href="{{ site.baseurl }}/people">People</a></li>
+          <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Involved <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/"><span class="glyphicon glyphicon-calendar"></span>At Meetups</a></li>
+              <li><a href="https://plus.google.com/communities/100955515676911241506"><span class="glyphicon forum"></span>On Google Groups</a></li>
+              <li><a href="http://webchat.freenode.net?channels=sfbrigade&uio=d4"><span class="glyphicon glyphicon-transfer"></span> In #IRC</a></li>
+              <li class="divider"></li>
+              <li><a href="https://github.com/sfbrigade"><span class="glyphicon glyphicon-github"></span>Our Code</a></li>
+                <!--
+                <li class="divider"></li>
+                list individual projects here <li><a href="#">Separated link</a></li>
+              -->
+            </ul>
+          </li>
+        </ul>
+        <!-- /.navbar-collapse -->
+      </nav>
+      {% if page.is_front %}
+         <div class="alert alert-success visible-xs" role="alert">
+           <span class="glyphicon glyphicon-ok-sign pull-left" style="font-size:24pt;"></span>
+           If you're currently at the Meetup, <a href="https://docs.google.com/forms/d/1kcHc3gZQXVHkLg2mxXfjEiPeyVZWf6__HrbAqftZuFE/viewform">why not check in?</a></div>
+         <!-- Carousel - only using one at the moment
+         ================================================== -->
+         <div id="banner" class="carousel slide" data-ride="carousel" data-interval="10000">
+           <!-- Indicators -->
+           <ol class="carousel-indicators">
+             <li data-target="#banner" data-slide-to="0" class="active"></li>
+             <li data-target="#banner" data-slide-to="1"></li>
+           </ol>
+
+           <div class="carousel-inner">
+
+            <div class="item active">
+              <div class="container">
+                <div class="jumbotron col-md-12">
+                  <h1>We are Code for San Francisco</h1>
+                  <div class="row">
+                  <p class="lead col-md-8 col-md-offset-2">
+                    Come join developers, designers, data geeks, leaders, and idea-makers who volunteer to help local government and civic orgs adopt open web technologies.
+                  </p>
+                  </div>
+                  <a class="btn btn-danger btn-lg" href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/">Come to our Meetups</a>
+                  <a class="btn btn-success btn-lg" href="https://groups.google.com/forum/#!forum/code-for-san-francisco">Join the discussion</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a class="left carousel-control" href="#banner" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#banner" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div><!-- /.carousel -->
+    {% endif %}

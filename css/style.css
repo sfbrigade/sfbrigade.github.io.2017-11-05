@@ -309,3 +309,8 @@ body {
 h2.first {
   margin-top: 0;
 }
+
+.blog-text {
+  font-size: 130%;
+  line-height: 1.65;
+}
