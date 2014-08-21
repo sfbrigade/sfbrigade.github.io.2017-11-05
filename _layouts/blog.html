@@ -1,0 +1,35 @@
+{% include header_blog.html %}
+<div class="title-parent">
+
+  <div class="wide" {% if page.image %} style="background: #000000 url('{{ site.baseurl }}/images/projects/{{ page.image }}') no-repeat top center; background-size: cover;" {% else %} style="background: #cf1b41; color: #FFF;" {% endif %}>
+    <div class="container">
+      <div class="row">
+        <div class="pull-left">
+          <h1>{{ page.title }}
+            <small style="color: #E4E4E4">by {{ page.author }}</small></h1>
+          <p class="lead">{{page.excerpt}}</p>
+        </div>
+        <h4
+            class="pull-right"
+            style="color: #E4E4E4;
+                    margin-top: 78px;">
+          {{ page.date | date: "%-d %B %Y" }}</h4>
+      </row>
+    </div>
+  </div> <!-- /full-width-image-1 -->
+</div> <!-- /title-parent -->
+
+<div class="container">
+  <div class="row main-row">
+    <div class="col-md-12 blog-text">
+      {{ content }}
+      <footer style="margin-bottom: 20px;">
+        <a href="{{ site.baseurl }}/blog">
+          <h4>back to other articles</h4>
+        </a>
+      </footer>
+    </div>
+  </div>
+{% include footer.html %}
+</body>
+</html>

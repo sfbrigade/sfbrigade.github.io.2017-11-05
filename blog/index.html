@@ -1,0 +1,49 @@
+---
+layout: default
+title: 'Blog'
+excerpt: 'A placeholder for the blog, need something to say here'
+---
+<div class="row main-row">
+  <div class="col-md-8">
+  {% for post in site.categories.blog %}
+    <article>
+      <header>
+        <h2 style="display: inline-block">
+          <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
+          <small>by {{ post.author }}</small>
+        </h2>
+        <h4 class="pull-right"
+          style="display: inline-block;
+                margin-top:29px;">
+          <small>{{ post.date | date: "%-d %B %Y" }}</small>
+        </h4>
+      </header>
+      <div class="blog-text">
+        {{ post.content}}
+      </div>
+      <footer>
+      </footer>
+    </article>
+  {% endfor %}
+</div>
+<div class="col-md-4">
+  <aside class="panel panel-default">
+    <header class="panel-heading">
+      <h3>Previous posts</h3>
+    </header>
+    <ul class="list-unstyled panel-body">
+    {% for post in site.categories.blog limit 15 %}
+      <li>
+        <h4>
+          <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
+          <small class="pull-right">{{ post.date | date: "%-d %B %Y" }}</small>
+        </h4>
+      </li>
+    {% endfor %}
+    </ul>
+  </aside>
+</div>
+
+</footer>
+</div>
+        <!-- End page content-->
