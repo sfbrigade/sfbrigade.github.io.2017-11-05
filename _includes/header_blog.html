@@ -91,22 +91,4 @@
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a>
         </div><!-- /.carousel -->
-        {% else %}
-     <!-- FEATURED IMAGE AND INTRO -->
-    <div class="title-parent">
-
-      <div class="wide" {% if page.image %} style="background: #000000 url('{{ site.baseurl }}/images/projects/{{ page.image }}') no-repeat top center; background-size: cover;" {% else %} style="background: #cf1b41; color: #FFF;" {% endif %}>
-        <div class="container">
-          <div class="row">
-            <div class="title col-md-7">
-              <h1>{{ page.title }}</h1>
-              <p class="lead">{{page.excerpt}}</p>
-            </div>
-          </row>
-        </div>
-      </div> <!-- /full-width-image-1 -->
-    </div> <!-- /title-parent -->
-
     {% endif %}
-
-        <div class="container">

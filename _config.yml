@@ -1,3 +1,27 @@
 permalink: /:categories/:title/
 markdown: kramdown
 baseurl: /beta
+prose:
+  media: 'images'
+  rooturl: '_posts'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /js
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          alterable: true
+          placeholder: "Choose Tags"
+          options:
+            - name: "Open referral"
+              value: "open-referral"
