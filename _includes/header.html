@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>{{page.title}}</title>
-  <meta name="description" content="San Francisco locals helping San Francisco government and local organiztions open their data and create meaningful tools" />
+  <meta name="description" content="San Francisco locals helping San Francisco government and local organizations open their data and create meaningful tools" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="favicon.ico" />
   <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet" />
@@ -34,37 +34,27 @@
         <ul class="nav navbar-nav">
           <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
           <!--<li><a href="{{ site.baseurl }}/events">Events</a></li>-->
-          <li><a href="{{ site.baseurl }}/people">People</a></li>
+          <li><a href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/">Events</a></li>
           <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Get Involved <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/"><span class="glyphicon glyphicon-calendar"></span>At Meetups</a></li>
-              <li><a href="https://plus.google.com/communities/100955515676911241506"><span class="glyphicon forum"></span>On Google Groups</a></li>
-              <li><a href="http://webchat.freenode.net?channels=sfbrigade&uio=d4"><span class="glyphicon glyphicon-transfer"></span> In #IRC</a></li>
-              <li class="divider"></li>
-              <li><a href="https://github.com/sfbrigade"><span class="glyphicon glyphicon-github"></span>Our Code</a></li>
-                <!--
-                <li class="divider"></li>
-                list individual projects here <li><a href="#">Separated link</a></li>
-              -->
-            </ul>
-          </li>
+          <li><a href="https://groups.google.com/forum/#!forum/code-for-san-francisco">Forum</a></li>
         </ul>
-        <!-- /.navbar-collapse -->
+      </div><!-- /.navbar-collapse -->
       </nav>
+
       {% if page.is_front %}
          <div class="alert alert-success visible-xs" role="alert">
            <span class="glyphicon glyphicon-ok-sign pull-left" style="font-size:24pt;"></span>
-           If you're currently at the Meetup, <a href="https://docs.google.com/forms/d/1kcHc3gZQXVHkLg2mxXfjEiPeyVZWf6__HrbAqftZuFE/viewform">why not check in?</a></div>
+           If you're currently at the Meetup, <a href="https://docs.google.com/forms/d/1kcHc3gZQXVHkLg2mxXfjEiPeyVZWf6__HrbAqftZuFE/viewform">why not check in?</a>
+         </div>
+
          <!-- Carousel - only using one at the moment
          ================================================== -->
          <div id="banner" class="carousel slide" data-ride="carousel" data-interval="10000">
            <!-- Indicators -->
-           <ol class="carousel-indicators">
+           <!-- <ol class="carousel-indicators">
              <li data-target="#banner" data-slide-to="0" class="active"></li>
              <li data-target="#banner" data-slide-to="1"></li>
-           </ol>
+           </ol> -->
 
            <div class="carousel-inner">
 
@@ -73,7 +63,7 @@
                 <div class="jumbotron col-md-12">
                   <h1>We are Code for San Francisco</h1>
                   <div class="row">
-                  <p class="lead col-md-8 col-md-offset-2">
+                  <p class="lead col-md-10 col-md-offset-1">
                     Come join developers, designers, data geeks, leaders, and idea-makers who volunteer to help local government and civic orgs adopt open web technologies.
                   </p>
                   </div>
@@ -84,12 +74,12 @@
             </div>
 
           </div>
-          <a class="left carousel-control" href="#banner" data-slide="prev">
+          <!-- <a class="left carousel-control" href="#banner" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
           </a>
           <a class="right carousel-control" href="#banner" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
+          </a> -->
         </div><!-- /.carousel -->
         {% else %}
      <!-- FEATURED IMAGE AND INTRO -->
