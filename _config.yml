@@ -1,6 +1,5 @@
 permalink: /:categories/:title/
 markdown: kramdown
-baseurl: /beta
 prose:
   media: 'images'
   rooturl: '_posts'
