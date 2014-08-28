@@ -310,7 +310,13 @@ h2.first {
   margin-top: 0;
 }
 
-.blog-text {
+.blog-text p {
   font-size: 130%;
-  line-height: 1.65;
+  line-height: 1.70;
+  margin-bottom: 30px;
+}
+
+.blog-text img {
+  margin: 20px 0;
+  text-align: center;
 }
