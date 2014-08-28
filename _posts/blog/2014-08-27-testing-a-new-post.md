@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 ---
 
 ## SF BRIGADE IN YOUR FACE
