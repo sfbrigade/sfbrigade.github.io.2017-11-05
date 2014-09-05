@@ -15,6 +15,16 @@ prose:
         field:
           element: "hidden"
           value: "blog"
+      - name: "categories"
+        field:
+          element: "select"
+          options:
+            - name: "blog"
+              value: "blog"
+            - name: "projects"
+              value: "projects"
+            - name: "updates"
+              value: "updates"
       - name: "title"
         field:
           element: "text"
