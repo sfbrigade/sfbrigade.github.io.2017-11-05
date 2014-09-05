@@ -15,12 +15,20 @@ prose:
         field:
           element: "hidden"
           value: "blog"
-      - name: "tags"
+      - name: "title"
         field:
-          element: "multiselect"
-          label: "Add Tags"
-          alterable: true
-          placeholder: "Choose Tags"
-          options:
-            - name: "Open referral"
-              value: "open-referral"
+          element: "text"
+          label: "title"
+      - name: "author"
+        field:
+          element: "text"
+          label: "title"
+      # - name: "tags"
+      #   field:
+      #     element: "multiselect"
+      #     label: "Add Tags"
+      #     alterable: true
+      #     placeholder: "Choose Tags"
+      #     options:
+      #       - name: "Open referral"
+      #         value: "open-referral"
