@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 ---
 
 ## Bringing the Web to those who can’t find it
