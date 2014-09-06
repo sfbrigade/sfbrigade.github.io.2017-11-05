@@ -16,6 +16,7 @@ prose:
           element: "hidden"
           value: "blog"
       - name: "categories"
+        label: "category"
         field:
           element: "select"
           options:
@@ -32,13 +33,13 @@ prose:
       - name: "author"
         field:
           element: "text"
-          label: "title"
-      # - name: "tags"
-      #   field:
-      #     element: "multiselect"
-      #     label: "Add Tags"
-      #     alterable: true
-      #     placeholder: "Choose Tags"
-      #     options:
-      #       - name: "Open referral"
-      #         value: "open-referral"
+          label: "author"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          alterable: true
+          placeholder: "Choose Tags"
+          options:
+            - name: "Open referral"
+              value: "open-referral"
