@@ -1,20 +1,21 @@
 ---
 layout: default
-title: 'Projects'
-excerpt: Open source civic technology projects from the local open gov community.
+title: 'Our Projects'
+scripts: [projects.js]
+excerpt: 'The fine works of Code for San Francisco'
 ---
-<div class="row main-row">
-{% for post in site.categories.projects %}
-  <div class="col-md-4">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title"><a href="{{post.url}}">{{post.title}}</a></h3>
-        </div>
-        <div class="panel-body">
-          {{ post.excerpt}}
-        </div>
-      </div>
-  </div>
-{% endfor %}
-</div>
-        <!-- End page content-->
+
+<table id='hack-night-projects' class='table'>
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Description</th>
+      <th>Recent commits</th>
+      <th>Stars</th>
+      <th>Forks</th>
+      <th>Issues</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
