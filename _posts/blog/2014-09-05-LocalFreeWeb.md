@@ -58,7 +58,8 @@ Now that we’ve built and tested this first version, we will be spreading the w
 4. Check out the code and make suggestions
 5. Use the open source code to build a version for your city (and tell us about it!)
 
-If you’re in San Francisco and interested in helping build LocalFreeWeb, we’d love to see you at <a href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/">Code for San Francisco civic hack nights</a>. We need people with all types of skills:
+If you’re in San Francisco and interested in helping build LocalFreeWeb, we’d love to see you at <a href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/">Code for San Francisco civic hack nights</a>. 
+### We need people with all types of skills:
 - Writing
 - Marketing
 - Business Development
