@@ -1,6 +1,9 @@
 ---
 layout: blog
 published: true
+title: LocalFreeWeb
+categories: blog
+author: Joseph Tanigawa
 ---
 
 ## Bringing the Web to those who can’t find it
