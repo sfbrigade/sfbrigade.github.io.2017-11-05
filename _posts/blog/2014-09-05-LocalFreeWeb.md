@@ -39,7 +39,7 @@ We discovered that the bus stop data (Stop ID) provided by the SFMTA was not sto
 
 Now that we’ve built and tested this first version, we will be spreading the word to relevant City organizations and building relationships with Clear Channel Media, the company controlling the advertising space on bus shelters. Recently Allen and Joseph, Storytellers from the Brigade, enthusiastically set off with a stack of flyers and a roll of tape. They found willing recipients at the SF Library Main Branch, which will be distributing flyers to all of the City’s libraries. They also met with public housing offices and community centers to distribute the flyers to low income citizens. We currently have fliers avaliable in English, Spanish & Mandarin. We hope to soon have our fliers translated into Tagalog as well.
 
-## Plans include:
+### Plans include:
 - Distributing more flyers
 - Printing stickers
 - Creating partnerships with digital literacy organizations
@@ -50,7 +50,7 @@ Now that we’ve built and tested this first version, we will be spreading the w
 - Acquiring funding for a shortcode ie; 311 for finding 'Free Internet' locations
 
 
-## How you can help
+### How you can help
 
 1. Go to <a href="http://LocalFreeWeb.org">LocalFreeWeb.org</a> and let us know how/if it works!
 2. Use the form on the website to add more locations
