@@ -47,7 +47,7 @@ Now that we’ve built and tested this first version, we will be spreading the w
 - More outreach to relevant community organizations
 - Converting the text messaging app into at least Spanish, Mandarin & Tagalog
 - Partnering with MTA to have signs permanently placed at Wave Shelters explaining how to use our service 
-- Acquiring funding for a shortcode ie; 311 for 'Free internet' locations
+- Acquiring funding for a shortcode ie; 311 for finding 'Free Internet' locations
 
 
 ## How you can help
