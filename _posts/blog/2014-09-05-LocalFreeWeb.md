@@ -12,7 +12,7 @@ If you couldn’t access the internet right now, how would you figure out where 
 
 Many organizations and institutions offer access to free, internet-enabled computers, but there is no way for someone to find these locations without being online already. In short, you need the internet to find the internet.
 
-On August 15, Code for San Francisco, a Code for America brigade, launched <a href="http://LocalFreeWeb.org">LocalFreeWeb.org</a> to bring access to free, internet-enabled computers (not just Wi-Fi) to anyone who can send a text message. This effort to bring the benefits of the Web to low-income, mono-lingual, and other disadvantaged people is designed not only to give access to the Web, but also to generate interest among folks who might not know why they would use the internet in the first place. 
+On August 15, Code for San Francisco, a Code for America brigade, launched <a href="http://LocalFreeWeb.org">LocalFreeWeb</a> to bring access to free, internet-enabled computers (not just Wi-Fi) to anyone who can send a text message. This effort to bring the benefits of the Web to low-income, mono-lingual, and other disadvantaged people is designed not only to give access to the Web, but also to generate interest among folks who might not know why they would use the internet in the first place. 
 
 
 
@@ -35,29 +35,29 @@ If you’re curious, here’s the <a href="https://github.com/sfbrigade/localfre
 
 We discovered that the bus stop data (Stop ID) provided by the SFMTA was not stored in the database provided to the public. Not only is the database updated every three months, but Stop IDs are truncated by removing the leading digit for reasons unclear. For example, if the Stop ID at a bus stop is 13003, in SFMTA's database it will be stored as 3003. We realized this problem when we started testing the service - most of the stops weren’t in the database! Thankfully, we figured this out and made the necessary changes to the data.
 
-### Next steps!
+## Next steps!
 
 Now that we’ve built and tested this first version, we will be spreading the word to relevant City organizations and building relationships with Clear Channel Media, the company controlling the advertising space on bus shelters. Recently Allen and Joseph, Storytellers from the Brigade, enthusiastically set off with a stack of flyers and a roll of tape. They found willing recipients at the SF Library Main Branch, which will be distributing flyers to all of the City’s libraries. They also met with public housing offices and community centers to distribute the flyers to low income citizens. We currently have fliers avaliable in English, Spanish & Mandarin. We hope to soon have our fliers translated into Tagalog as well.
 
-### Plans include:
-- Distributing more flyers
-- Printing stickers
-- Creating partnerships with digital literacy organizations
-- Finalizing a partnership with Clear Channel Media
-- More outreach to relevant community organizations
-- Converting the text messaging app into at least Spanish, Mandarin & Tagalog
-- Partnering with MTA to have signs permanently placed at Wave Shelters explaining how to use our service 
-- Acquiring funding for a shortcode ie; 311 for 'Free internet' locations
+## Plans include:
+### - Distributing more flyers
+### - Printing stickers
+### - Creating partnerships with digital literacy organizations
+### - Finalizing a partnership with Clear Channel Media
+### - More outreach to relevant community organizations
+### - Converting the text messaging app into at least Spanish, Mandarin & Tagalog
+### - Partnering with MTA to have signs permanently placed at Wave Shelters explaining how to use our service 
+### - Acquiring funding for a shortcode ie; 311 for 'Free internet' locations
 
+</br>
+## How you can help
 
-### How you can help
-
-1. Go to <a href="http://LocalFreeWeb.org">LocalFreeWeb.org</a> and let us know how/if it works!
-2. Use the form on the website to add more locations
-3. Print out <a href="https://drive.google.com/file/d/0B3Rg0E6TFEMCZGRGS1BtbzZxWjg/edit?usp=sharing">fliers</a> and post them near bus stops in your neighborhood
-4. Check out the code and make suggestions
-5. Use the open source code to build a version for your city (and tell us about it!)
-
+### 1. Go to <a href="http://LocalFreeWeb.org">LocalFreeWeb.org</a> and let us know how/if it works!
+### 2. Use the form on the website to add more locations
+### 3. Print out <a href="https://drive.google.com/file/d/0B3Rg0E6TFEMCZGRGS1BtbzZxWjg/edit?usp=sharing">fliers</a> and post them near bus stops in your neighborhood
+### 4. Check out the code and make suggestions
+### 5. Use the open source code to build a version for your city (and tell us about it!)
+</br>
 If you’re in San Francisco and interested in helping build LocalFreeWeb, we’d love to see you at <a href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/">Code for San Francisco civic hack nights</a>. We need people with all types of skills:
 - Writing
 - Marketing
