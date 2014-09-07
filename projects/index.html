@@ -10,12 +10,53 @@ excerpt: 'The fine works of Code for San Francisco'
     <tr>
       <th>Project</th>
       <th>Description</th>
-      <th>Recent commits</th>
-      <th>Stars</th>
-      <th>Forks</th>
-      <th>Issues</th>
     </tr>
   </thead>
   <tbody>
   </tbody>
 </table>
+
+<!-- Define the template for data loaded from the CFAPI -->
+<script id="projects" type="text/html">
+{%raw%}
+{{#projects}}
+  <tr>
+    <td style="word-wrap: break-word;">
+      <h1>{{name}}</h1>
+      {{#link_url}}
+      <a href="{{link_url}}">{{link_url}}</a>
+      <br />
+      {{/link_url}}
+      {{#code_url}}
+      <a href="{{code_url}}">{{code_url}}</a>
+      <br />
+      {{/code_url}}
+      <strong>Last Updated: </strong>{{last_updated_formatted}}
+      <br />
+      {{#github_details}}
+      <strong>Language: </strong>{{language}}
+      {{/github_details}}
+    </td>
+    <td>
+      <h3>{{github_details.description}}</h3>
+      {{#github_details}}<strong>GitHub Contributors</strong>{{/github_details}}
+      <p class='contributors'>
+        {{#github_details.owner}}
+        <a href='{{html_url}}' class='contributor-owner'><img class='img-thumbnail' src='{{avatar_url}}' alt='Owner: {{login}}' title='Owner: {{login}}'/></a>
+        <span style='display: none;'>{{login}}</span>
+        {{/github_details.owner}}
+        {{#github_details.contributors}}
+        {{^owner}}
+        <a href='{{html_url}}'><img class='img-thumbnail' src='{{avatar_url}}' alt='{{login}}' title='{{login}}'/></a>
+        <span style='display: none;'>{{login}}</span>
+        {{/owner}}
+        {{/github_details.contributors}}
+      </p>
+    </td>
+  {{/projects}}
+  {% endraw %}
+  </script>
+
+<hr/>
+
+Powered by the <a href="https://github.com/codeforamerica/cfapi">CfAPI</a>. Edit <a href="https://docs.google.com/a/codeforamerica.org/spreadsheet/ccc?key=0ArHmv-6U1drqdDVGZzdiMVlkMnRJLXp2cm1ZTUhMOFE&usp=drive_web#gid=0">this spreadsheet</a> to change which projects are included.

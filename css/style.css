@@ -8,6 +8,13 @@ body {
   color: #5a5a5a;
 }
 
+table h1 {
+  margin-top:0px;
+}
+
+table h3 {
+  margin-top: 5px;
+}
 
 
 /* CUSTOMIZE THE NAVBAR
