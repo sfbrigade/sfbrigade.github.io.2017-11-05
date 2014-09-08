@@ -15,7 +15,7 @@ function showProjects(response){
     project['last_updated_formatted'] = moment(project['last_updated']).fromNow();
 
   });
-  $("#hack-night-projects tbody").append(ich.projects({projects:projects}));
+  $("#hack-night-projects").append(ich.projects({projects:projects}));
 
   // Follow next page links
   if (response.pages.next) {
