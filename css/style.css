@@ -327,3 +327,19 @@ h2.first {
   margin: 20px 0;
   text-align: center;
 }
+
+/* a11y */
+  .skiplink {
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+.skiplink:focus, .skiplink:active {
+	left: 0px;
+	width: auto;
+	height: 2em;
+	font-size:1em;
+}
