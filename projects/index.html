@@ -15,44 +15,52 @@ excerpt: 'The fine works of Code for San Francisco'
 <script id="projects" type="text/html">
 {%raw%}
 {{#projects}}
+
   <div class="row">
-    <div class="col-sm-4" style="word-break: break-all;">
+    <div class="col-sm-12">
       <h1>{{name}}</h1>
-      {{#link_url}}
-      <a href="{{link_url}}">{{link_url}}</a>
-      <br />
-      {{/link_url}}
-      {{#code_url}}
-      <a href="{{code_url}}">{{code_url}}</a>
-      <br />
-      {{/code_url}}
-      <strong>Last Updated: </strong>{{last_updated_formatted}}
-      <br />
-      {{#github_details}}
-      <strong>Language: </strong>{{language}}
-      {{/github_details}}
-    </div>
-    <div class="col-sm-offset-1 col-sm-7">
-      <h3>{{description}}</h3>
-      {{#github_details}}<strong>GitHub Contributors</strong>{{/github_details}}
-      <p class='contributors'>
-        {{#github_details.owner}}
-        <a href='{{html_url}}' class='contributor-owner'><img class='img-thumbnail' src='{{avatar_url}}' alt='Owner: {{login}}' title='Owner: {{login}}'/></a>
-        <span style='display: none;'>{{login}}</span>
-        {{/github_details.owner}}
-        {{#github_details.contributors}}
-        {{^owner}}
-        <a href='{{html_url}}'><img class='img-thumbnail' src='{{avatar_url}}' alt='{{login}}' title='{{login}}'/></a>
-        <span style='display: none;'>{{login}}</span>
-        {{/owner}}
-        {{/github_details.contributors}}
-      </p>
+      <p class="lead">{{description}}</p>
+      <div class="row">
+        <div class="col-md-5">
+          {{#link_url}}
+          <span class="glyphicon glyphicon-home"></span>
+          <a href="{{link_url}}">{{link_url}}</a>
+          <br />
+          {{/link_url}}
+          {{#code_url}}
+          <img src="/images/GitHub-Mark-32px.png"/ height="14px">
+          <a href="{{code_url}}">{{code_url}}</a>
+          <br />
+          {{/code_url}}
+          <strong>Last Updated: </strong>{{last_updated_formatted}}
+          <br />
+          {{#github_details.language}}
+          <strong>Language: </strong>{{github_details.language}}
+          {{/github_details.language}}
+          <br />
+          <br />
+        </div>
+        <div class="col-md-offset-1 col-md-6">
+          {{#github_details}}<strong>GitHub Contributors</strong>{{/github_details}}
+          <p class='contributors'>
+            {{#github_details.owner}}
+            <a href='{{html_url}}' class='contributor-owner'><img class='img-thumbnail' src='{{avatar_url}}' alt='Owner: {{login}}' title='Owner: {{login}}'/></a>
+            <span style='display: none;'>{{login}}</span>
+            {{/github_details.owner}}
+            {{#github_details.contributors}}
+            {{^owner}}
+            <a href='{{html_url}}'><img class='img-thumbnail' src='{{avatar_url}}' alt='{{login}}' title='{{login}}'/></a>
+            <span style='display: none;'>{{login}}</span>
+            {{/owner}}
+            {{/github_details.contributors}}
+          </p>
+        </div>
+      </div>
     </div>
   </div>
-  <hr />
-  {{/projects}}
-  {%endraw%}
-  </script>
+{{/projects}}
+{%endraw%}
+</script>
 
 <hr/>
 
