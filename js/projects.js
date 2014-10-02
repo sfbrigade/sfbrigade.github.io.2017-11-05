@@ -1,4 +1,4 @@
-var cfapi_url = 'http://codeforamerica.org/api/organizations/Code-for-San-Francisco/projects';
+var cfapi_url = 'http://codeforamerica.org/api/organizations/Code-for-Hampton-Roads/projects';
 
 // Go get projects! Then show them off.
 $.getJSON(cfapi_url, showProjects);
