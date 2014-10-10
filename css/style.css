@@ -8,6 +8,13 @@ body {
   color: #5a5a5a;
 }
 
+table h1 {
+  margin-top:0px;
+}
+
+table h3 {
+  margin-top: 5px;
+}
 
 
 /* CUSTOMIZE THE NAVBAR
@@ -43,7 +50,7 @@ body {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  background-image: url(../images/goldengate-top.jpg);
+  background-image: url(../images/sunset.jpg);
   background-size: cover;
   background-position: center bottom;
   margin-bottom: 60px;
@@ -319,4 +326,20 @@ h2.first {
 .blog-text img {
   margin: 20px 0;
   text-align: center;
+}
+
+/* a11y */
+  .skiplink {
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+.skiplink:focus, .skiplink:active {
+	left: 0px;
+	width: auto;
+	height: 2em;
+	font-size:1em;
 }

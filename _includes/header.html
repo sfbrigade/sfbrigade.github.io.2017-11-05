@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <title>{{page.title}}</title>
-  <meta name="description" content="San Francisco locals helping San Francisco government and local organizations open their data and create meaningful tools" />
+  <meta name="description" content="Hampton Roads   locals helping Hampton Roads   government and local organizations open their data and create meaningful tools" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="favicon.ico" />
-  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/style.css" rel="stylesheet" />
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -20,32 +20,36 @@
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
+        <a href="#maincontent" class="skiplink">Skip to content</a>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="{{ site.baseurl }}/">Code for San Francisco</a>
+        <a class="navbar-brand" href="{{ site.baseurl }}/">Code for Hampton Roads  </a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <!-- <li><a href="{{ site.baseurl }}/projects">Projects</a></li> -->
+          <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
           <!--<li><a href="{{ site.baseurl }}/events">Events</a></li>-->
-          <li><a href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/">Events</a></li>
+          <li><a href="http://www.meetup.com/Code-for-Hampton-Roads/">Events</a></li>
           <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-          <li><a href="https://groups.google.com/forum/#!forum/code-for-san-francisco">Forum</a></li>
+          <li><a href="https://groups.google.com/a/codeforamerica.org/forum/#!forum/c4hrva">Forum</a></li>
+          <li><a href="https://github.com/c4hrva/tasks">Idea List</a></li>
+          <li><a href="https://github.com/c4hrva/codeofconduct">Code of Conduct</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
       </nav>
 
       {% if page.is_front %}
+<!-- Alert for At Meetup Checkin Form
          <div class="alert alert-success visible-xs" role="alert">
-           <span class="glyphicon glyphicon-ok-sign pull-left" style="font-size:24pt;"></span>
-           If you're currently at the Meetup, <a href="https://docs.google.com/forms/d/1kcHc3gZQXVHkLg2mxXfjEiPeyVZWf6__HrbAqftZuFE/viewform">why not check in?</a>
-         </div>
+  <span class="glyphicon glyphicon-ok-sign pull-left" style="font-size:24pt;"></span>
+  If you're currently at the Meetup, <a href="https://docs.google.com/forms/d/1kcHc3gZQXVHkLg2mxXfjEiPeyVZWf6__HrbAqftZuFE/viewform">why not check in?</a>
+</div> -->
 
          <!-- Carousel - only using one at the moment
          ================================================== -->
@@ -61,14 +65,15 @@
             <div class="item active">
               <div class="container">
                 <div class="jumbotron col-md-12">
-                  <h1>We are Code for San Francisco</h1>
+                  <h1>We are Code for <br/> Hampton Roads  </h1>
                   <div class="row">
                   <p class="lead col-md-10 col-md-offset-1">
                     Come join developers, designers, data geeks, leaders, and idea-makers who volunteer to help local government and civic orgs adopt open web technologies.
                   </p>
                   </div>
-                  <a class="btn btn-danger btn-lg" href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/">Come to our Meetups</a>
-                  <a class="btn btn-success btn-lg" href="https://groups.google.com/forum/#!forum/code-for-san-francisco">Join the discussion</a>
+                  <a class="btn btn-success btn-lg" href="/projects">Checkout our Projects</a>
+                  <a class="btn btn-danger btn-lg" href="http://www.meetup.com/Code-for-Hampton-Roads">Come to our Meetups</a>
+                  <a class="btn btn-primary btn-lg" href="http://codeforhamptonroads.us3.list-manage2.com/subscribe?u=d304068c3618a482cc0574109&id=fa2684c96d">Get our Newsletter</a>
                 </div>
               </div>
             </div>
@@ -86,7 +91,7 @@
     <div class="title-parent">
 
       <div class="wide" {% if page.image %} style="background: #000000 url('{{ site.baseurl }}/images/projects/{{ page.image }}') no-repeat top center; background-size: cover;" {% else %} style="background: #cf1b41; color: #FFF;" {% endif %}>
-        <div class="container">
+        <div class="container" id="maincontent" tabindex="-1">
           <div class="row">
             <div class="title col-md-7">
               <h1>{{ page.title }}</h1>
