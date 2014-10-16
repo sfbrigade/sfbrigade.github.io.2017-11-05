@@ -44,6 +44,15 @@ table h3 {
   margin-right:10px;
 }
 
+/*fix spacing on right-side icons*/
+.right {
+  margin-right: 15px!important;
+}
+
+.right li {
+  width: 30px;
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
