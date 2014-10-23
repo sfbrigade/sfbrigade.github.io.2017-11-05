@@ -326,6 +326,7 @@ h2.first {
 .blog-text img {
   margin: 20px 0;
   text-align: center;
+  width: 100%;
 }
 
 /* a11y */
