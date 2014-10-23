@@ -14,7 +14,7 @@ The SF Brigade was fortunate to get an introduction to accessibility from [Matt 
 
 Matt explained that accessibility (sometimes abbreviated as A11y) is very broad: it’s not just considering mobile, but making everything digital accessible for people with vision, cognitive, and mobility-related limitations. That means websites, web applications, PDF, video, chat, email notifications, mobile, ebooks – “anything with a 1 and a 0.” Accessibility means making sure your audience can do what they need to do on a web site. It is also the law. Section 508 states that government procured electronic and information technologies must meet certain standards.
 
-![Matt Arana speaks to SF Brigade](/_posts/blog/MattArana.jpg)
+![Matt Arana](/images/blog/MattArana.jpg)
 _Matt Arana visits the SF Brigade to introduce accessibility issues and tools._
 
 Accessibility is important because 19% of the population has some kind of disability – that’s 57 million Americans. Disabilities can be visual impairments like low vision or blindness, auditory impairments such as deafness or hearing loss, speech impairments, mobility issues, cognitive or learning disabilities, and age-related limitations.
