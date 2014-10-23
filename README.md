@@ -1,6 +1,6 @@
-# CodeForSanFrancisco.org
+# code4hr.org
 
-The website for the Code for San Francisco Brigade
+The website for the Code for Hampton Roads Brigade
 
 ### Goals
 1. Explain what Code for San Francisco is and the type of work we do.
@@ -16,7 +16,7 @@ Built using [Jekyll](http://jekyllrb.com/), [Bootstrap](http://getbootstrap.com/
 
 ### <a name="issues"></a>Submitting an Issue
 
-We use [GitHub Issues](https://github.com/sfbrigade/sfbrigade.github.io/issues) to track bugs and features. We've included several of our open GitHub Issues right on our homepage using the [Civic Tech Issue Finder](http://www.codeforamerica.org/geeks/civicissues). 
+We use [GitHub Issues](https://github.com/sfbrigade/sfbrigade.github.io/issues) to track bugs and features. We've included several of our open GitHub Issues right on our homepage using the [Civic Tech Issue Finder](http://www.codeforamerica.org/geeks/civicissues).
 
 
 ### Running the Site Locally on Your Computer
