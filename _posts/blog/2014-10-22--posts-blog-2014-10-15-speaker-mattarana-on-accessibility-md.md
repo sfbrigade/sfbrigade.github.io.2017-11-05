@@ -1,15 +1,13 @@
 ---
 layout: blog
-published: false
-title: "_posts/blog/2014-10-15-speaker_MattArana_on_accessibility.md"
+published: true
+title: "Speaker: Matt Arana on Accessibility"
 categories: blog
 author: Laura Paajanen
 tags: 
   - Accessibility
   - Speaker
 ---
-
-##Speaker: Matt Arana on Accessibility
 
 The SF Brigade was fortunate to get an introduction to accessibility from [Matt Arana](https://www.ssbbartgroup.com/blog/2011/10/15/employee-spotlight-matt-arana/) from [SSB BART Group](https://www.ssbbartgroup.com/), which has been helping organizations be more accessible since 1997. Matt’s introduction to accessibility came when he was working for a tobacco company. He had an opportunity to work for SSB BART instead, but wasn’t sure if it was a good career move. Since family and faith are important to Matt, he discussed it with his aunt before they went to services. The sermon they attended was about Bartimaeus, who was blind and given sight by Jesus. It became clear to Matt that working in accessibility was his opportunity to contribute something positive to the world.
 
