@@ -3,6 +3,9 @@ layout: blog
 published: true
 title: How our Campaign Data Visualization App Can Help YOU This Election
 categories: blog
+author: Jay Rooney
+tags: 
+  - Data Visualization
 ---
 
 On November 4th, San Franciscans head to the polls to vote for, amongst other things, a tax on carbonated beverages (aka “Soda”). Did you know that pro-soda tax individuals and committees have raised $224,971 to pass the ordinance, while the soda industry has raised $7,700,000 to defeat it?
