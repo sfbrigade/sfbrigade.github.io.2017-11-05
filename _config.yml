@@ -1,7 +1,7 @@
 permalink: /:categories/:title/
 markdown: kramdown
 prose:
-  media: 'images'
+  media: 'media'
   rooturl: '_posts'
   ignore:
     - index.md
