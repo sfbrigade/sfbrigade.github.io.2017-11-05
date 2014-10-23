@@ -8,6 +8,32 @@ The website for the Code for San Francisco Brigade
 4. Encourage current and new members to participate with clear ways to get involved.
 5. To have this site be easily reused by other Brigades just starting out.
 
+## Blogging Instructions
+If you are tasked with writing posts for the site blog, follow these instructions:
+
+What you'll need:
+- a github account with access to the sfbrigade github organization.
+(ask somebody at san francisco brigade for this)
+
+To create a new post:
+- go to http://prose.io/#sfbrigade/sfbrigade.github.io/tree/master/_posts/blog
+- if the page asks you to "authorize with github", click the authorize button
+note: ensure you are signed in with your github account
+- create a new blog post by clicking the "new file" button
+there are various controls for formatting text, links and creating images
+
+To add an image:
+- click on the add image button.
+- click "selecting one".
+- pick a file on your local computer.
+- in the "image url" field, ensure to change the url from something like
+"_posts/blog/yourimagename.jpg"
+to
+"images/blog/yourimagename.jpg"
+this is changing the path of the image to be images/blog/ rather then _posts/blog.
+!this is important, as the image will not work if this is not done!
+- add in alt text for the image. alt text is important for user's that browse by websites using text readers.
+
 ### Tech
 
 Built using [Jekyll](http://jekyllrb.com/), [Bootstrap](http://getbootstrap.com/), and the [CfAPI](https://github.com/codeforamerica/cfapi).
@@ -16,7 +42,7 @@ Built using [Jekyll](http://jekyllrb.com/), [Bootstrap](http://getbootstrap.com/
 
 ### <a name="issues"></a>Submitting an Issue
 
-We use [GitHub Issues](https://github.com/sfbrigade/sfbrigade.github.io/issues) to track bugs and features. We've included several of our open GitHub Issues right on our homepage using the [Civic Tech Issue Finder](http://www.codeforamerica.org/geeks/civicissues). 
+We use [GitHub Issues](https://github.com/sfbrigade/sfbrigade.github.io/issues) to track bugs and features. We've included several of our open GitHub Issues right on our homepage using the [Civic Tech Issue Finder](http://www.codeforamerica.org/geeks/civicissues).
 
 
 ### Running the Site Locally on Your Computer
