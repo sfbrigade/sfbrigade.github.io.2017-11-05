@@ -9,7 +9,6 @@ tags:
   - Speaker
 ---
 
-
 The SF Brigade was fortunate to get an introduction to accessibility from [Matt Arana](https://www.ssbbartgroup.com/blog/2011/10/15/employee-spotlight-matt-arana/) from [SSB BART Group](https://www.ssbbartgroup.com/), which has been helping organizations be more accessible since 1997. Matt’s introduction to accessibility came when he was working for a tobacco company. He had an opportunity to work for SSB BART instead, but wasn’t sure if it was a good career move. Since family and faith are important to Matt, he discussed it with his aunt before they went to services. The sermon they attended was about Bartimaeus, who was blind and given sight by Jesus. It became clear to Matt that working in accessibility was his opportunity to contribute something positive to the world.
 
 Matt explained that accessibility (sometimes abbreviated as A11y) is very broad: it’s not just considering mobile, but making everything digital accessible for people with vision, cognitive, and mobility-related limitations. That means websites, web applications, PDF, video, chat, email notifications, mobile, ebooks – “anything with a 1 and a 0.” Accessibility means making sure your audience can do what they need to do on a web site. It is also the law. Section 508 states that government procured electronic and information technologies must meet certain standards.
