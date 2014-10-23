@@ -33,7 +33,7 @@ Top Ten Things that affect sites and applications
 * Missing closed captions or caption controls
 * Low contrast
 
-![TopTenA11yIssues.jpg](/_posts/blog/TopTenA11yIssues.jpg)
+![TopTenA11yIssues.jpg](/images/TopTenA11yIssues.jpg)
 _Matt’s list of ten common issues that affect accessibility on websites and applications_
 
 We looked at some pages using a popular screen reader, [JAWS](http://www.freedomscientific.com/Products/Blindness/Jaws) - and saw firsthand why it’s helpful to have an option to skip to the main content rather than reading through every link at the top of a page. JAWS also highlights what is being read on the screen with a box outline, so help people with reduced vision find their spot. JAWS can be expensive, but Apple products often come with accessibility features built in, which is making more devices usable for more people. It’s a big deal to have good access on mobile devices.
