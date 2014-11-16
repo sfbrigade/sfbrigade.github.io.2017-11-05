@@ -1,0 +1,32 @@
+---
+layout: default
+title: Sign Up for Code for San Francisco
+---
+<div class="row" id="maincontent" tabindex="-1">
+
+  <div id="signup">
+    <form method="POST" action="http://www.codeforamerica.org/brigade/signup">
+      <div class="form-group">
+        <label for="name">Your full name</label>
+        <input name="name" placeholder="Ben Franklin" type="text" class="form-control">
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Your email</label>
+        <input name="email" placeholder="benfranklin@codeforamerica.org" type="email" class="form-control">
+      </div>
+      
+      <div class="form-group">
+        <label for="work_in_government">I work in government</label>
+        <input name="work_in_government" value="1" type="checkbox" class="form-control">
+      </div>
+      
+      <input name="brigade_url" type="hidden" value="http://codeforamerica.org/api/organizations/Code-for-San-Francisco" />
+      <button type="submit" class="btn btn-default">Sign Up</button>
+
+  </form>
+  <br/>
+  <p>Signing up with Code for San Francisco will share your email with our <a href="/about">Core Team</a> as well as with <a href="http://www.codeforamerica.org/">Code for America</a>. We wont spam you or share your info with others.</p>
+  </div>
+
+</div>
