@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: SF Brigade Hosts CityCampSF
 categories: blog
 ---
@@ -41,4 +41,4 @@ And, of course, the bulk of the day will be reserved for an unconference organiz
 If you’re in the Bay Area, I hope you can join us at CityCampSF on Saturday, January 10th, for a day of community engagement and action for a better San Francisco! Or attend one of the other 2015 CityCamps in Chattanooga, Oakland or Sacramento to join the conversation on building communities for better cities.
 
 A very special thank you to our gracious sponsor Microsoft for supporting CityCampSF. Check out how Microsoft is supporting the civic tech sector in the Bay Area at http://www.microsoftbayarea.com/.
-civictech democracy san francisco citycamp 
+civictech democracy san francisco citycamp
