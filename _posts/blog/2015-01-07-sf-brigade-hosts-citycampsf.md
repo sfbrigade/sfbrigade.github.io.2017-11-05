@@ -3,6 +3,7 @@ layout: blog
 published: true
 title: SF Brigade Hosts CityCampSF
 categories: blog
+author: Lawrence Grodeska
 ---
 
 ##Join us this Saturday, January 10 [Register now!](https://www.eventbrite.com/e/citycampsf-2015-tickets-13722252627)
@@ -10,7 +11,6 @@ categories: blog
 
 
 
-By Lawrence Grodeska
 
 What happens when you gather local officials, city staff, entrepreneurs, designers, developers, journalists and citizens in a room for one day, and ask for their best ideas to improve their communities? You get CityCamp - a lot of excitement, a little chaos, plenty of solutions, and a whole lot of action.
 
