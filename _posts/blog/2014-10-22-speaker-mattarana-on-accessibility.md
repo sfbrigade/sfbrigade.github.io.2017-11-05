@@ -3,7 +3,8 @@ layout: blog
 published: true
 title: "Speaker: Matt Arana on Accessibility"
 categories: blog
-author: Laura Paajanen
+author: laura_paajanen
+excerpt: "The SF Brigade was fortunate to get an introduction to accessibility from Matt Arana from SSB BART Group, which has been helping organizations be more accessible since 1997. Matt’s introduction to accessibility came when he was working for a tobacco company. He had an opportunity to work for SSB BART instead, but wasn’t sure if it was a good career move. Since family and faith are important to Matt, he discussed it with his aunt before they went to services."
 tags: 
   - Accessibility
   - Speaker

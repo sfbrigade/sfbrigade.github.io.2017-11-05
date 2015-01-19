@@ -1,5 +1,10 @@
 permalink: /:categories/:title/
 markdown: kramdown
+url: "http://codeforsanfrancisco.org"
+
+owner:
+  twitter: sfbrigade
+
 prose:
   media: 'media'
   rooturl: '_posts'
@@ -10,7 +15,7 @@ prose:
     - /_includes
     - /js
   metadata:
-    _posts:
+    _posts/blog:
       - name: "layout"
         field:
           element: "hidden"
@@ -43,3 +48,5 @@ prose:
           options:
             - name: "Open referral"
               value: "open-referral"
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

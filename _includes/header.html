@@ -5,9 +5,16 @@
   <title>{{page.title}}</title>
   <meta name="description" content="San Francisco locals helping San Francisco government and local organizations open their data and create meaningful tools" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {% if page.author %}
+      {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+    {% endif %}
+    {% include open-graph.html %}
+    {% if author.google.plus %}<link rel="author" href="https://plus.google.com/{{ author.google.plus }}"/>{% endif %}
   <link rel="shortcut icon" href="favicon.ico" />
+  <link href='http://fonts.googleapis.com/css?family=Quattrocento|Oswald' rel='stylesheet' type='text/css'>
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-  <link href="{{site.baseurl}}/css/style.css" rel="stylesheet" />
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -94,7 +101,7 @@
           <div class="row">
             <div class="title col-md-7">
               <h1>{{ page.title }}</h1>
-              <p class="lead">{{page.excerpt}}</p>
+              <p class="lead">{{page.lead}}</p>
             </div>
           </row>
         </div>

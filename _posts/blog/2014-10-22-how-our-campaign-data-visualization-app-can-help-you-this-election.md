@@ -3,7 +3,7 @@ layout: blog
 published: true
 title: How our Campaign Data Visualization App Can Help YOU This Election
 categories: blog
-author: Jay Rooney
+author: jay_rooney
 tags: 
   - Data Visualization
 ---
