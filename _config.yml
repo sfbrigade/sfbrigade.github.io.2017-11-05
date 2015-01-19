@@ -29,6 +29,7 @@ prose:
         field:
           element: "multiselect"
           label: "Add Tags"
+          options: "http://codeforsanfrancisco.org/api/tags.json"
           alterable: true
           placeholder: "Choose Tags"
 
