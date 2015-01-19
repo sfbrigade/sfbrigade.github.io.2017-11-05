@@ -1,6 +1,5 @@
 ---
 ---
-
 callback([
 {% for author in site.data.authors %}
 	{
