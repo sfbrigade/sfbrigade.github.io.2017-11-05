@@ -3,7 +3,7 @@ layout: blog
 published: true
 title: "Code for San Francisco gets sponsored!"
 categories: blog
-author: Jesse Biroscak
+author: jesse_biroscak
 tags: 
   - Sponsorship
   - Microsoft
