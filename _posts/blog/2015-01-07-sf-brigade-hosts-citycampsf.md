@@ -3,14 +3,12 @@ layout: blog
 published: true
 title: SF Brigade Hosts CityCampSF
 categories: blog
-author: Lawrence Grodeska
+author: lawrence_grodeska
+lead: "Join us this Saturday, January 10"
+excerpt: "What happens when you gather local officials, city staff, entrepreneurs, designers, developers, journalists and citizens in a room for one day, and ask for their best ideas to improve their communities? You get CityCamp - a lot of excitement, a little chaos, plenty of solutions, and a whole lot of action."
 ---
 
-##Join us this Saturday, January 10 [Register now!](https://www.eventbrite.com/e/citycampsf-2015-tickets-13722252627)
-
-
-
-
+**[Register now!](https://www.eventbrite.com/e/citycampsf-2015-tickets-13722252627)**
 
 What happens when you gather local officials, city staff, entrepreneurs, designers, developers, journalists and citizens in a room for one day, and ask for their best ideas to improve their communities? You get CityCamp - a lot of excitement, a little chaos, plenty of solutions, and a whole lot of action.
 
@@ -29,12 +27,12 @@ CivicMakers is honored to produce CityCampSF 2015 as part of our mission to co-c
 
 Confirmed speakers include:
 
-    Supervisor Mark Farrell, City and County of San Francisco
-    Jay Nath, Chief Innovation Officer, SF Mayor’s Office of Civic Innovation
-    Joy Bonaguro, Chief Data Office, SF Mayor’s Office
-    Francis Zamora & Kristin Hogan, SF Dept. of Emergency Management
-    Dan Parham, Founder, Neighborland
-    Joaquín Torres, Deputy Director, OEWD
+- Supervisor Mark Farrell, City and County of San Francisco
+- Jay Nath, Chief Innovation Officer, SF Mayor’s Office of Civic Innovation
+- Joy Bonaguro, Chief Data Office, SF Mayor’s Office
+- Francis Zamora & Kristin Hogan, SF Dept. of Emergency Management
+- Dan Parham, Founder, Neighborland
+- Joaquín Torres, Deputy Director, OEWD
 
 And, of course, the bulk of the day will be reserved for an unconference organized by attendees, along with plenty of food and drink for breakfast, lunch, snacks and a CityCampSF closing party.
 

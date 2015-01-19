@@ -1,32 +1,61 @@
-{% include header_blog.html %}
-<div class="title-parent">
+---
+layout: default
+---
 
-  <div class="wide" {% if page.image %} style="background: #000000 url('{{ site.baseurl }}/images/projects/{{ page.image }}') no-repeat top center; background-size: cover;" {% else %} style="background: #cf1b41; color: #FFF;" {% endif %}>
-    <div class="container">
-      <div class="row">
-        <div class="pull-left">
-          <h1>{{ page.title }}
-            <small style="color: #E4E4E4">by {{ page.author }}</small></h1>
+<div id="main" role="main" class="blog-post">
+  <div class="row">
+    <div class="col-md-8">
+      <article class="wrap" itemscope itemtype="http://schema.org/Article">
+        {% if page.image.feature %}
+        <div class="page-feature">
+          <div class="page-image">
+            <img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image"> {% if page.image.credit %}{% include image-credit.html %}{% endif %}
+          </div>
+          <!-- /.page-image -->
         </div>
-        <h4 style="top: -12px;
-                   right: 15px;">
-          {{ page.date | date: "%-d %B %Y" }}</h4>
-      </row>
+        <!-- /.page-feature -->
+        {% endif %}
+        <!-- include breadcrumbs.html -->
+        <div class="inner-wrap">
+          <nav class="toc"></nav>
+          <!-- /.toc -->
+          <div id="content" class="page-content" itemprop="articleBody">
+            {{ content }}
+            <hr />
+            <div class="page-footer">
+              {% if page.categories %}{% include page-author.html %}{% endif %} {% if page.share != false %}{% include share-this.html %}{% endif %} {% include page-meta.html %}
+            </div>
+            <!-- /.footer -->
+            <aside>
+              {% if page.comments == true %}{% include comments.html %}{% endif %}
+            </aside>
+          </div>
+          <!-- /.content -->
+        </div>
+        <!-- /.inner-wrap -->
+      </article>
+      <!-- ./wrap -->
     </div>
-  </div> <!-- /full-width-image-1 -->
-</div> <!-- /title-parent -->
-
-<div class="container">
-  <div class="row main-row">
-    <div class="col-md-12 blog-text">
-      {{ content }}
-      <footer style="margin-bottom: 20px;">
-        <a href="{{ site.baseurl }}/blog">
-          <h4>back to other articles</h4>
-        </a>
-      </footer>
+    <div class="col-md-4">
+      <!-- Stories List Section -->
+      <aside class="panel panel-default">
+        <header class="panel-heading">
+          <h1>Other Stories</h1>
+        </header>
+        <ul class="list-unstyled panel-body">
+          {% for post in site.categories.blog limit 15 %}
+          {% if post.categories contains "blog" and post.path != page.path %}
+          <li>
+            <h4>
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          <small class="pull-right">{{ post.date | date: "%-d %B %Y" }}</small>
+        </h4>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </aside>
     </div>
   </div>
-{% include footer.html %}
-</body>
-</html>
+</div>
+<!-- /#main -->

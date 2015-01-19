@@ -3,10 +3,9 @@ layout: blog
 published: true
 title: LocalFreeWeb
 categories: blog
-author: Joseph Tanigawa
+author: joseph_tanigawa
+lead: Bringing the Web to those who can’t find it
 ---
-
-## Bringing the Web to those who can’t find it
 
 If you couldn’t access the internet right now, how would you figure out where to go to get online? Maybe you would go to the library, but what if it’s closed? What if there's a long wait? Where would you go then?
 
