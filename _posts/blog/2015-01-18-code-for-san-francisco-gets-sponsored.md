@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: "Code for San Francisco gets sponsored!"
 categories: blog
 author: Jesse Biroscak
@@ -20,4 +20,4 @@ I want to say off the bat that Microsoft (represented by [Scott Mauvais](http://
 
 We recently hosted the Director and CTO of Microsoft's [Disaster Response Team](http://www.microsoft.com/about/corporatecitizenship/en-us/serving-communities/disaster-and-humanitarian-response/) [Tony Surma](https://twitter.com/tonysurma) for a discussion about how to make our apps consume less battery power and data - great for any situation, not just disasters.  [On February 4th](http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/events/219643560/), we will host the authors of [The Responsive City](http://datasmart.ash.harvard.edu/responsivecity) (Stephen Goldsmith and Susan Crawford) for a Q&A discussion on their book (check one out from the CfSF library), thanks to the introduction and coordination from Microsoft. 
 
-2015 is going to be an exciting year for us - we will be able to host larger events and offer more resources our participants as a result of the Microsoft sponsorship. Our community has already benefitted greatly from these contributions and we look forward to a continued and productive relationship with Microsoft in 2015. 
+2015 is going to be an exciting year for us - we will be able to host larger events and offer more resources our participants as a result of the Microsoft sponsorship. Our community has already benefitted greatly from these contributions and we look forward to a continued and productive relationship with Microsoft in 2015.
