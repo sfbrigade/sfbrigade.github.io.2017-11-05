@@ -7,4 +7,4 @@ callback([
 		"value": "{{ author[0] }}"
 	}{% if forloop.last != true %},{% endif %} 
 {% endfor %}
-])
+]);
