@@ -20,33 +20,16 @@ prose:
         field:
           element: "hidden"
           value: "blog"
-      - name: "categories"
-        label: "category"
-        field:
-          element: "select"
-          options:
-            - name: "blog"
-              value: "blog"
-            - name: "projects"
-              value: "projects"
-            - name: "updates"
-              value: "updates"
-      - name: "title"
-        field:
-          element: "text"
-          label: "title"
       - name: "author"
         field:
-          element: "text"
-          label: "author"
+          element: "select"
+          label: "Author"
       - name: "tags"
         field:
           element: "multiselect"
           label: "Add Tags"
           alterable: true
           placeholder: "Choose Tags"
-          options:
-            - name: "Open referral"
-              value: "open-referral"
+          options: "http://codeforsanfrancisco.org/api/authors.jsonp"
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
