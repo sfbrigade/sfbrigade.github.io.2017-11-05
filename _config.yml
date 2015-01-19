@@ -24,7 +24,7 @@ prose:
         field:
           element: "select"
           label: "Author"
-          options: "http://codeforsanfrancisco.org/api/authors.json.js"
+          options: "http://codeforsanfrancisco.org/api/authors.json"
       - name: "tags"
         field:
           element: "multiselect"
