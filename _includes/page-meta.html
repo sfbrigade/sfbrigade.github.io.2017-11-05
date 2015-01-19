@@ -4,8 +4,8 @@
 </div><!-- /.page-meta -->
 {% endif %}
 <div class="add-edit">
-<a href="{% if page.path %}https://github.com/login/oauth/authorize?client_id=c602a8bd54b1e774f864&scope=repo&redirect_uri=http://prose.io/#sfbrigade/sfbrigade.github.io/edit/master/{{ page.path }}{% else %}https://github.com/login/oauth/authorize?client_id=c602a8bd54b1e774f864&scope=repo&redirect_uri=http://prose.io/#sfbrigade/sfbrigade.github.io{% endif %}" target="_blank">Edit this page in Prose.io</a>
+<a href="{% if page.path %}https://github.com/login/oauth/authorize?client_id=c602a8bd54b1e774f864&scope=repo&redirect_uri=http://prose.io/#{{site.github.repository_nwo}}/edit/master/{{ page.path }}{% else %}https://github.com/login/oauth/authorize?client_id=c602a8bd54b1e774f864&scope=repo&redirect_uri=http://prose.io/#{{site.github.repository_nwo}}{% endif %}" target="_blank">Edit this page in Prose.io</a>
   
   <!-- Add post -->
-  <a href="https://github.com/login/oauth/authorize?client_id=c602a8bd54b1e774f864&scope=repo&redirect_uri=http://prose.io/#sfbrigade/sfbrigade.github.io/new/master/_posts/blog" target="_blank">Add a post with Prose.io</a>
+  <a href="https://github.com/login/oauth/authorize?client_id=c602a8bd54b1e774f864&scope=repo&redirect_uri=http://prose.io/#{{site.github.repository_nwo}}/new/master/_posts/blog" target="_blank">Add a post with Prose.io</a>
 </div>
