@@ -20,6 +20,10 @@ prose:
         field:
           element: "hidden"
           value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
       - name: "tags"
         field:
           element: "multiselect"
