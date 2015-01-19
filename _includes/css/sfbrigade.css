@@ -487,3 +487,7 @@ color: #fff !important;
 position: absolute;
 left: -999em;
 }
+
+.alert {
+  margin-bottom: 0;
+}
