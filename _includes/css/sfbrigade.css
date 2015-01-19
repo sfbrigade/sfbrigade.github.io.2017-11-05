@@ -482,3 +482,8 @@ border-color: #dd4b39;
 .btn-social:hover {
 color: #fff !important;
 }
+
+.sponsor-details a span {
+position: absolute;
+left: -999em;
+}
