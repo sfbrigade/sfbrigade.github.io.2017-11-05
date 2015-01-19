@@ -1,6 +1,6 @@
 ---
 ---
-callback([
+tagsCallback([
 {% for tag in site.tags %}
 	{
 	"name": "{{ tag[0] }}",
