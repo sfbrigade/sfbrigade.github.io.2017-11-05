@@ -24,12 +24,12 @@ prose:
         field:
           element: "select"
           label: "Author"
+          options: "http://codeforsanfrancisco.org/api/authors.json.js"
       - name: "tags"
         field:
           element: "multiselect"
           label: "Add Tags"
           alterable: true
           placeholder: "Choose Tags"
-          options: "http://codeforsanfrancisco.org/api/authors.json.js"
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
