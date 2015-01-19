@@ -20,10 +20,6 @@ prose:
         field:
           element: "hidden"
           value: "blog"
-      - name: "author"
-        field:
-          element: "select"
-          label: "Author"
       - name: "tags"
         field:
           element: "multiselect"
@@ -31,5 +27,10 @@ prose:
           options: "http://codeforsanfrancisco.org/api/tags.json"
           alterable: true
           placeholder: "Choose Tags"
+      - name: "author"
+        field:
+          element: "select"
+          label: "Author"
+          options: "http://codeforsanfrancisco.org/api/tags.json"
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
