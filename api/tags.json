@@ -1,0 +1,10 @@
+---
+---
+tagsCallback([
+{% for tag in site.tags %}
+	{
+	"name": "{{ tag[0] }}",
+	"value": "{{ tag[0] }}"
+	}{% if forloop.last != true %},{% endif %} 
+{% endfor %}
+]);

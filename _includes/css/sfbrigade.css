@@ -6,6 +6,21 @@ body {
   padding-bottom: 40px;
   padding-top: 50px;
   color: #5a5a5a;
+  font-family: "Quattrocento", "Georgia",serif;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+font-family: "Oswald","Helvetica Neue","Verdana", sans-serif;
+}
+
+p {
+  line-height: 1.8;
+  margin-bottom: 1.1em;
+}
+
+li {
+  line-height: 1.8;
 }
 
 table h1 {
@@ -14,6 +29,10 @@ table h1 {
 
 table h3 {
   margin-top: 5px;
+}
+
+#main {
+  margin-top: 1.1em;
 }
 
 #signup {
@@ -320,12 +339,6 @@ h2.first {
   margin-top: 0;
 }
 
-.blog-text p {
-  font-size: 130%;
-  line-height: 1.70;
-  margin-bottom: 30px;
-}
-
 .blog-text img {
   margin: 20px 0;
   text-align: center;
@@ -334,16 +347,147 @@ h2.first {
 
 /* a11y */
   .skiplink {
-	position:absolute;
-	left:-10000px;
-	top:auto;
-	width:1px;
-	height:1px;
-	overflow:hidden;
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
 }
 .skiplink:focus, .skiplink:active {
-	left: 0px;
-	width: auto;
-	height: 2em;
-	font-size:1em;
+  left: 0px;
+  width: auto;
+  height: 2em;
+  font-size:1em;
+}
+
+
+.blog-post img {
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  max-width: 100%;
+  width: auto\9;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+figcaption {
+padding-left: 3.236em;
+padding-right: 3.236em;
+font-size: 1rem;
+line-height: 1.25;
+margin-bottom: 0;
+color: #4b4b49;
+text-align: center;
+clear: both;
+display: block;
+}
+
+@media screen and (min-width: 768px ) {
+  figcaption {
+    position: absolute;
+    top: 1px;
+    right: -14.3254em;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 12.7074em;
+    text-align: left;
+  } 
+  figcaption:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 1px;
+    background: #b3b3b3;
+  }
+}
+
+
+section {
+  margin: 30px 0;
+}
+
+#stories h2 {
+  margin-top: 0;
+}
+
+.author-image {
+  margin-right: 10px;
+}
+
+.author-name {
+  margin-top: 0;
+}
+
+.btn, form button, input[type="submit"], .btn-inverse, .btn-social, .btn-info, .btn-warning, .btn-success, .btn-danger {
+display: inline-block;
+padding: 8px 20px;
+line-height: 1.71429;
+margin-bottom: 24px;
+margin-bottom: 1rem;
+background-color: #ccc;
+color: #222;
+text-decoration: none;
+border: 0 !important;
+border-radius: 30px;
+-webkit-transition: background 0.2s,border 0.2s;
+-moz-transition: background 0.2s,border 0.2s;
+transition: background 0.2s,border 0.2s;
+}
+
+.inline-btn:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.inline-btn a, .inline-btn btn {
+display: inline-block;
+margin-right: 0.809em;
+}
+
+.btn-social {
+color: #313130 !important;
+border: 1px solid #ddd !important;
+}
+
+.btn-inverse, .btn-social {
+background-color: #fff;
+color: #313130;
+}
+
+.btn-social.twitter:hover {
+background: #55acee;
+border-color: #55acee;
+}
+
+.btn-social.facebook:hover {
+background: #3b5998;
+border-color: #3b5998;
+}
+
+.btn-social.google-plus:hover {
+background: #dd4b39;
+border-color: #dd4b39;
+}
+
+.btn-social:hover {
+color: #fff !important;
+}
+
+.sponsor-details a span {
+position: absolute;
+left: -999em;
+}
+
+.alert {
+  margin-bottom: 0;
 }

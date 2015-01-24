@@ -1,0 +1,21 @@
+<!-- Stories List Section -->
+<section id="stories" class="bg-light-gray">
+    <div class="row">
+      <div class="col-lg-8">
+        {% for post in site.posts %} 
+        {% if post.layout == "blog" %}
+        <div class="story-item">
+          <div class="story-caption clearfix">
+            <div class="block-image pull-right" style="background-image:url({{site.baseurl}}/img/blog/{{post.thumbnail}})"></div>
+            <time datetime="{{ post.date | date: " %Y-%m-%d " }}" itemprop="datePublished">
+              {{ post.date | date: "%B %d, %Y" }}
+            </time>
+            <h2><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a> <small>By {{site.data.authors[post.author].name}}</small></h2>
+            <p class="text-muted">{{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a href="{{site.baseurl}}{{post.url}}" alt="Click to read more of this blog post">Read more... </a></p>
+          </div>
+        </div>
+        {% endif %} 
+        {% endfor %}
+      </div>
+    </div>
+</section>

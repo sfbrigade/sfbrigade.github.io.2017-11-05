@@ -1,7 +1,12 @@
 permalink: /:categories/:title/
 markdown: kramdown
+url: "http://codeforsanfrancisco.org"
+
+owner:
+  twitter: sfbrigade
+
 prose:
-  media: 'images'
+  media: 'media'
   rooturl: '_posts'
   ignore:
     - index.md
@@ -10,17 +15,26 @@ prose:
     - /_includes
     - /js
   metadata:
-    _posts:
+    _posts/blog:
       - name: "layout"
         field:
           element: "hidden"
           value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
       - name: "tags"
         field:
           element: "multiselect"
           label: "Add Tags"
+          options: "http://codeforsanfrancisco.org/api/tags.json?callback=tagsCallback"
           alterable: true
           placeholder: "Choose Tags"
-          options:
-            - name: "Open referral"
-              value: "open-referral"
+      - name: "author"
+        field:
+          element: "select"
+          label: "Author"
+          options: "http://codeforsanfrancisco.org/api/authors.json?callback=authorsCallback"
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
