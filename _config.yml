@@ -1,7 +1,7 @@
 permalink: /:categories/:title/
 markdown: kramdown
 url: "http://codeforsanfrancisco.org"
-baseurl: sfbrigade-website/
+baseurl: /sfbrigade-website
 
 owner:
   twitter: sfbrigade
