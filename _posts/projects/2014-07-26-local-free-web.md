@@ -2,8 +2,9 @@
 title: Local Free Web
 layout: projects
 category: projects
+api_id: 2232
 github_urls: ['https://github.com/sfbrigade/localfreeweb.org','https://github.com/sfbrigade/localfreeweb-sms-api','https://github.com/sfbrigade/LocalFreeWeb']
-excerpt: A text message enabled resource directory of internet sites in San Francisco
+lead: Text message any bus stop to find the closest free and accessible computers with Internet.
 project: local-free-web
 ---
 

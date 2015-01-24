@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'Our Projects'
-scripts: [projects.js]
+scripts: ['projectData.js','projects.js']
 lead: 'The fine works of Code for San Francisco'
 ---
 
@@ -18,8 +18,13 @@ lead: 'The fine works of Code for San Francisco'
 
   <div class="row">
     <div class="col-sm-12">
-      <h1>{{name}}</h1>
-      <p class="lead">{{description}}</p>
+      <h1>{{name}} {{^cfsf_url}}
+          <a href="https://github.com/login/oauth/authorize?client_id=c602a8bd54b1e774f864&scope=repo&redirect_uri=http://prose.io/#{{repository_nwo}}/new/master/_posts/projects/{{id}}" class="btn btn-xs btn-success">Claim this project</a></strong>
+          {{/cfsf_url}}</h1>
+      <p class="lead">{{description}} 
+      {{#cfsf_url}}
+      <strong><a href="{{cfsf_url}}">Learn more...</a></strong>
+      {{/cfsf_url}}</p>
       <div class="row">
         <div class="col-md-5">
           {{#link_url}}
@@ -37,8 +42,8 @@ lead: 'The fine works of Code for San Francisco'
           {{#github_details.language}}
           <strong>Language: </strong>{{github_details.language}}
           {{/github_details.language}}
-          <br />
-          <br />
+          <br/>
+          <br/>
         </div>
         <div class="col-md-offset-1 col-md-6">
           {{#github_details}}<strong>GitHub Contributors</strong>{{/github_details}}
