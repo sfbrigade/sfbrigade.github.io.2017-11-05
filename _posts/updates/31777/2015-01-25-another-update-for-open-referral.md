@@ -1,6 +1,6 @@
 ---
 category: updates
-published: false
+published: true
 title: Another update for Open Referral
 ---
 
