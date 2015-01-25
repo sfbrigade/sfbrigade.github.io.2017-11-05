@@ -1,6 +1,6 @@
 ---
 category: updates
-published: false
+published: true
 title: "This is a test again, updating the title now"
 ---
 
