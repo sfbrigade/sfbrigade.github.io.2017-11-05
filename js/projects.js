@@ -22,6 +22,7 @@ function showProjects(response){
     }
 
     project['repository_nwo'] = {% if site.github.repository_nwo %}"{{site.github.repository_nwo}}"{% else %}" "{% endif %};
+    project['default_branch'] = "{{site.defaultbranch}}";
     project['file_name'] = moment().format('MM-DD-YYYY-') + slugify(project['name']).toLowerCase() + ".md";
     // to display text like 'x days ago' we use moment.js's awesome fromNow function
     // http://momentjs.com/docs/#/displaying/fromnow/
