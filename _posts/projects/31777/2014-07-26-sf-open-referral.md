@@ -1,10 +1,11 @@
 ---
-title: 'SF Open Referral'
-layout: projects
 category: projects
-github_url: 'https://github.com/sfbrigade/sf-openreferral'
-lead: Improve social service delivery through shared, open resource data.
-project: open-referral
+layout: projects
+title: SF Open Referral
+github_url: "https://github.com/sfbrigade/sf-openreferral"
+lead: "Improve social service delivery through shared, open resource data."
+project: "open-referral"
+published: true
 ---
 
 ##The Problem
@@ -24,7 +25,7 @@ Agencies and organizations create and maintain many different community resource
 - internal PDFs
 - the minds of single employees
 
-###Opportunity - Data should be free!
+##Opportunity - Data should be free!
 
 We see an opportunity to free this data so it can be:
 
