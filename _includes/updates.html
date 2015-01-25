@@ -20,4 +20,4 @@
 	There are currently no updates listed for this project. Add the first one by clicking the + icon.
 </div>
 {% endif %}
-<a href="https://github.com/login/oauth/authorize?client_id=c602a8bd54b1e774f864&scope=repo&redirect_uri=http://prose.io/#{{repository_nwo}}/new/{{default_branch}}/_posts/updates/{{id_array[2]}}/{{ site.time | date: '%Y-%m-%d' }}-{{page.title | slugify }}-update-{{updates_count | plus:1}}.md" class="btn btn-default" style="width: 100%"><i class="fa fa-plus-square"></i> Add new update</a>
+<a href="https://github.com/login/oauth/authorize?client_id=c602a8bd54b1e774f864&scope=repo&redirect_uri=http://prose.io/#{{site.github.repository_nwo}}/new/{{site.defaultbranch}}/_posts/updates/{{id_array[2]}}/{{ site.time | date: '%Y-%m-%d' }}-{{page.title | slugify }}-update-{{updates_count | plus:1}}.md" class="btn btn-default" style="width: 100%"><i class="fa fa-plus-square"></i> Add new update</a>
