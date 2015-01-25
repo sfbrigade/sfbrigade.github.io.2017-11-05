@@ -56,5 +56,14 @@ prose:
           element: "text"
           label: "Short description"
           help: "This text shows up directly under the name of the project and should be a one sentence description."
+    _posts/updates:
+      - name: category
+        field:
+          element: "hidden"
+          value: "updates"
+      - name: title
+        field:
+          element: "text"
+          label: "Title"
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

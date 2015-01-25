@@ -23,7 +23,11 @@ layout: default
             {{ content }}
             <hr />
             <div class="page-footer">
-              {% if page.categories %}{% include page-author.html %}{% endif %} {% if page.share != false %}{% include share-this.html %}{% endif %} {% include page-meta.html %}
+              {% if page.categories %}{% include page-author.html %}{% endif %} {% if page.share != false %}{% include share-this.html %}{% endif %} 
+
+              {% include page-meta.html %} 
+
+              {% include add-edit.html posttype="blog"%}
             </div>
             <!-- /.footer -->
             <aside>
