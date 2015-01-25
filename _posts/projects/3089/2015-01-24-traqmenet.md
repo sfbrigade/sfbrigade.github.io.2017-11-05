@@ -1,5 +1,7 @@
 ---
-published: false
+published: true
+category: projects
+layout: projects
 ---
 
 ## A New Post
