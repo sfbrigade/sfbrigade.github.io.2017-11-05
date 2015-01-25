@@ -1,9 +1,9 @@
 ---
-title: 'Open Referral'
+title: 'SF Open Referral'
 layout: projects
 category: projects
-github_urls: ['https://github.com/sfbrigade/sf-openreferral-transform-scripts','https://github.com/sfbrigade/ohana-api','https://github.com/sfbrigade/ohana-web-search','https://github.com/sfbrigade/ohana-api-admin']
-excerpt: Improve social service delivery through shared, open resource data.
+github_url: 'https://github.com/sfbrigade/sf-openreferral'
+lead: Improve social service delivery through shared, open resource data.
 project: open-referral
 ---
 

@@ -12,15 +12,14 @@ var cfapi_url = 'http://codeforamerica.org/api/organizations/Code-for-San-Franci
 $.getJSON(cfapi_url, showProjects);
 
 function showProjects(response){
-
   projects = response.objects;
-
   // loop through our project data
   $.each(projects, function(i, project){
+    // check to see if this project has a corresponding Jekyll page
     if(projectData[project['id']]) {
       project['cfsf_url'] = projectData[project['id']]['url'];
     }
-
+    // add some variables to support adding a new Jekyll project post
     project['repository_nwo'] = {% if site.github.repository_nwo %}"{{site.github.repository_nwo}}"{% else %}" "{% endif %};
     project['default_branch'] = "{{site.defaultbranch}}";
     project['file_name'] = moment().format('YYYY-MM-DD-') + slugify(project['name']).toLowerCase() + ".md";
@@ -30,7 +29,6 @@ function showProjects(response){
 
   });
   $("#hack-night-projects").append(ich.projects({projects:projects}));
-
   // Follow next page links
   if (response.pages.next) {
     $.getJSON(response.pages.next, showProjects);

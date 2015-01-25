@@ -1,0 +1,10 @@
+<div class="add-edit">
+	{% if include.edit != false %}
+  <a href="{% if page.path %}https://github.com/login/oauth/authorize?client_id=c602a8bd54b1e774f864&scope=repo&redirect_uri=http://prose.io/#{{site.github.repository_nwo}}/edit/{{site.defaultbranch}}/{{ page.path }}{% else %}https://github.com/login/oauth/authorize?client_id=c602a8bd54b1e774f864&scope=repo&redirect_uri=http://prose.io/#{{site.github.repository_nwo}}{% endif %}" target="_blank" class="btn btn-default"><i class="fa fa-pencil-square-o"></i> Edit this page in Prose.io</a>
+  {% endif %}
+
+  {% if include.add != false %}
+  <!-- Add post -->
+  <a href="https://github.com/login/oauth/authorize?client_id=c602a8bd54b1e774f864&scope=repo&redirect_uri=http://prose.io/#{{site.github.repository_nwo}}/new/{{site.defaultbranch}}/_posts/{{include.posttype}}" target="_blank" class="btn btn-default"><i class="fa fa-plus"></i> Add a post with Prose.io</a>
+  {% endif %}
+</div>
