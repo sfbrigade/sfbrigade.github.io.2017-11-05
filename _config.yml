@@ -10,6 +10,7 @@ owner:
 prose:
   media: 'images/uploads'
   rooturl: '_posts'
+  siteurl: 'http://codeforsanfrancisco.org'
   ignore:
     - index.md
     - _config.yml
