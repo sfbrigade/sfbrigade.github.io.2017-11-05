@@ -10,7 +10,7 @@ owner:
 prose:
   media: 'images/uploads'
   rooturl: '_posts'
-  siteurl: 'http://codeforsanfrancisco.org'
+  siteurl: 'http://jasonlally.com/sfbrigade-website/'
   ignore:
     - index.md
     - _config.yml
