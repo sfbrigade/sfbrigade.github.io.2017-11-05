@@ -36,7 +36,6 @@ We see an opportunity to free this data so it can be:
 
 And ultimately: **Deliver consistent, high quality social services to those in need!**
 
-
 ##Additional Resources
 
 - Getting started guide
