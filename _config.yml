@@ -8,7 +8,7 @@ owner:
   twitter: sfbrigade
 
 prose:
-  media: 'media'
+  media: 'images/uploads'
   rooturl: '_posts'
   ignore:
     - index.md
