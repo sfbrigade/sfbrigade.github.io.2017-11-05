@@ -39,6 +39,10 @@ table h3 {
   margin: 25px;
 }
 
+.list-group-item {
+    border: 0px;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
