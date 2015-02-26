@@ -2,6 +2,9 @@ permalink: /:categories/:title/
 markdown: kramdown
 url: "http://codeforsanfrancisco.org"
 
+name: Code for San Francisco
+description: A volunteer civic technology group.
+
 owner:
   twitter: sfbrigade
 
