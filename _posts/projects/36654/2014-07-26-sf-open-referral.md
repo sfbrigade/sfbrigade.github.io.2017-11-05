@@ -6,6 +6,7 @@ github_url: "https://github.com/sfbrigade/sf-openreferral"
 lead: "Improve social service delivery through shared, open resource data."
 project: "open-referral"
 published: true
+contact: jason.lally@sfgov.org
 ---
 
 ##The Problem

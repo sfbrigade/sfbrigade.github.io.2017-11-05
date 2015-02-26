@@ -1,49 +1,141 @@
 {% include header.html %}
 <div class="row main-row">
-	<div class="col-md-7">
-  	{{ content }}
-  {% include add-edit.html add=false %}
-	</div>
-	<div class="col-md-4">
-		<div class="list-group">
-			<h2 class="first needs">Needs</h2>
-			<button type="button" class="btn btn-success btn-block">I want to Help!</button>
-		</div>
+  <div class="col-md-7">
+    {{ content }} {% include add-edit.html add=false %}
+  </div>
+  <div class="col-md-4">
+    <div class="list-group">
+      <h2 class="first needs">Needs</h2>
+      <button type="button" class="btn btn-success btn-block" data-toggle="modal" data-target="#exampleModal">I want to Help!</button>
+    </div>
 
-		<h2 class="code">Code</h2>
-
-    {% include updates.html %}
-	</div>
+    <h2 class="code">Code</h2> {% include updates.html %}
+  </div>
 </div>
 {% include footer.html%}
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <form method="post" action="//formspree.io/{{page.contact}}">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="exampleModalLabel">Send a message</h4>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="name" class="control-label">Name:</label>
+            <input type="text" class="form-control" id="name" name="name">
+          </div>
+          <div class="form-group">
+            <label for="reply-email" class="control-label">Email:</label>
+            <input type="text" class="form-control" id="reply-email" name="_replyto">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="control-label">Message:</label>
+            <textarea class="form-control" id="message-text" name="message"></textarea>
+          </div>
+          <div class="form-group">
+            I'm interested in helping with...
+            <br>
+            <div class="checkbox">
+              <label class="checkbox">
+                <input type="checkbox" id="inlineCheckbox1" value="Community Outreach" name="helpwith"> Community Outreach
+              </label>
+            </div>
+            <div class="checkbox">
+              <label class="checkbox">
+                <input type="checkbox" id="inlineCheckbox2" value="Data Research" name="helpwith"> Data Research
+              </label>
+            </div>
+            <div class="checkbox">
+              <label class="checkbox">
+                <input type="checkbox" id="inlineCheckbox3" value="Graphic Design" name="helpwith"> Graphic Design
+              </label>
+            </div>
+            <div class="checkbox">
+              <label class="checkbox">
+                <input type="checkbox" id="inlineCheckbox4" value="Marketing" name="helpwith"> Marketing
+              </label>
+            </div>
+            <div class="checkbox">
+              <label class="checkbox">
+                <input type="checkbox" id="inlineCheckbox5" value="Product Management" name="helpwith"> Product Management
+              </label>
+            </div>
+            <div class="checkbox">
+              <label class="checkbox">
+                <input type="checkbox" id="inlineCheckbox6" value="Project Management" name="helpwith"> Project Management
+              </label>
+            </div>
+            <div class="checkbox">
+              <label class="checkbox">
+                <input type="checkbox" id="inlineCheckbox7" value="Software Development" name="helpwith"> Software Development
+              </label>
+            </div>
+            <div class="checkbox">
+              <label class="checkbox">
+                <input type="checkbox" id="inlineCheckbox8" value="Subject Matter Advisor" name="helpwith"> Subject Matter Advisor
+              </label>
+            </div>
+            <div class="checkbox">
+              <label class="checkbox">
+                <input type="checkbox" id="inlineCheckbox9" value="User Research / Testing" name="helpwith"> User Research / Testing
+              </label>
+            </div>
+            <div class="checkbox">
+              <label class="checkbox">
+                <input type="checkbox" id="inlineCheckbox10" value="UX Design" name="helpwith"> UX Design
+              </label>
+            </div>
+            <div class="checkbox">
+              <label class="checkbox">
+                <input type="checkbox" id="inlineCheckbox11" value="Other" name="helpwith"> Other
+              </label>
+            </div>
+          </div>
+          <input type="hidden" name="_cc" value="jason.lally@gmail.com">
+          <input type="hidden" name="_subject" value="Someone is interested in {{page.title}}" />
+          <input type="text" name="_gotcha" style="display:none" />
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </div>
+    </form>
+    </div>
+  </div>
+</div>
+
 <script id="needsList" type="text/html">
-    {% raw %}
-    {{#needs}}
-    	<a href="{{html_url}}" class="list-group-item">{{title}}</a>
-    {{/needs}}
-    {% endraw %}
+  {% raw %}
+  {{#needs}}
+    <a href="{{html_url}}" class="list-group-item">{{title}}</a>
+  {{/needs}}
+  {% endraw %}
 </script>
 <script id="repoPanels" type="text/html">
-    {% raw %}
-    {{#repos}}
-    
+  {% raw %}
+  {{#repos}}
+
     <div class="panel panel-default">
-		 <div class="panel-heading"> <a href="{{code_url}}">{{#github_details}}<h3 class="panel-title">/{{name}}</h3></a></div>
-		  <div class="panel-body">
-		    <p>{{description}}</p>
-		  </div>
-    {{/github_details}}
-		  <div class="list-group">
-		    <a href="{{code_url}}/issues" class="list-group-item">Issues<span class="badge">{{issue_count}}</span></a>
-		    <a href="{{code_url}}/contributors" class="list-group-item">Contributors<span class="badge">{{contributor_count}}</span></a>
-		  </div>
-		</div>
-    {{/repos}}
-    {% endraw %}
+      <div class="panel-heading"> <a href="{{code_url}}">{{#github_details}}<h3 class="panel-title">/{{name}}</h3></a>
+      </div>
+      <div class="panel-body">
+        <p>{{description}}</p>
+      </div>
+      {{/github_details}}
+      <div class="list-group">
+        <a href="{{code_url}}/issues" class="list-group-item">Issues<span class="badge">{{issue_count}}</span></a>
+        <a href="{{code_url}}/contributors" class="list-group-item">Contributors<span class="badge">{{contributor_count}}</span></a>
+      </div>
+    </div>
+  {{/repos}}
+  {% endraw %}
 </script>
 <script>
-
-{% assign id_array = page.path | split:"/" %}
+{% assign id_array = page.path | split: "/" %}
 
 var cfapi_project = 'http://codeforamerica.org/api/projects/{{id_array[2]}}';
 var projects = [];
@@ -54,39 +146,42 @@ var needs = [];
 $.getJSON(cfapi_project, showProjectDetails);
 
 function showProjectDetails(response) {
-	// Fill up the projects list
+  // Fill up the projects list
   console.log(response);
   repos = response;
   repos.issue_count = response.issues.length;
   repos.contributor_count = response.github_details.contributors.length;
-  var repoPanels = ich.repoPanels({repos: repos});
+  var repoPanels = ich.repoPanels({
+    repos: repos
+  });
   $("h2.code").after(repoPanels);
 
-	// Follow next page links
+  // Follow next page links
   /*if (data.pages.next) {
     $.when($.getJSON(data.pages.next)).then(showProjects);
   } else {
-  	$.each(projects, function(i,json){
-  		if(github_url.indexOf(json.code_url) > -1) {
-  			json.issue_count = json.issues.length;
-  			json.contributor_count = json.github_details.contributors.length;
-  			issues = issues.concat(json.issues);
-  			repos = repos.concat(json);
-  		}
-  	});
-  	$.each(issues, function(i,json){
-  		$.each(json.labels, function(j,label){
-  			if(label.name == 'project-needs') {
-  				needs = needs.concat(json);
-  			}
-  		});
-  	});
-  	var needsList = ich.needsList({needs: needs});
-  	var repoPanels = ich.repoPanels({repos: repos});
-  	$("h2.needs").after(needsList);
-  	$("h2.code").after(repoPanels);
+    $.each(projects, function(i,json){
+      if(github_url.indexOf(json.code_url) > -1) {
+        json.issue_count = json.issues.length;
+        json.contributor_count = json.github_details.contributors.length;
+        issues = issues.concat(json.issues);
+        repos = repos.concat(json);
+      }
+    });
+    $.each(issues, function(i,json){
+      $.each(json.labels, function(j,label){
+        if(label.name == 'project-needs') {
+          needs = needs.concat(json);
+        }
+      });
+    });
+    var needsList = ich.needsList({needs: needs});
+    var repoPanels = ich.repoPanels({repos: repos});
+    $("h2.needs").after(needsList);
+    $("h2.code").after(repoPanels);
   }*/
 }
 </script>
 </body>
+
 </html>

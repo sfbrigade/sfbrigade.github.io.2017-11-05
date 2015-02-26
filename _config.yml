@@ -57,6 +57,11 @@ prose:
           element: "text"
           label: "Short description"
           help: "This text shows up directly under the name of the project and should be a one sentence description."
+      - name: "contact"
+        field:
+          element: "text"
+          label: "Contact email"
+          help: "This is used as the contact email where form submissions will get sent"
     _posts/updates:
       - name: category
         field:
