@@ -3,7 +3,7 @@
 <h2>Updates</h2>
 {% for post in site.categories.updates %} 
 {% assign path_array = post.path | split:"/" %}
-{% if id_array[2] == path_array[2] %}
+{% if id_array[2] == path_array[2] and updates_count < 3%}
 {% assign updates_count = updates_count | plus:1 %}
 <div class="panel panel-default">
   <div class="panel-heading">
