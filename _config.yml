@@ -1,7 +1,7 @@
 permalink: /:categories/:title/
 markdown: kramdown
 url: "http://codeforsanfrancisco.org"
-defaultbranch: gh-pages
+defaultbranch: master
 
 name: Code for San Francisco
 description: A volunteer civic technology group.
