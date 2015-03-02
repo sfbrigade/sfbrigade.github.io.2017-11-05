@@ -1,10 +1,12 @@
 ---
-title: 'Open Referral'
+category: projects
 layout: projects
-category: project
-github_urls: ['https://github.com/sfbrigade/sf-openreferral-transform-scripts','https://github.com/sfbrigade/ohana-api','https://github.com/sfbrigade/ohana-web-search','https://github.com/sfbrigade/ohana-api-admin']
-excerpt: Improve social service delivery through shared, open resource data.
-project: open-referral
+title: SF Open Referral
+github_url: "https://github.com/sfbrigade/sf-openreferral"
+lead: "Improve social service delivery through shared, open resource data."
+project: "open-referral"
+published: true
+contact: jason.lally@sfgov.org
 ---
 
 ##The Problem
@@ -24,7 +26,7 @@ Agencies and organizations create and maintain many different community resource
 - internal PDFs
 - the minds of single employees
 
-###Opportunity - Data should be free!
+##Opportunity - Data should be free!
 
 We see an opportunity to free this data so it can be:
 
@@ -33,10 +35,7 @@ We see an opportunity to free this data so it can be:
 - easy to update
 - a precedent for modern referral systems
 
-And ultimately:
-
-**Deliver consistent, high quality social services to those in need!**
-
+And ultimately: **Deliver consistent, high quality social services to those in need!**
 
 ##Additional Resources
 

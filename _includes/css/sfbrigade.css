@@ -76,7 +76,7 @@ table h3 {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  background-image: url(../images/goldengate-top.jpg);
+  background-image: url({{site.baseurl}}/images/goldengate-top.jpg);
   background-size: cover;
   background-position: center bottom;
   margin-bottom: 60px;
@@ -142,7 +142,6 @@ table h3 {
   line-height: 1;
   letter-spacing: -1px;
 }
-
 
 
 /* RESPONSIVE CSS
@@ -435,9 +434,8 @@ section {
 display: inline-block;
 padding: 8px 20px;
 line-height: 1.71429;
-margin-bottom: 24px;
-margin-bottom: 1.5rem;
-background-color: #ccc;
+margin-bottom: 0;
+/*background-color: #ccc;*/
 color: #222;
 text-decoration: none;
 border: 0 !important;
@@ -494,4 +492,11 @@ left: -999em;
 
 .alert {
   margin-bottom: 0;
+}
+
+
+/* MODALS */
+
+.modal-backdrop {
+  z-index: 0;
 }

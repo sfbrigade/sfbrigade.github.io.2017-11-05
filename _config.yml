@@ -1,6 +1,8 @@
 permalink: /:categories/:title/
 markdown: kramdown
 url: "http://codeforsanfrancisco.org"
+baseurl: /sfbrigade-website
+defaultbranch: gh-pages
 
 name: Code for San Francisco
 description: A volunteer civic technology group.
@@ -9,8 +11,9 @@ owner:
   twitter: sfbrigade
 
 prose:
-  media: 'media'
+  media: 'images/uploads'
   rooturl: '_posts'
+  siteurl: http://codeforsanfrancisco.org
   ignore:
     - index.md
     - _config.yml
@@ -39,5 +42,37 @@ prose:
           element: "select"
           label: "Author"
           options: "http://codeforsanfrancisco.org/api/authors.json?callback=authorsCallback"
+    _posts/projects:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "projects"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "projects"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "lead"
+        field:
+          element: "text"
+          label: "Short description"
+          help: "This text shows up directly under the name of the project and should be a one sentence description."
+      - name: "contact"
+        field:
+          element: "text"
+          label: "Contact email"
+          help: "This is used as the contact email where form submissions will get sent"
+    _posts/updates:
+      - name: category
+        field:
+          element: "hidden"
+          value: "updates"
+      - name: title
+        field:
+          element: "text"
+          label: "Title"
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

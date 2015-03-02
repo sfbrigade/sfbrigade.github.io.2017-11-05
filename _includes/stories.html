@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-lg-8">
         {% for post in site.posts %} 
-        {% if post.categories contains "blog" %}
+        {% if post.layout == "blog" %}
         <div class="story-item">
           <div class="story-caption clearfix">
             <div class="block-image pull-right" style="background-image:url({{site.baseurl}}/img/blog/{{post.thumbnail}})"></div>
