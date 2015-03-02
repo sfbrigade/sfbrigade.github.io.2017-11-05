@@ -41,4 +41,3 @@ And ultimately: **Deliver consistent, high quality social services to those in n
 
 - Getting started guide
 - Mid-market pilot description
-- Testing a change trhough prose
