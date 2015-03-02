@@ -1,7 +1,6 @@
 permalink: /:categories/:title/
 markdown: kramdown
 url: "http://codeforsanfrancisco.org"
-baseurl: /sfbrigade-website
 defaultbranch: gh-pages
 
 name: Code for San Francisco
