@@ -55,6 +55,14 @@ table h3 {
   z-index: 20;
 }
 
+.featured-nav-link {
+  background: #E2768D;
+}
+
+.featured-nav-link a {
+  color: #fff;
+}
+
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper .container {
   padding-right: 0;
