@@ -61,6 +61,8 @@ table h3 {
 
 .navbar-default .navbar-nav>li.featured-nav-link>a {
   color: #fff;
+  border-left: #cfcfcf 2px solid;
+  border-right: #cfcfcf 2px solid;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
