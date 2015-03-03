@@ -10,7 +10,7 @@ tags:
   - State of the Brigade
 ---
 
-I joined Code for San Francisco in October of 2013 and immediately found myself surround by a group of people dedicated to improving the lives of fellow City residents. At the time we didn't have money or tangible resources, but we did have passion and a deep motivation to change our city.
+I joined Code for San Francisco in October of 2013 and immediately found myself surrounded by a group of people dedicated to improving the lives of fellow City residents. At the time we didn't have money or tangible resources, but we did have passion and a deep motivation to change our city.
 
 Our enthusiasm was contagious and it spurred buzz within the community, which, along with a dedicated core team and a series of successful events, brought even more passionate and motivated people to our cause ... and the attention from potential sponsors.
 
