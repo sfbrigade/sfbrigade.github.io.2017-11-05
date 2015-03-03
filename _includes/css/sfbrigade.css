@@ -59,7 +59,7 @@ table h3 {
   background: #E2768D;
 }
 
-.featured-nav-link a {
+.navbar-default .navbar-nav>li.featured-nav-link>a {
   color: #fff;
 }
 
