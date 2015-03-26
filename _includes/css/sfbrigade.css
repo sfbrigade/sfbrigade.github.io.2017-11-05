@@ -101,6 +101,17 @@ table h3 {
 .carousel .item {
   height: 500px;
 }
+.carousel-inner {
+  /*
+  Address issue #37: https://github.com/sfbrigade/sfbrigade.github.io/issues/37
+
+  We need to set overflow to scroll because bootstrap.css sets it to hidden,
+  which cuts off the carousel's contents in small screens.  See also
+  this comment for the reason Bootstrap used hidden:
+  https://github.com/twbs/bootstrap/issues/6091#issuecomment-10923509
+  */
+  overflow-y: scroll;
+}
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
