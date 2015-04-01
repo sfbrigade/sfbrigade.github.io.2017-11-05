@@ -51,11 +51,21 @@ To run the site locally on your own computer (most helpful for previewing your o
 
 Fork and clone the repository, then run the following command in the root directory of the repo:
 
-`jekyll serve`
+    $ jekyll serve
 
 or
 
-`jekyll serve --watch` which will watch for changes to files.
+    $ jekyll serve --watch
+
+The latter will cause Jekyll to watch for file changes and automatically
+regenerate the HTML (though you will still need to refresh the browser).
+If the `--watch` flag does not work, try the following instead:
+
+    $ jekyll serve --force_polling
+
+(See [here](https://github.com/guard/listen/wiki/Troubleshooting) for
+background information on why `--watch` might not be working.)
+
 
 Your computer should now be serving your local copy of the site at:
 
