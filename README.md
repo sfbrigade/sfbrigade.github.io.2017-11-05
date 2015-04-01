@@ -59,7 +59,15 @@ or
 
 Your computer should now be serving your local copy of the site at:
 
-[http://0.0.0.0:4000](http://0.0.0.0:4000).
+* [http://0.0.0.0:4000](http://0.0.0.0:4000)
+
+If the above URL does not work (e.g. when using Chrome), try:
+
+* [http://127.0.0.1:4000](http://127.0.0.1:4000)
+
+(See [this issue](https://github.com/jekyll/jekyll/issues/3048) for more
+information.)
+
 
 ### Sharing Your Changes Using Jekit
 
