@@ -28,29 +28,42 @@ is_front: true
       <!--iframe width="560" height="316" src="//www.youtube.com/embed/n4EhJ898r-k" frameborder="0" allowfullscreen></iframe-->
       <!--a11y:changing to ted talk subtitles are in sync and accurate-->
     </div>
+    <hr/>
+
+    <h2>Sponsors</h2>
+    <p>These fine organizations help us keep the Brigade running</p>
+    <div class="row">
+      <!--
+      Set the icons to col-xs-* to prevent them from expanding to fill the
+      entire width of the screen on small screens.
+      -->
+      <div itemscope="" itemtype="http://schema.org/Organization" class="sponsor-details col-xs-3">
+        <a href="http://microsoftbayarea.com" itemprop="url">
+          <img src="{{site.baseurl}}/images/sponsors/MSFTlogo.png" alt="Microsoft" itemprop="logo" class="img-responsive">
+          <span itemprop="name">Microsoft</span>
+        </a>
+      </div>
+      <div itemscope="" itemtype="http://schema.org/Organization" class="sponsor-details col-xs-3">
+        <a href="http://codeforamerica.org" itemprop="url">
+          <img src="{{site.baseurl}}/images/sponsors/code-for-america.jpg" alt="Code for America" itemprop="logo" class="img-responsive">
+          <span itemprop="name">Code for America</span>
+        </a>
+      </div>
+    </div>
+
   </div>
 
   <div class="col-md-5" style="text-align:center;">
     <h2>Code for SF Right Now!</h2>
     <p>Open GitHub Issues on our projects that need your help.</p>
     <iframe id="widget" src="http://codeforamerica.org/geeks/civicissues/widget?organization_name=Code-for-San-Francisco&number=5" width="100%" height="1100" frameBorder="0"></iframe>
-  </div>
-  <div class="col-md-12">
-    <hr>
-    <h2>Sponsors</h2>
 
-    <p>These fine organizations help us keep the Brigade running</p>
-  </div>
-  <div itemscope="" itemtype="http://schema.org/Organization" class="sponsor-details col-md-3">
-    <a href="http://microsoftbayarea.com" itemprop="url">
-      <img src="{{site.baseurl}}/images/sponsors/MSFTlogo.png" alt="Microsoft" itemprop="logo" class="img-responsive">
-      <span itemprop="name">Microsoft</span>
-    </a>
-  </div>
-  <div itemscope="" itemtype="http://schema.org/Organization" class="sponsor-details col-md-3">
-    <a href="http://codeforamerica.org" itemprop="url">
-      <img src="{{site.baseurl}}/images/sponsors/code-for-america.jpg" alt="Code for America" itemprop="logo" class="img-responsive">
-      <span itemprop="name">Code for America</span>
-    </a>
+    <!--
+    Issue #19: Add twitter widget.
+    https://github.com/sfbrigade/sfbrigade.github.io/issues/19
+    -->
+    <a class="twitter-timeline" href="https://twitter.com/SFbrigade" data-widget-id="581245917656911872">Tweets by @SFbrigade</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>    </div>
+
   </div>
 </div>
