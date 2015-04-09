@@ -2,7 +2,7 @@
 layout: blog
 published: false
 title: Celebrating Ethan Lang
-author: jason_lally
+author: joseph_tanigawa
 ---
 
 ## Celebrating the Life of Our Friend, Ethan Lang
