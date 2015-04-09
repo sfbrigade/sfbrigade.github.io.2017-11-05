@@ -23,8 +23,11 @@ Ethan loved to bring people together through music. His friends, family and love
 
 [Video of Ethan's dancing](https://vimeo.com/120393051)
 
-Ethan lived with intention. He sought to connect with every individual with whom he crossed paths. He explored the world with wide eyes and full heart, soaking up new cultures and going on new adventures without rest. His warm affability made him friends in all corners of the world. From Turkey to Australia, by way of Boston, Minnetonka, and San Francisco, Ethan's contributions to the world are countless. His contagious laughter, enduring altruism and sweet dance moves will be sorely missed.
+Ethan lived with intention. He sought to connect with every individual with whom he crossed paths. He explored the world with wide eyes and a full heart, soaking up new cultures and going on new adventures without rest. His warm affability made him friends in all corners of the world. From Turkey to Australia, by way of Boston, Minnetonka, and San Francisco, Ethan's contributions to the world are countless. His contagious laughter, enduring altruism and sweet dance moves will be sorely missed.
 
 Please join us on [Saturday April 18 at Ocean Beach](https://www.facebook.com/events/930243943673109/) for a bonfire and potluck honoring Ethan's time with us. Whether you spoke to him once or knew him for years, he touched every single person he met. Let's all come together and honor his memory in true Ethan fashion -- with good food, big smiles, a bonfire, and lots of dancing. 
+
+![image00.jpg](/_posts/blog/image00.jpg)
+
 
 
