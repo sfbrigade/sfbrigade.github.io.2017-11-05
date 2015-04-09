@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: Celebrating Ethan Lang
 author: joseph_tanigawa
 ---
@@ -28,6 +28,3 @@ Ethan lived with intention. He sought to connect with every individual with whom
 Please join us on [Saturday April 18 at Ocean Beach](https://www.facebook.com/events/930243943673109/) for a bonfire and potluck honoring Ethan's time with us. Whether you spoke to him once or knew him for years, he touched every single person he met. Let's all come together and honor his memory in true Ethan fashion -- with good food, big smiles, a bonfire, and lots of dancing. 
 
 ![image00.jpg](/_posts/blog/image00.jpg)
-
-
-
