@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: "Celebrating the Life of Our Friend, Ethan Lang"
 author: joseph_tanigawa
 ---
