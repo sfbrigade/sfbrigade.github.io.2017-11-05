@@ -9,8 +9,6 @@ Two months ago, Code for San Francisco lost a friend. Ethan Lang was a passionat
 
 ![Photo of Ethan](/images/blog/image01.jpg)
 
-![Photo of Ethan](/_posts/blog/image01.jpg)
-
 Ethan's life ended but he will forever live on in the memories of those who met him. Everything Ethan did came from love and compassion. He was a life coach to some, a role model to many, a son and brother to others, and most importantly, a friend to all.
 
 Throughout his life, Ethan was involved in community activities, from participating in musicals and being captain of the swim team in high school, to guiding incoming freshmen as an orientation student advisor in college, to volunteering at Code for San Francisco every Wednesday night. 
@@ -28,5 +26,3 @@ Ethan lived with intention. He sought to connect with every individual with whom
 Please join us on [Saturday April 18 at Ocean Beach](https://www.facebook.com/events/930243943673109/) for a bonfire and potluck honoring Ethan's time with us. Whether you spoke to him once or knew him for years, he touched every single person he met. Let's all come together and honor his memory in true Ethan fashion -- with good food, big smiles, a bonfire, and lots of dancing. 
 
 ![Photo of Ethan](/images/blog/image00.jpg)
-
-![Photo of Ethan](/_posts/blog/image00.jpg)
