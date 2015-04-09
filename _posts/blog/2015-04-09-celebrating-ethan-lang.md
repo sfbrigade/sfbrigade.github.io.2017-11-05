@@ -7,7 +7,7 @@ author: joseph_tanigawa
 
 Two months ago, Code for San Francisco lost a friend. Ethan Lang was a passionate civic hacker who had moved to San Francisco in October to live with his brother. He quickly found his place in the Bay Area, joining the LocalFreeWeb initiative and starting a job at City Hall. Ethan passed away in the night of January 30, after a short illness.
 
-![Photo_of_Ethan_Lang](/images/blog/image01.jpg)
+![Photo_of_Ethan](/images/blog/image01.jpg)
 
 Ethan's life ended but he will forever live on in the memories of those who met him. Everything Ethan did came from love and compassion. He was a life coach to some, a role model to many, a son and brother to others, and most importantly, a friend to all.
 
@@ -25,4 +25,4 @@ Ethan lived with intention. He sought to connect with every individual with whom
 
 Please join us on [Saturday April 18 at Ocean Beach](https://www.facebook.com/events/930243943673109/) for a bonfire and potluck honoring Ethan's time with us. Whether you spoke to him once or knew him for years, he touched every single person he met. Let's all come together and honor his memory in true Ethan fashion -- with good food, big smiles, a bonfire, and lots of dancing. 
 
-![image00.jpg](/images/blog/image00.jpg)
+![Photo_of_Ethan](/images/blog/image00.jpg)
