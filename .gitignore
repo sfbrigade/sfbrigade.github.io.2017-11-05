@@ -1,2 +1,6 @@
 .DS_Store
 _site/
+
+# jetbrains project files
+.idea/*
+
