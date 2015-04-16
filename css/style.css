@@ -362,10 +362,7 @@ h2.first {
     text-align: center;
 }
 
-/*.logos{*/
-/*-left: auto;*/
-/*margin-r*/
-/*}*/
+
 
 .logos div{
     display: inline-block;
@@ -377,7 +374,6 @@ h2.first {
 }
 
 .logos div img{
-    padding-left: 0;
-    padding-right: 0;
+    padding: 20px;
 }
 
