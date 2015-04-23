@@ -535,7 +535,7 @@ left: -999em;
 }
 
 .sidebar {
-  border-left: thin solid #eee;
+  border-right: thin solid #eee;
 }
 
 /* MODALS */
