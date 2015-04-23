@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 font-family: "Oswald","Helvetica Neue","Verdana", sans-serif;
 }
 
+h2, .h2 {
+  margin-top: 1.25em;
+}
+
 p {
   line-height: 1.8;
   margin-bottom: 1.1em;
@@ -33,6 +37,10 @@ table h3 {
 
 #main {
   margin-top: 1.1em;
+}
+
+.article-content {
+  margin-top: 20px;
 }
 
 #signup {
@@ -460,10 +468,24 @@ margin-bottom: 0;
 color: #222;
 text-decoration: none;
 border: 0 !important;
-border-radius: 30px;
+border-radius: 10px;
 -webkit-transition: background 0.2s,border 0.2s;
 -moz-transition: background 0.2s,border 0.2s;
 transition: background 0.2s,border 0.2s;
+}
+
+.btn-tall {
+  line-height: 3;
+}
+
+.btn-hack {
+  background-color: #0a83c5;
+  color: #fff;
+}
+
+.btn-hack:hover, .btn-hack:focus {
+  background-color: #0970a8;
+  color: #fff;
 }
 
 .inline-btn:after {
@@ -515,6 +537,9 @@ left: -999em;
   margin-bottom: 0;
 }
 
+.sidebar {
+  border-left: thin solid #eee;
+}
 
 /* MODALS */
 
