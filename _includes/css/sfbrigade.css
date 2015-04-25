@@ -47,10 +47,6 @@ table h3 {
   margin: 25px;
 }
 
-.list-group-item {
-    border: 0px;
-}
-
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -542,4 +538,37 @@ left: -999em;
 
 .modal-backdrop {
   z-index: 0;
+}
+
+
+/*NDoCH */
+
+.panel-gold {
+  border-color: #c98910;
+}
+
+.panel-platinum {
+  border-color: #cdcbc7;
+}
+
+.panel-silver {
+  border-color: #9a9a9a;
+}
+
+.panel-gold>.panel-heading {
+  color: #fff;
+  background-color: #efaf36;
+  border-color: #c98910;
+}
+
+.panel-platinum>.panel-heading {
+  color: #222;
+  background-color: #E5E4E2;
+  border-color: #cdcbc7;
+}
+
+.panel-silver>.panel-heading {
+  color: #222;
+  background-color: #c0c0c0;
+  border-color: #9a9a9a;
 }
