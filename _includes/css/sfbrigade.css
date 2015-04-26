@@ -423,7 +423,7 @@ display: block;
     padding-right: 0;
     width: 12.7074em;
     text-align: left;
-  } 
+  }
   figcaption:before {
     content: '';
     position: absolute;
@@ -571,4 +571,15 @@ left: -999em;
   color: #222;
   background-color: #c0c0c0;
   border-color: #9a9a9a;
+}
+
+/*Partners CSS Opportunities Panels Same Height */
+
+.equal, .equal > div[class*='col-'] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 1 auto;
 }
