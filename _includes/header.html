@@ -5,9 +5,17 @@
   <title>{{page.title}}</title>
   <meta name="description" content="San Francisco locals helping San Francisco government and local organizations open their data and create meaningful tools" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {% if page.author %}
+      {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %}
+    {% endif %}
+    {% include open-graph.html %}
+    {% if author.google.plus %}<link rel="author" href="https://plus.google.com/{{ author.google.plus }}"/>{% endif %}
   <link rel="shortcut icon" href="favicon.ico" />
-  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="{{site.baseurl}}/css/style.css" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Quattrocento:400,700|Oswald' rel='stylesheet' type='text/css'>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/blog/feed.xml">
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -20,6 +28,7 @@
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
+        <a href="#maincontent" class="skiplink">Skip to content</a>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
@@ -32,11 +41,13 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <!-- <li><a href="{{ site.baseurl }}/projects">Projects</a></li> -->
+          <li><a href="{{ site.baseurl }}/about">About</a></li>
+          <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
           <!--<li><a href="{{ site.baseurl }}/events">Events</a></li>-->
           <li><a href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/">Events</a></li>
-          <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-          <li><a href="https://groups.google.com/forum/#!forum/code-for-san-francisco">Forum</a></li>
+          <li><a href="{{ site.baseurl }}/blog">Our Stories</a></li>
+          <li><a href="{{site.baseurl}}/signup">Newsletter</a></li>
+          <li class="featured-nav-link"><a href="{{ site.baseurl }}/getstarted">Get Started</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
       </nav>
@@ -44,7 +55,7 @@
       {% if page.is_front %}
          <div class="alert alert-success visible-xs" role="alert">
            <span class="glyphicon glyphicon-ok-sign pull-left" style="font-size:24pt;"></span>
-           If you're currently at the Meetup, <a href="https://docs.google.com/forms/d/1kcHc3gZQXVHkLg2mxXfjEiPeyVZWf6__HrbAqftZuFE/viewform">why not check in?</a>
+           If you're currently at an SF Brigade event, <a href="http://j.mp/sfhacknight" alt="Click to sign in">why not check in?</a>
          </div>
 
          <!-- Carousel - only using one at the moment
@@ -64,11 +75,10 @@
                   <h1>We are Code for San Francisco</h1>
                   <div class="row">
                   <p class="lead col-md-10 col-md-offset-1">
-                    Come join developers, designers, data geeks, leaders, and idea-makers who volunteer to help local government and civic orgs adopt open web technologies.
+                    We meet every week to hack for change. Join us, everyone is welcome!
                   </p>
                   </div>
-                  <a class="btn btn-danger btn-lg" href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/">Come to our Meetups</a>
-                  <a class="btn btn-success btn-lg" href="https://groups.google.com/forum/#!forum/code-for-san-francisco">Join the discussion</a>
+                  <a class="btn btn-lg btn-hack" href="/hackforchange">National Day of Civic Hacking is coming. Join us June 5th-7th!</a>
                 </div>
               </div>
             </div>
@@ -86,11 +96,11 @@
     <div class="title-parent">
 
       <div class="wide" {% if page.image %} style="background: #000000 url('{{ site.baseurl }}/images/projects/{{ page.image }}') no-repeat top center; background-size: cover;" {% else %} style="background: #cf1b41; color: #FFF;" {% endif %}>
-        <div class="container">
+        <div class="container" id="maincontent" tabindex="-1">
           <div class="row">
             <div class="title col-md-7">
               <h1>{{ page.title }}</h1>
-              <p class="lead">{{page.excerpt}}</p>
+              <p class="lead">{{page.lead}}</p>
             </div>
           </row>
         </div>

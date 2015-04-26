@@ -1,20 +1,71 @@
 ---
 layout: default
-title: 'Projects'
-excerpt: Open source civic technology projects from the local open gov community.
+title: 'Our Projects'
+scripts: ['projectData.js','projects.js']
+lead: 'The fine works of Code for San Francisco'
 ---
-<div class="row main-row">
-{% for post in site.categories.projects %}
-  <div class="col-md-4">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title"><a href="{{post.url}}">{{post.title}}</a></h3>
+
+<section>
+  <div id="hack-night-projects">
+  </div>
+</section>
+
+<!-- Define the template for data loaded from the CFAPI -->
+<script id="projects" type="text/html">
+{%raw%}
+{{#projects}}
+
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>{{name}} {{^cfsf_url}}
+          <a href="https://github.com/login/oauth/authorize?client_id=c602a8bd54b1e774f864&scope=repo&redirect_uri=http://prose.io/#{{repository_nwo}}/new/{{default_branch}}/_posts/projects/{{id}}/{{file_name}}" class="btn btn-xs btn-success">Create detailed project page</a></strong><span style="display:none">{{id}}</span>
+          {{/cfsf_url}}</h1>
+      <p class="lead">{{description}} 
+      {{#cfsf_url}}
+      <strong><a href="{{cfsf_url}}">Learn more...</a></strong>
+      {{/cfsf_url}}</p>
+      <div class="row">
+        <div class="col-md-5">
+          {{#link_url}}
+          <span class="glyphicon glyphicon-home"></span>
+          <a href="{{link_url}}">{{link_url}}</a>
+          <br />
+          {{/link_url}}
+          {{#code_url}}
+          <i class="fa fa-github-square"></i>
+          <a href="{{code_url}}">{{code_url}}</a>
+          <br />
+          {{/code_url}}
+          <strong>Last Updated: </strong>{{last_updated_formatted}}
+          <br />
+          {{#github_details.language}}
+          <strong>Language: </strong>{{github_details.language}}
+          {{/github_details.language}}
+          <br/>
+          <br/>
         </div>
-        <div class="panel-body">
-          {{ post.excerpt}}
+        <div class="col-md-offset-1 col-md-6">
+          {{#github_details}}<strong>GitHub Contributors</strong>{{/github_details}}
+          <p class='contributors'>
+            {{#github_details.owner}}
+            <a href='{{html_url}}' class='contributor-owner'><img class='img-thumbnail' src='{{avatar_url}}' alt='Owner: {{login}}' title='Owner: {{login}}'/></a>
+            <span style='display: none;'>{{login}}</span>
+            {{/github_details.owner}}
+            {{#github_details.contributors}}
+            {{^owner}}
+            <a href='{{html_url}}'><img class='img-thumbnail' src='{{avatar_url}}' alt='{{login}}' title='{{login}}'/></a>
+            <span style='display: none;'>{{login}}</span>
+            {{/owner}}
+            {{/github_details.contributors}}
+          </p>
         </div>
       </div>
+    </div>
   </div>
-{% endfor %}
-</div>
-        <!-- End page content-->
+{{/projects}}
+{%endraw%}
+</script>
+
+<hr/>
+
+Powered by the <a href="https://github.com/codeforamerica/cfapi">CfAPI</a>. Edit <a href="https://docs.google.com/a/codeforamerica.org/spreadsheet/ccc?key=0ArHmv-6U1drqdDVGZzdiMVlkMnRJLXp2cm1ZTUhMOFE&usp=drive_web#gid=0">this spreadsheet</a> to change which projects are included.

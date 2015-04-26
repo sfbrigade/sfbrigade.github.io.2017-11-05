@@ -1,0 +1,23 @@
+{% assign id_array = page.path | split:"/" %}
+{% assign updates_count = 0 %}
+<h2>Updates</h2>
+{% for post in site.categories.updates %} 
+{% assign path_array = post.path | split:"/" %}
+{% if id_array[2] == path_array[2] and updates_count < 3%}
+{% assign updates_count = updates_count | plus:1 %}
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{post.title}} <small>{{ post.date | date: "%-d %B %Y" }}</small> <a href="{% if post.path %}https://github.com/login/oauth/authorize?client_id=c602a8bd54b1e774f864&scope=repo&redirect_uri=http://prose.io/#{{site.github.repository_nwo}}/edit/{{site.defaultbranch}}/{{ post.path }}{% else %}https://github.com/login/oauth/authorize?client_id=c602a8bd54b1e774f864&scope=repo&redirect_uri=http://prose.io/#{{site.github.repository_nwo}}{% endif %}" target="_blank" class="pull-right"><i class="fa fa-pencil-square-o"></i></a></h3>
+  </div>
+  <div class="panel-body">
+    {{post.content | markdownify}}
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+{% if updates_count  == 0 %}
+<div>
+	There are currently no updates listed for this project. Add the first one by clicking the + icon.
+</div>
+{% endif %}
+<a href="https://github.com/login/oauth/authorize?client_id=c602a8bd54b1e774f864&scope=repo&redirect_uri=http://prose.io/#{{site.github.repository_nwo}}/new/{{site.defaultbranch}}/_posts/updates/{{id_array[2]}}/{{ site.time | date: '%Y-%m-%d' }}-{{page.title | slugify }}-update-{{updates_count | plus:1}}.md" class="btn btn-default" style="width: 100%"><i class="fa fa-plus-square"></i> Add new update</a>

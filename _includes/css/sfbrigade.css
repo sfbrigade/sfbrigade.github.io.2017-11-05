@@ -1,0 +1,585 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  padding-top: 50px;
+  color: #5a5a5a;
+  font-family: "Quattrocento", "Georgia",serif;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+font-family: "Oswald","Helvetica Neue","Verdana", sans-serif;
+}
+
+h2, .h2 {
+  margin-top: 1.25em;
+}
+
+p {
+  line-height: 1.8;
+  margin-bottom: 1.1em;
+}
+
+li {
+  line-height: 1.8;
+}
+
+table h1 {
+  margin-top:0px;
+}
+
+table h3 {
+  margin-top: 5px;
+}
+
+#main {
+  margin-top: 1.1em;
+}
+
+.article-content {
+  margin-top: 20px;
+}
+
+#signup {
+  margin: 25px;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.featured-nav-link {
+  background: #E2768D;
+}
+
+.navbar-default .navbar-nav>li.featured-nav-link>a {
+  color: #fff;
+  border-left: #cfcfcf 2px solid;
+  border-right: #cfcfcf 2px solid;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* MOBILE ALERT */
+.alert.visible-xs .glyphicon {
+  margin-right:10px;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 425px;
+  background-image: url({{site.baseurl}}/images/goldengate-top.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  margin-bottom: 60px;
+  color: #fff;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+
+.carousel-inner {
+  /*
+  Address issue #37: https://github.com/sfbrigade/sfbrigade.github.io/issues/37
+
+  We need to set overflow to scroll because bootstrap.css sets it to hidden,
+  which cuts off the carousel's contents in small screens.  See also
+  this comment for the reason Bootstrap used hidden:
+  https://github.com/twbs/bootstrap/issues/6091#issuecomment-10923509
+  */
+  overflow-y: scroll;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.jumbotron {
+  margin-top: 50px;
+  background: rgba(0,0,0,0.44)
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left:  15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left:  0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contributors img {
+  width: 50px;
+}
+
+.contributor-owner img {
+  border: 1px solid #428bca;
+}
+
+.people td {
+  font-size: 20px;
+}
+
+.people img {
+  width: 50px;
+}
+
+.sponsors img {
+  padding: 10px 30px 10px 0;
+}
+
+.label:hover { text-decoration: none; }
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.nowrap { white-space:nowrap; }
+
+#recent-event { margin: 10px 0 0 0; }
+
+.api-title { width: 30%; }
+
+.thumbnail {margin-bottom: 5px;}
+
+/* Bars */
+.bar {
+  position: relative;
+  width: 4px;
+  height: 50px;
+  margin: 10px 1px 0 1px;
+  float: left;
+}
+.bar span {
+    border-style: solid;
+    border-width: 0 2px;
+    display: block;
+    width: 1px;
+    margin: 0 1px;
+    text-indent: -5000px;
+    background: none repeat scroll 0 0 #95A5A6;
+    border-color: #95A5A6;
+    position: absolute;
+    bottom: 0;
+}
+
+.project-needs { margin-top: 20px;}
+
+.wide {
+  width: 100%;
+}
+
+.main-row {
+  margin-top: 20px;
+}
+
+h2.first {
+  margin-top: 0;
+}
+
+.blog-text img {
+  margin: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* a11y */
+  .skiplink {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+.skiplink:focus, .skiplink:active {
+  left: 0px;
+  width: auto;
+  height: 2em;
+  font-size:1em;
+}
+
+
+.blog-post img {
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  max-width: 100%;
+  width: auto\9;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+figcaption {
+padding-left: 3.236em;
+padding-right: 3.236em;
+font-size: 1rem;
+line-height: 1.25;
+margin-bottom: 0;
+color: #4b4b49;
+text-align: center;
+clear: both;
+display: block;
+}
+
+@media screen and (min-width: 768px ) {
+  figcaption {
+    position: absolute;
+    top: 1px;
+    right: -14.3254em;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 12.7074em;
+    text-align: left;
+  }
+  figcaption:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 1px;
+    background: #b3b3b3;
+  }
+}
+
+
+section {
+  margin: 30px 0;
+}
+
+#stories h2 {
+  margin-top: 0;
+}
+
+.author-image {
+  margin-right: 10px;
+}
+
+.author-name {
+  margin-top: 0;
+}
+
+.btn, form button, input[type="submit"], .btn-inverse, .btn-social, .btn-info, .btn-warning, .btn-success, .btn-danger {
+display: inline-block;
+padding: 8px 20px;
+line-height: 1.71429;
+margin-bottom: 0;
+/*background-color: #ccc;*/
+color: #222;
+text-decoration: none;
+border: 0 !important;
+border-radius: 10px;
+-webkit-transition: background 0.2s,border 0.2s;
+-moz-transition: background 0.2s,border 0.2s;
+transition: background 0.2s,border 0.2s;
+}
+
+.btn-tall {
+  line-height: 3;
+}
+
+.btn-hack {
+  background-color: #0a83c5;
+  color: #fff;
+}
+
+.btn-hack:hover, .btn-hack:focus {
+  background-color: #0970a8;
+  color: #fff;
+}
+
+.inline-btn:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.inline-btn a, .inline-btn btn {
+display: inline-block;
+margin-right: 0.809em;
+}
+
+.btn-social {
+color: #313130 !important;
+border: 1px solid #ddd !important;
+}
+
+.btn-inverse, .btn-social {
+background-color: #fff;
+color: #313130;
+}
+
+.btn-social.twitter:hover {
+background: #55acee;
+border-color: #55acee;
+}
+
+.btn-social.facebook:hover {
+background: #3b5998;
+border-color: #3b5998;
+}
+
+.btn-social.google-plus:hover {
+background: #dd4b39;
+border-color: #dd4b39;
+}
+
+.btn-social:hover {
+color: #fff !important;
+}
+
+.sponsor-details a span {
+position: absolute;
+left: -999em;
+}
+
+.alert {
+  margin-bottom: 0;
+}
+
+.sidebar {
+  border-right: thin solid #eee;
+}
+
+/* MODALS */
+
+.modal-backdrop {
+  z-index: 0;
+}
+
+
+/*NDoCH */
+
+.panel-gold {
+  border-color: #c98910;
+}
+
+.panel-platinum {
+  border-color: #cdcbc7;
+}
+
+.panel-silver {
+  border-color: #9a9a9a;
+}
+
+.panel-gold>.panel-heading {
+  color: #fff;
+  background-color: #efaf36;
+  border-color: #c98910;
+}
+
+.panel-platinum>.panel-heading {
+  color: #222;
+  background-color: #E5E4E2;
+  border-color: #cdcbc7;
+}
+
+.panel-silver>.panel-heading {
+  color: #222;
+  background-color: #c0c0c0;
+  border-color: #9a9a9a;
+}
+
+/*Partners CSS Opportunities Panels Same Height */
+
+.equal, .equal > div[class*='col-'] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 1 auto;
+}
