@@ -7,6 +7,8 @@ author:
   - asha_john
 ---
 
+Our Campaign Finance Summit featured a speaker series followed by a visual data exploration hackathon. Below we have outlined the issues that motivate for Open Campaign Finance Data.
+
 ## Is writing a check free speech?
 
 Few topics raise as much concern as money in politics. We all want to believe that candidates will get elected based on their values and merit but there is an overwhelming sense that our democracy is for sale. Who is behind this money is often nearly impossible to uncover. How much money are we talking about? OpenSecrets.org reports nearly $700,000,00 was raised by super PACSin 2014.
