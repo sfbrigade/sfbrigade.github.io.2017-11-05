@@ -3,7 +3,7 @@ layout: blog
 published: true
 title: LocalFreeWeb
 categories: blog
-author: asha_john_allen_meyer
+author: joseph_tanigawa
 lead: Bringing the Web to those who can’t find it
 ---
 
