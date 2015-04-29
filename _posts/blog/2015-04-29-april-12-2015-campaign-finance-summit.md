@@ -2,7 +2,9 @@
 layout: blog
 published: false
 title: "April 12, 2015: Campaign Finance Summit"
-author: asha_john
+author: 
+  - asha_john_allen_meyer
+  - asha_john
 ---
 
 ## Is writing a check free speech?
@@ -43,4 +45,3 @@ Michael pointed to the importance of journalists having access to campaign data 
 Miriam Marks, Data Director at MapLight. “The challenges with using state data are the challenges of using Cal-Access.” Miriam illustrated how MapLight has found its way through the labyrinth that Cal-Access places between users and campaign finance data. Despite this, MapLight is able to build comprehensive, data-rich stories which track the influence of money in politics.
 
 The challenge to our democracy by the influence of seemingly unlimited amounts of campaign contributions through super PACS is being met with alarm and increasing scrutiny. The California Campaign Finance Summit demonstrated how a partnership with technologists, designers, concerned citizens and journalists can shine some light into the dark recesses of campaign finances.
-
