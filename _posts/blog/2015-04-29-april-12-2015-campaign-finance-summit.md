@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: false
+published: true
 title: "April 12, 2015: Campaign Finance Summit"
 author: 
   - asha_john_allen_meyer
