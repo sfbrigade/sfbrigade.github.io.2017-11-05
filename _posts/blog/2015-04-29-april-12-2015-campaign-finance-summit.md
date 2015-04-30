@@ -7,7 +7,7 @@ author:
   - asha_john
 ---
 
-Our Campaign Finance Summit featured a speaker series followed by a visual data exploration hackathon. Below we have outlined the issues that motivate for Open Campaign Finance Data.
+Our Campaign Finance Summit featured a speaker series followed by a visual data exploration hackathon. Below we have outlined the issues that motivate for Open Campaign Finance Data along with updates on resources that can further keep us informed. The issues are followed up by a summary of each speaker's contribution to the discussion.
 
 ## Is writing a check free speech?
 
