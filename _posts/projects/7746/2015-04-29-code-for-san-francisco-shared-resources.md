@@ -1,0 +1,12 @@
+---
+category: projects
+layout: projects
+published: false
+title: Code for San Francisco Shared Resources
+---
+
+## Below are links to our main folders:
+
+[Welcome to Hack Night & SF Brigade](https://drive.google.com/folderview?id=0B3EtJjXG7BqAMzRtN3BPcHpNMkE&usp=sharing)
+
+[Presentations](https://drive.google.com/folderview?id=0B3EtJjXG7BqATlFMR1JBdDRFMHc&usp=sharing)
