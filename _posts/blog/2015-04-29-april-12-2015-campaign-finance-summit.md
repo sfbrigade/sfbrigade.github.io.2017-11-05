@@ -2,9 +2,7 @@
 layout: blog
 published: true
 title: "April 12, 2015: Campaign Finance Summit"
-author: 
-  - asha_john_allen_meyer
-  - asha_john
+author: asha_john_allen
 ---
 
 Our Campaign Finance Summit featured a speaker series followed by a visual data exploration hackathon. Below we have outlined the issues that motivate for Open Campaign Finance Data along with updates on resources that can further keep us informed. The issues are followed up by a summary of each speaker's contribution to the discussion.
