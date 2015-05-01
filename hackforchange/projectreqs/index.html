@@ -51,18 +51,101 @@ title: National Day of Civic Hacking
     <p>Projects can be at different phases (ideation, testing a specific component, a few steps before launch, etc.) With that, structure the weekend’s project proposal so that new individuals can contribute to a specific goal or milestone.</p>
     <hr>
 
-    <h2>Timeline</h2>
+  <h2>Timeline</h2>
+
+  <div class="page-header">
     <p>General info for the flow of the weekend:</p>
-    <ul>
-      <li>Friday night: project leads recruit members to their challenge at the Opening Party </li>
-      <li>Saturday and Sunday: working on projects</li>
-      <li>Sunday late afternoon: each project presents their work to the group</li>
-    </ul>
+  </div>
+  <ul class="timeline">
+    <li>
+      <div class="timeline-badge danger"></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Friday</h4>
+        </div>
+        <div class="timeline-body">
+          <p><strong>Friday Night:</strong> Project leads recruit members to their challenge at the Opening Party.</p>
+        </div>
+      </div>
+    </li>
+    <li class="timeline-inverted">
+      <div class="timeline-badge blue"></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Saturday</h4>
+        </div>
+        <div class="timeline-body">
+          <p><strong>All Day:</strong> Work on Projects</p>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="timeline-badge danger"></div>
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">Sunday</h4>
+        </div>
+        <div class="timeline-body">
+          <p></i><strong>All Day:</strong> Work on Projects </p>
+          <p></i><strong>Afternoon:</strong> Each project presents their work to the group</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+
     <hr>
 
+
+
+
+
     <h2>Register A Project/Challenge</h2>
-    <p>Registration will open on May 1, 2015. Please check back here for the link. For general inquiries, please email <a href="mailto:hello@codeforsanfransico.com?Subject=Propose%20Attendee%20Civic%20Hacking" target="_top">hello@codeforsanfransico.com</a> </p>
+    <p>Registration will open on May 1, 2015. Please check back here for the link. For general inquiries, please email <a href="mailto:hello@codeforsanfransico.com?Subject=Propose%20Attendee%20Civic%20Hacking" target="_top">hello@codeforsanfransico.com</a> <a class="btn btn-lg btn-hack" data-toggle="modal" data-target="#supportUsModal">Contact Us!</a></p>
 
   </div>
 
+</div>
+
+
+
+
+
+<div class="modal fade" id="supportUsModal" tabindex="-1" role="dialog" aria-labelledby="supportUsModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <form method="post" action="//formspree.io/hello@codeforsanfrancisco.org" id="form-sponsor-us">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="supportUsModalLabel">Contact Us!</h4>
+        </div>
+        <div class="modal-body">
+          <div class="form-content">
+          <div class="form-group">
+            <label for="name" class="control-label">Name:</label>
+            <input type="text" class="form-control" id="name" name="name">
+          </div>
+          <div class="form-group">
+            <label for="reply-email" class="control-label">Email:</label>
+            <input type="text" class="form-control" id="reply-email" name="_replyto">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="control-label">Message:</label>
+            <textarea class="form-control" id="message-text" name="message"></textarea>
+          </div>
+          <input type="hidden" name="_cc" value="kbnammacher@gmail.com">
+          <input type="hidden" name="_subject" value="Someone is interested in supporting NDoCH" />
+          <input type="text" name="_gotcha" style="display:none" />
+          </div>
+          <div class="form-sponsor-us-success" style="display: none;">
+            <p>Your message has been sent to our team. Someone will be in touch with you shortly.</p>
+            <p>- Code for San Francisco</p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary form-submit">Send message</button>
+        </div>
+    </form>
+    </div>
+  </div>
 </div>
