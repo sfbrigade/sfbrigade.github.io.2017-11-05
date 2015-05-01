@@ -586,6 +586,17 @@ left: -999em;
 
 /*timeline for Projects */
 
+.circle {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  background: #E2768D;
+  text-align: center;
+  line-height: 160px;
+  color:black;
+  /* width and height can be anything, as long as they're equal */
+}
+
 .timeline {
     list-style: none;
     padding: 20px 0 20px;
