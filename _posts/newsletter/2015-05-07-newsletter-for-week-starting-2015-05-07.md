@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: true
+published: false
 title: Newsletter for May 7 - May 13
 categories: newsletter
 author: newsletter_editor

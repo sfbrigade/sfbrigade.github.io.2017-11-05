@@ -1,6 +1,6 @@
 ---
 layout: blog
-published: true
+published: false
 title: Newsletter for April 30 - May 6
 categories: newsletter
 author: newsletter_editor
