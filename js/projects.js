@@ -12,6 +12,7 @@ var cfapi_url = 'http://codeforamerica.org/api/organizations/Code-for-San-Franci
 $.getJSON(cfapi_url, showProjects);
 
 function showProjects(response){
+  
   projects = response.objects;
   // loop through our project data
   $.each(projects, function(i, project){
@@ -28,6 +29,9 @@ function showProjects(response){
     project['last_updated_formatted'] = moment(project['last_updated']).fromNow();
 
   });
+  var featuredDiv = document.createElement('div');
+  featuredDiv.id = 'featured'
+  $("#hack-night-projects").append(featuredDiv);
   $("#hack-night-projects").append(ich.projects({projects:projects}));
   // Follow next page links
   if (response.pages.next) {
