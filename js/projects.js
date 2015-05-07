@@ -13,6 +13,7 @@ $.getJSON(cfapi_url, showProjects);
 
 function showProjects(response){
   projects = response.objects;
+  var featuredIndex = []; 
   // loop through our project data
   $.each(projects, function(i, project) {
     // check to see if this project has a corresponding Jekyll page
@@ -26,12 +27,10 @@ function showProjects(response){
     // to display text like 'x days ago' we use moment.js's awesome fromNow function
     // http://momentjs.com/docs/#/displaying/fromnow/
     project['last_updated_formatted'] = moment(project['last_updated']).fromNow();
+    if (project['tags'].indexOf("featured") > -1) {
+      featuredIndex.push(i);
+  });
 
-  });
-  // remove projects with tags String containing 'featured'
-  projects = $.grep(projects, function(i, project) {
-    return project['tags'].indexOf("featured") == -1;
-  });
   var featuredDiv = document.createElement('div');
   featuredDiv.id = 'featured'
   $("#hack-night-projects").append(featuredDiv);
