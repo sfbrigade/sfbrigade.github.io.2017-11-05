@@ -17,7 +17,7 @@ function showProjects(response){
   // loop through our project data
   $.each(projects, function(i, project) {
     if (project['tags'].indexOf("featured") > -1) {
-      featuredIndex.push(i);
+      //featuredIndex.push(i);
     }
     // check to see if this project has a corresponding Jekyll page
     if (projectData[project['id']]) {
