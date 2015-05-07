@@ -29,6 +29,7 @@ function showProjects(response){
     project['last_updated_formatted'] = moment(project['last_updated']).fromNow();
     if (project['tags'].indexOf("featured") > -1) {
       featuredIndex.push(i);
+    }
   });
 
   var featuredDiv = document.createElement('div');
