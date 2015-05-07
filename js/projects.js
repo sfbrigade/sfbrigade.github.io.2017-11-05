@@ -16,9 +16,9 @@ function showProjects(response){
   var featuredIndex = []; 
   // loop through our project data
   $.each(projects, function(i, project) {
-    if (project['tags'].indexOf("featured") > -1) {
-      //featuredIndex.push(i);
-    }
+    //if (project['tags'].indexOf("featured") > -1) {
+    //  featuredIndex.push(i);
+    //}
     // check to see if this project has a corresponding Jekyll page
     if (projectData[project['id']]) {
       project['cfsf_url'] = projectData[project['id']]['url'];
