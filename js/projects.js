@@ -30,7 +30,7 @@ function showProjects(response){
   });
   // remove projects with tags String containing 'featured'
   projects = $.grep(projects, function(i, project) {
-    return project['tags'].indexOf("featured") === -1;
+    return project['tags'].indexOf("featured") == -1;
   });
   var featuredDiv = document.createElement('div');
   featuredDiv.id = 'featured'
