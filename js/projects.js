@@ -27,9 +27,7 @@ function showProjects(response){
     // to display text like 'x days ago' we use moment.js's awesome fromNow function
     // http://momentjs.com/docs/#/displaying/fromnow/
     project['last_updated_formatted'] = moment(project['last_updated']).fromNow();
-    if (project['tags'].indexOf("featured") > -1) {
-      featuredIndex.push(i);
-    }
+
   });
 
   var featuredDiv = document.createElement('div');
