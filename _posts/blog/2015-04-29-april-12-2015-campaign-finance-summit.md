@@ -5,7 +5,7 @@ title: "April 12, 2015: Campaign Finance Summit"
 author: asha_john_allen
 ---
 
-Our Campaign Finance Summit featured a speaker series followed by a visual data exploration hackathon. Below we have outlined the issues that motivate for Open Campaign Finance Data along with updates on resources that can further keep us informed. The issues are followed up by a summary of each speaker's contribution to the discussion.
+Our Campaign Finance Summit featured a speaker series followed by a visual data exploration hackathon. Below we have outlined the motivating issues for Open Campaign Finance Data along with updates on resources that can further keep us informed. The issues are followed up by a summary and video of each speaker's contribution to the discussion.
 
 ## Is writing a check free speech?
 
@@ -25,23 +25,36 @@ The first presentation was by Jesse Mainardi, Deputy Executive Director, SF Ethi
 http://en.wikipedia.org/wiki/Buckley_v._Valeo
 http://en.wikipedia.org/wiki/Citizens_United_v._FEC
 
+[**Video of Jesse's talk**](https://www.youtube.com/watch?v=Y6Sg24MQ-aE)
+
 
 ## Dark Money. It’s as creepy as it sounds.
 
 Jay Costa, Executive Director, Counter PAC, walked us through how wealthy individuals and corporations use non-profit 501(c)(4)s to hide their vast contributions. Due to laws which allow donations to remain anonymous to these non-profits, funds are shuffled around in a kind of shell game effectively hiding who is financing political advertising.
 
+[**Video of Jay's talk**](https://www.youtube.com/watch?v=I5SXO4ZMakE)
+
 
 ## Phil
 Phillip Ung, Director of Public Affairs at California Forward, gave us a historical overview of how Cal-Access was created after the Online Disclosure Act of 1996. Originally created as a publisher and repository for endless government campaign finance forms, Cal-Access is a roadblock in the age of open data. The data is also only available for state races, local jurisdiction data is mostly only available in local government offices.
 
+[**Video of Phillip's talk**](https://www.youtube.com/watch?v=1Z7GFfDOg1E)
+
 ## Oliver
 Oliver Luby, District 1 Policy Manager, City of Oakland, opened with a 2010 FPPC paper Big Money Talks: “Just 15 wealthy special interests have spent more than $1 billion in the past 10 years to influence California voters and public officials.” This spending is done through independent expenditures, and Oliver has a keen sense of the weak spots in independent expenditure reports and disclosures. Luby pointed to the campaign data loop-hole of data being filled out only in paper forms.
+
+[**Video of Oliver's talk**](https://www.youtube.com/watch?v=ue_JO5rES0c)
 
 ## Journalist Panel
 As to be expected, the press panel had a lively discussion. In attendance were: Aaron Williams, News Applications Developer, Center for Investigative Reporting; Michael Stoll, Editor, San Francisco Public Press; John Osborn, Digital Communication Manager, EdSource.
 Michael pointed to the importance of journalists having access to campaign data tools to tell the story behind the data. “A story isn’t worth doing unless you bring new information to it.” The data is the starting point to set the public policy debate. Technology can be an expensive challenge for a non profit news organization and the journalist discussed partnerships with each other and technologists as one way of bringing information to the public. CIR and LA Times created the California Data Coalition to pool resources on data and compete on stories. The SF Public Press is collaborating with the Internet Archive. John Osborn reminded us to “Thank the city clerk who gives you access to data.” They are the unsung heros in the depths of city hall.
 
+[**Video of Journalist Panel**](https://www.youtube.com/watch?v=9fz1WD-BvaY)
+
 ## Miriam
 Miriam Marks, Data Director at MapLight. “The challenges with using state data are the challenges of using Cal-Access.” Miriam illustrated how MapLight has found its way through the labyrinth that Cal-Access places between users and campaign finance data. Despite this, MapLight is able to build comprehensive, data-rich stories which track the influence of money in politics.
 
+[**Video of Miriam's talk**](https://www.youtube.com/watch?v=yz7oJWLbzUY)
+
 The challenge to our democracy by the influence of seemingly unlimited amounts of campaign contributions through super PACS is being met with alarm and increasing scrutiny. The California Campaign Finance Summit demonstrated how a partnership with technologists, designers, concerned citizens and journalists can shine some light into the dark recesses of campaign finances.
+
