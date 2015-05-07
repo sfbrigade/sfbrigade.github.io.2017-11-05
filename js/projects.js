@@ -28,10 +28,10 @@ function showProjects(response){
     project['last_updated_formatted'] = moment(project['last_updated']).fromNow();
 
   });
-  // store projects with tags String containing 'featured' in featuredProjects
-  //featuredProjects = jQuery.grep(projects, function(i, project) {
-  //  return project['tags'].indexOf("featured") !== -1;
-  //});
+  // remove projects with tags String containing 'featured'
+  projects = $.grep(projects, function(i, project) {
+    return project['tags'].indexOf("featured") === -1;
+  });
   var featuredDiv = document.createElement('div');
   featuredDiv.id = 'featured'
   $("#hack-night-projects").append(featuredDiv);
