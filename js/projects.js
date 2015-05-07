@@ -29,7 +29,7 @@ function showProjects(response){
 
   });
   // store projects with tags String containing 'featured' in featuredProjects
-  featuredProjects = $.grep(projects, function(i, project) {
+  featuredProjects = jQuery.grep(projects, function(i, project) {
     return project['tags'].indexOf("featured") !== -1;
   });
   var featuredDiv = document.createElement('div');
