@@ -12,12 +12,11 @@ var cfapi_url = 'http://codeforamerica.org/api/organizations/Code-for-San-Franci
 $.getJSON(cfapi_url, showProjects);
 
 function showProjects(response){
-  
   projects = response.objects;
   // loop through our project data
-  $.each(projects, function(i, project){
+  $.each(projects, function(i, project) {
     // check to see if this project has a corresponding Jekyll page
-    if(projectData[project['id']]) {
+    if (projectData[project['id']]) {
       project['cfsf_url'] = projectData[project['id']]['url'];
     }
     // add some variables to support adding a new Jekyll project post
@@ -28,6 +27,9 @@ function showProjects(response){
     // http://momentjs.com/docs/#/displaying/fromnow/
     project['last_updated_formatted'] = moment(project['last_updated']).fromNow();
 
+  });
+  featuredProjects = $.grep(projects, function(x) {
+    return x['tags'].indexOf("featured") !== -1;
   });
   var featuredDiv = document.createElement('div');
   featuredDiv.id = 'featured'
