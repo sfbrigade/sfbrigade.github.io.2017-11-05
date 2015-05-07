@@ -26,6 +26,7 @@ http://en.wikipedia.org/wiki/Buckley_v._Valeo
 http://en.wikipedia.org/wiki/Citizens_United_v._FEC
 
 [**Video of Jesse's talk**](https://www.youtube.com/watch?v=Y6Sg24MQ-aE)
+[**Jesse's Slides**](https://docs.google.com/presentation/d/1Q4jqA4XrRBPIaw_lCW3lBJJy7MRLp93OVSChNoa1vPc/edit?usp=sharing)
 
 
 ## Dark Money. It’s as creepy as it sounds.
@@ -55,6 +56,7 @@ Michael pointed to the importance of journalists having access to campaign data 
 Miriam Marks, Data Director at MapLight. “The challenges with using state data are the challenges of using Cal-Access.” Miriam illustrated how MapLight has found its way through the labyrinth that Cal-Access places between users and campaign finance data. Despite this, MapLight is able to build comprehensive, data-rich stories which track the influence of money in politics.
 
 [**Video of Miriam's talk**](https://www.youtube.com/watch?v=yz7oJWLbzUY)
+[**Miriam's Slides**](https://docs.google.com/presentation/d/1n3MTLB2FJKCPfeHauY0Gsl5r9AonMMoVHPB_Ggotjl4/edit?usp=sharing)
 
 The challenge to our democracy by the influence of seemingly unlimited amounts of campaign contributions through super PACS is being met with alarm and increasing scrutiny. The California Campaign Finance Summit demonstrated how a partnership with technologists, designers, concerned citizens and journalists can shine some light into the dark recesses of campaign finances.
 
