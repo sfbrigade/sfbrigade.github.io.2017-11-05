@@ -33,7 +33,7 @@ function showProjects(response){
   });
 
   var featuredDiv = document.createElement('div');
-  featuredDiv.id = 'featured'
+  featuredDiv.id = 'featured';
   $("#hack-night-projects").append(featuredDiv);
   $("#hack-night-projects").append(ich.projects({projects:projects}));
   // Follow next page links
