@@ -28,6 +28,7 @@ function showProjects(response){
     project['last_updated_formatted'] = moment(project['last_updated']).fromNow();
 
   });
+  // store projects with 'featured' in tags String in featuredProjects
   featuredProjects = $.grep(projects, function(x) {
     return x['tags'].indexOf("featured") !== -1;
   });
