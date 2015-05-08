@@ -1,12 +1,12 @@
 ---
 layout: blog
 published: true
-title: Newsletter for April 30 - May 6
+title: Newsletter for April 23 - April 29
 categories: newsletter
 author: newsletter_editor
 ---
 
-<!-- THE TBODY BELOW WAS COPIED FROM http://us10.campaign-archive1.com/?u=13e30524fec23783d4f80e3b5&id=0397b38612&e=a2b1c92616 // -->
+<!-- THE TBODY BELOW WAS COPIED FROM http://us10.campaign-archive1.com/?u=13e30524fec23783d4f80e3b5&id=d3ee42f548&e=2882498a4e // -->
 
 <tbody><tr>
                                 <td align="center" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
@@ -33,7 +33,7 @@ author: newsletter_editor
                         
                         <td class="mcnTextContent" style="padding: 9px 18px 9px 0px;font-family: Arial,&quot;helvetica neue&quot;: ;,helvetica,sans-serif: ;font-size: 9px;font-weight: normal;line-height: 150%;text-align: left;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;" valign="top">
                         
-                            <a href="http://us10.campaign-archive2.com/?u=13e30524fec23783d4f80e3b5&amp;id=0397b38612&amp;e=a2b1c92616" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: underline;">View this email in your browser</a>
+                            <a href="http://us10.campaign-archive2.com/?u=13e30524fec23783d4f80e3b5&amp;id=d3ee42f548&amp;e=2882498a4e" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: underline;">View this email in your browser</a>
                         </td>
                     </tr>
                 </tbody></table>
@@ -106,26 +106,17 @@ author: newsletter_editor
                 <table class="mcnTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="396" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
                     <tbody><tr>
                         
-                        <td class="mcnTextContent" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;font-size: 15px;line-height: 150%;text-align: left;" valign="top">
+                        <td class="mcnTextContent" style="padding: 9px 18px;font-family: Arial,&quot;helvetica neue&quot;: ;,helvetica,sans-serif: ;font-size: 9px;font-weight: normal;line-height: 150%;text-align: left;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;" valign="top">
                         
-                            <h1 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 40px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #606060 !important;">Hack Night</h1>
+                            <h1 class="mc-toc-title" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 40px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #606060 !important;">Fellow Hackers...</h1>
 
-<h1 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 40px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #606060 !important;">5/6</h1>
-
-<h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.75px;text-align: left;color: #404040 !important;"><strong>Judy van Soldt: Agile Project Management</strong></h2>
-<span class="message_content"><strong>Feeling stuck on a project, or unsure how to strategically move forward?</strong> Learn about Agile Project Management from <a href="https://www.linkedin.com/in/judyvansoldt" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">Judy van Soldt</a>, Founder of <a href="http://3letterfirm.com/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">3 Letter Firm</a>. With a focus on civic and volunteer projects, Judy will give a general overview about how to use this framework. Expect to walk away with a solid grounding, learn more about the Agile Manifesto and its guiding principles, or strategize how this might help your project. </span><br>
+<h3 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.5px;text-align: left;color: #606060 !important;"><br>
+Hey Hackers!<br>
 <br>
-<span class="message_content">This is part of our ongoing ‘101 Series.’ Judy is also a member of the Core Team at Code for SF.</span>
+<a href="http://codeforsanfrancisco.org/signup/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">Thank you for signing up</a> to our new e-newsletter! Please forward this to anyone who might be interested in these events or getting this info!<br>
+<br>
+Now, to the good stuff...</h3>
 
-<h1 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 40px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #606060 !important;"><br>
-5/13</h1>
-
-<h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.75px;text-align: left;color: #404040 !important;"><strong>Jodie Medeiros: SFHAC</strong></h2>
-<strong>For many, housing policy can be dry and wonky. Jodi Medeiros, Deputy Director of <a href="http://www.sfhac.org/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">San Francisco Housing Action Coalition</a></strong>, will unpack two important pieces of San Francisco housing legislation that will help produce more middle-income housing. These will soon be introduced soon at the Board of Supervisors. Come to learn more, ask questions, and find out how you can take action. Feel free to check out SFHAC’s latest blog post about the <a href="http://www.sfhac.org/housing-policy-update/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">Inclusionary Dial and Off-Site Inclusionary Reform</a>.<br>
-&nbsp;<br>
-SFHAC is a non-profit advocating for the creation of well-designed, well-located housing at ALL levels of affordability.<br>
-&nbsp;<br>
-This is part of the brigade's 2015 focus on housing.
                         </td>
                     </tr>
                 </tbody></table>
@@ -157,13 +148,18 @@ This is part of the brigade's 2015 focus on housing.
                         
                         <td class="mcnTextContent" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;font-size: 15px;line-height: 150%;text-align: left;" valign="top">
                         
-                            <h1 class="mc-toc-title" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 40px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #606060 !important;">Announcements</h1>
+                            <h1 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 40px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #606060 !important;">Hack Night</h1>
 
-<h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.75px;text-align: left;color: #404040 !important;">Host a 'Future Graduates' Intern This Summer</h2>
-Fully funded by <a href="http://sfciti.org/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">sf.citi</a>, our <a href="http://sfciti.org/initiatives/the-future-graduates-summer-tech-internships-program/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;"><span>Future</span> <span>Graduates</span></a> summer tech internship program asks a company to host two or more local public high school students for an 8-week summer internship at less than 20 hours per week at your SF-based tech company.&nbsp; The program provides great positive impact for youth in the city and with a low barrier to entry and easy on board process for companies to participate. All a company needs to do is say that they're "in" for taking on two or more students, as the scope of each internship is up to the needs, creativity and current projects. <a href="https://www.youtube.com/watch?v=UHvgWKFH5I0&amp;list=PLaDYgkRjpl3YGx2Oh1TyTJ4PPAemsUHtJ&amp;index=2" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">We've seen tremendous positive value</a> for employees, and the students themselves get lasting experience through any sort of exposure they receive at a company.
+<h1 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 40px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #606060 !important;">4/15</h1>
 
-<h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.75px;text-align: left;color: #404040 !important;"><br>
-Hackership</h2>
+<h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.75px;text-align: left;color: #404040 !important;"><strong>Cyd Harrell, UX Research</strong></h2>
+<strong>Cyd Harrell will be leading a "User Research 101" workshop</strong>. She will cover the core observational interview methods and participant recruiting basics. Talking and observing your users is a great way to improve any kind of software or product in development. For civic tech, this is especially relevant because our projects are focused on a broad population.<br>
+<br>
+<a href="https://www.codeforamerica.org/people/cyd-harrell/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">Cyd Harrell</a> (UX Evangelist) is a highly versatile and collaborative user experience expert with 12+ years of success improving online and software products. As CfA’s UX evangelist she works with fellows and staff to ensure we’re creating inventive and cost-effective solutions to serve the needs of real users. Previously she has been a Board Member at Brightworks School and the VP of UX Research at Bolt Peters.
+
+<h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.75px;text-align: left;color: #404040 !important;">&nbsp;</h2>
+
+<h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.75px;text-align: left;color: #404040 !important;">Hackership</h2>
 <span class="message_content">Hackership is a hands on, self-directed learning retreat for software developers. It's where developers come to learn new technologies and work on their craft. We don't have a set curriculum, meaning our learners are free to explore things that interest them most.</span><br>
 <br>
 <span class="message_content">We provide a safe and distraction-free environment, &nbsp;as well as a daily structure, friendly coaches and a variety of workshops. All that to make sure that each learner gets the most of their 9 weeks with us.</span><br>
@@ -202,10 +198,127 @@ Hackership</h2>
                         
                         <td class="mcnTextContent" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;font-size: 15px;line-height: 150%;text-align: left;" valign="top">
                         
+                            <h1 class="mc-toc-title" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 40px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #606060 !important;">Announcements</h1>
+
+<h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.75px;text-align: left;color: #404040 !important;">Ethan Lang: Celebrating the Life of Our Friend - 4/18</h2>
+Many of you may have known Ethan Lang. He was a central member of Code for San Francisco, tackling the Local Free Web initiative. In late January he passed away after a short illness. His loss was felt by the whole civic tech community. Members of Code for SF have written <a href="http://codeforsanfrancisco.org/celebrating-ethan-lang/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">this blog post about him</a>.<br>
+<br>
+There will be <a href="https://www.facebook.com/events/930243943673109/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">a celebration of his life</a> on Saturday, April 18 at 5 pm at Ocean Beach in San Francisco.
+                        </td>
+                    </tr>
+                </tbody></table>
+                
+            </td>
+        </tr>
+    </tbody>
+</table><table class="mcnDividerBlock" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class="mcnDividerBlockOuter">
+        <tr>
+            <td class="mcnDividerBlockInner" style="padding: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <table style="border-top: 1px solid #999999;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody><tr>
+                        <td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+    </tbody>
+</table><table class="mcnTextBlock" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class="mcnTextBlockOuter">
+        <tr>
+            <td class="mcnTextBlockInner" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                
+                <table class="mcnTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="396" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+                        
+                        <td class="mcnTextContent" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;font-size: 15px;line-height: 150%;text-align: left;" valign="top">
+                        
                             <h1 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 40px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #606060 !important;">National Day of Civic Hacking</h1>
 
 <h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.75px;text-align: left;color: #404040 !important;">SF 2015: June 5 - 7</h2>
-<a href="http://codeforsanfrancisco.org/hackforchange/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">Join passionate neighbors</a>, urbanists, civic hackers, developers, designers, government staff, and community organizers from across the globe to come together to improve our communities and governments. Here in San Francisco, we will be focused on tackling challenges and projects in open data, health, safety and justice, economic development, climate, disaster relief, oceans, and mapping. Work on a project, test solutions out with residents, hone skills at workshops, and check it out.
+<a href="http://codeforsanfrancisco.org/hackforchange/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">Join passionate neighbors</a>, urbanists, civic hackers, developers, designers, government staff, and community organizers from across the globe to come together to improve our communities and governments. Here in San Francisco, we will be focused on tackling challenges and projects in open data, health, safety and justice, economic development, climate, disaster relief, oceans, and mapping. Work on a project, test solutions out with residents, hone skills at workshops, or check it out.<br>
+<br>
+<a href="https://www.eventbrite.com/e/national-day-of-civic-hacking-sf-2015-tickets-16547714660?ref=estw" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">Get </a><a href="https://www.eventbrite.com/e/national-day-of-civic-hacking-sf-2015-tickets-16547714660?ref=estw" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">tickets ($10)</a> or <a href="http://codeforsanfrancisco.org/hackforchange/projectreqs/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">propose a project/challenge</a>.
+                        </td>
+                    </tr>
+                </tbody></table>
+                
+            </td>
+        </tr>
+    </tbody>
+</table><table class="mcnDividerBlock" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class="mcnDividerBlockOuter">
+        <tr>
+            <td class="mcnDividerBlockInner" style="padding: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <table style="border-top: 1px solid #999999;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody><tr>
+                        <td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+    </tbody>
+</table><table class="mcnTextBlock" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class="mcnTextBlockOuter">
+        <tr>
+            <td class="mcnTextBlockInner" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                
+                <table class="mcnTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="396" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+                        
+                        <td class="mcnTextContent" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;font-size: 15px;line-height: 150%;text-align: left;" valign="top">
+                        
+                            <h1 class="mc-toc-title" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 40px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #606060 !important;">Help Wanted</h1>
+
+<h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.75px;text-align: left;color: #404040 !important;">National Day of Civic Hacking - SF 2015</h2>
+Do you want to help plan <a href="http://codeforsanfrancisco.org/hackforchange/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">SF's National Day of Civic Hacking</a>? Shape an event focused on making your city better? We are looking for volunteers to help organize the event. (College students, we would be happy to count this as an internship!)<br>
+<br>
+<strong>Email hello@codeforsanfrancisco.org</strong> with the subject "National Day of Civic Hacking.'<br>
+<br>
+&nbsp;
+<h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.75px;text-align: left;color: #404040 !important;"><strong>User Personas</strong></h2>
+<strong>Oh, Yes!</strong> <strong>We want to create a set (or library) of User Personas for all SF Brigades to use. </strong>Why re-invent the wheel when we can build it together? Two teams are already building personas for their projects. With those, SF Brigade wants to make them available for all teams and build out a complete set.&nbsp;<br>
+<br>
+Want to share or write some? Email the Delivery Team at <strong>hello@codeforsanfrancisco.org</strong>.
+                        </td>
+                    </tr>
+                </tbody></table>
+                
+            </td>
+        </tr>
+    </tbody>
+</table><table class="mcnDividerBlock" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class="mcnDividerBlockOuter">
+        <tr>
+            <td class="mcnDividerBlockInner" style="padding: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                <table style="border-top: 1px solid #999999;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody><tr>
+                        <td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+    </tbody>
+</table><table class="mcnTextBlock" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class="mcnTextBlockOuter">
+        <tr>
+            <td class="mcnTextBlockInner" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                
+                <table class="mcnTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="396" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody><tr>
+                        
+                        <td class="mcnTextContent" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;font-size: 15px;line-height: 150%;text-align: left;" valign="top">
+                        
+                            <h1 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 40px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -1px;text-align: left;color: #606060 !important;">Recap</h1>
+
+<h2 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.75px;text-align: left;color: #404040 !important;">CA Campaign Finance Summit</h2>
+<span class="message_content">On Sunday April 12, 2015, the San Francisco Brigade brought together a range of people, organizations and news organizations to try and uncover who is paying for whom in politics. Campaign finances have been one of the Brigades key projects for the last six months and the Brigade took it to the next level. Participants were given a crash course on how legal decisions have created the current system of campaign finance, the challenges in accessing campaign finance data, and some of the work being done to make campaign finances more transparent. The event was sponsored by SAP. Look for a full report on the event soon. </span>
                         </td>
                     </tr>
                 </tbody></table>
@@ -390,56 +503,13 @@ Hackership</h2>
                         
                             <h3 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.5px;text-align: left;color: #606060 !important;"><strong>Upcoming Events</strong></h3>
 
-<p style="margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;font-size: 13px;line-height: 125%;text-align: left;"><strong><a href="http://sfdesignweek.org/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">SF Design Week</a><br>
-June 4 - 12</strong><br>
-From tech inventions to culture changing products, human centered design, emerging fashion to international&nbsp;architecture, San Francisco Design Week is an opportunity to experience the regions unique design talents, impact and innovations.<br>
+<p style="margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;font-size: 13px;line-height: 125%;text-align: left;"><a href="https://neighborland.com/now" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;"><strong>NOW! Festival</strong></a><br>
+<strong>Sun, April 19-Sat, April 25</strong><br>
+A semi-annual event to co-create the best possible version of our community for one extraordinary week, taking place in the neighborhoods surrounding the Panhandle.<br>
 <br>
-<strong><a href="http://hackforchange.org/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">National Day of Civic Hacking</a></strong><br>
+<a href="http://hackforchange.org/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;"><strong>National Day of Civic Hacking</strong></a><br>
 <strong>Fri/Sat/Sun, June 5 - 7 </strong><br>
 Want to improve your city?! Join thousands around the world in rethinking your city: urbanists, civic hackers, government staff, developers, designers, community organizers and anyone with the passion to make their city better.</p>
-
-                        </td>
-                    </tr>
-                </tbody></table>
-                
-            </td>
-        </tr>
-    </tbody>
-</table><table class="mcnDividerBlock" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-    <tbody class="mcnDividerBlockOuter">
-        <tr>
-            <td class="mcnDividerBlockInner" style="padding: 18px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                <table style="border-top: 1px solid #999999;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%">
-                    <tbody><tr>
-                        <td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                            <span></span>
-                        </td>
-                    </tr>
-                </tbody></table>
-            </td>
-        </tr>
-    </tbody>
-</table><table class="mcnTextBlock" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-    <tbody class="mcnTextBlockOuter">
-        <tr>
-            <td class="mcnTextBlockInner" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                
-                <table class="mcnTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="203" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
-                    <tbody><tr>
-                        
-                        <td class="mcnTextContent" style="padding: 9px 18px;font-family: Arial,&quot;helvetica neue&quot;: ;,helvetica,sans-serif: ;font-size: 9px;font-weight: normal;line-height: 150%;text-align: left;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;" valign="top">
-                        
-                            <h3 class="null" style="margin: 0;padding: 0;display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: -.5px;text-align: left;color: #606060 !important;"><strong>#CivicTech</strong></h3>
-<strong>Curated by Andrew Hyder</strong>
-
-<p style="margin: 1em 0;padding: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-family: Helvetica;font-size: 13px;line-height: 125%;text-align: left;"><a href="http://www.newyorker.com/news/news-desk/the-life-and-death-of-sabeen-mahmud" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;"><strong>Remembering Sabeen Mahmad</strong></a><br>
-Sabeen, 39, was the first person to believe in and throw her support behind Code for Pakistan, according to a post on <a href="http://codeforpakistan.org/blog/2015/04/28/sabeen-mahmuds-legacy/" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">Code for Pakistan’s blog</a>. The prominent human rights activist was gunned down as she left the arts center she founded.<br>
-<br>
-<a href="http://baltimorelunch.org/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">Two Brigades Map Free Lunches for Students in Baltimore</a><br>
-Following the protests and school closings last week, <a href="https://twitter.com/CodeforDC" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">Code for DC</a> and <a href="https://twitter.com/CodeForBoston" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">Code for Boston</a> created an app so Baltimore students could find&nbsp;free lunches around the city.<br>
-<br>
-<a href="https://www.mapbox.com/blog/nepal-earthquake-animation/" target="_blank" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">Mapping Nepal</a><br>
-In the days since the earthquake in Nepal, thousands of humanitarian mappers at <a href="https://www.mapbox.com/blog/nepal-earthquake-animation/" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #6DC6DD;font-weight: normal;text-decoration: underline;">Mapbox</a> and beyond have sprung into action to fill in map gaps in the affected areas.</p>
 
                         </td>
                     </tr>
@@ -524,7 +594,7 @@ Technical skills are never required to be an effective Civic Hacker; you only ne
                             <em>Copyright © 2015 Code for San Francisco, All rights reserved.</em><br>
 <br>
 <br>
-<a class="utilityLink" href="http://codeforsanfrancisco.us10.list-manage1.com/unsubscribe?u=13e30524fec23783d4f80e3b5&amp;id=9ea07180fe&amp;e=a2b1c92616&amp;c=0397b38612" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: underline;">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp; <a class="utilityLink" href="http://codeforsanfrancisco.us10.list-manage.com/profile?u=13e30524fec23783d4f80e3b5&amp;id=9ea07180fe&amp;e=a2b1c92616" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: underline;">update subscription preferences</a>&nbsp;<br>
+<a class="utilityLink" href="http://codeforsanfrancisco.us10.list-manage1.com/unsubscribe?u=13e30524fec23783d4f80e3b5&amp;id=9ea07180fe&amp;e=2882498a4e&amp;c=d3ee42f548" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: underline;">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp; <a class="utilityLink" href="http://codeforsanfrancisco.us10.list-manage1.com/profile?u=13e30524fec23783d4f80e3b5&amp;id=9ea07180fe&amp;e=2882498a4e" style="word-wrap: break-word;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #606060;font-weight: normal;text-decoration: underline;">update subscription preferences</a>&nbsp;<br>
 <br>
  <a href="http://www.mailchimp.com/monkey-rewards/?utm_source=freemium_newsletter&amp;utm_medium=email&amp;utm_campaign=monkey_rewards&amp;aid=13e30524fec23783d4f80e3b5&amp;afl=1"><img src="http://cdn-images.mailchimp.com/monkey_rewards/MC_MonkeyReward_15.png" border="0" alt="Email Marketing Powered by MailChimp" title="MailChimp Email Marketing" width="139" height="54"></a> 
                         </td>
