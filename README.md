@@ -44,24 +44,30 @@ Built using [Jekyll](http://jekyllrb.com/), [Bootstrap](http://getbootstrap.com/
 
 We use [GitHub Issues](https://github.com/sfbrigade/sfbrigade.github.io/issues) to track bugs and features. We've included several of our open GitHub Issues right on our homepage using the [Civic Tech Issue Finder](http://www.codeforamerica.org/geeks/civicissues).
 
-
 ### Running the Site Locally on Your Computer
 
 To run the site locally on your own computer (most helpful for previewing your own changes), you will need Jekyll installed ([click here for Jekyll installation instructions](http://jekyllrb.com/docs/installation/).)
 
-Fork and clone the repository, then run the following command in the root directory of the repo:
+Fork and clone the repository, then install dependencies (requires **ruby** and **bundler**).
 
-    $ jekyll serve
+```` sh
+cd sfbrigade.github.io/
+bundle install
+````
+
+Finally, run the following command in the root directory of the repo:
+
+    $ bundle exec jekyll serve
 
 or
 
-    $ jekyll serve --watch
+    $ bundle exec jekyll serve --watch
 
 The latter will cause Jekyll to watch for file changes and automatically
 regenerate the HTML (though you will still need to refresh the browser).
 If the `--watch` flag does not work, try the following instead:
 
-    $ jekyll serve --force_polling
+    $ bundle exec jekyll serve --force_polling
 
 (See [here](https://github.com/guard/listen/wiki/Troubleshooting) for
 background information on why `--watch` might not be working.)

@@ -13,10 +13,14 @@ $.getJSON(cfapi_url, showProjects);
 
 function showProjects(response){
   projects = response.objects;
+  var featuredIndex = []; 
   // loop through our project data
-  $.each(projects, function(i, project){
+  $.each(projects, function(i, project) {
+    //if (project['tags'].indexOf("featured") > -1) {
+    //  featuredIndex.push(i);
+    //}
     // check to see if this project has a corresponding Jekyll page
-    if(projectData[project['id']]) {
+    if (projectData[project['id']]) {
       project['cfsf_url'] = projectData[project['id']]['url'];
     }
     // add some variables to support adding a new Jekyll project post
@@ -28,6 +32,10 @@ function showProjects(response){
     project['last_updated_formatted'] = moment(project['last_updated']).fromNow();
 
   });
+
+  var featuredDiv = document.createElement('div');
+  featuredDiv.id = 'featured';
+  $("#hack-night-projects").append(featuredDiv);
   $("#hack-night-projects").append(ich.projects({projects:projects}));
   // Follow next page links
   if (response.pages.next) {
