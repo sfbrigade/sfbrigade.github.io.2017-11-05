@@ -777,3 +777,7 @@ left: -999em;
         }
 }
 
+
+#bulletLoc {
+  list-style-type: none;
+}
