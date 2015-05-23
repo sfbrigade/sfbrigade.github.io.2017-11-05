@@ -92,6 +92,44 @@
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a> -->
         </div><!-- /.carousel -->
+
+        {% elsif page.is_ndoch %}
+
+
+         <div id="banner" class="banner_ndoch "  >
+            <div class="container">
+             <div class="natban">
+                {% include ndoch_head.html %}
+              </div>
+            </div>
+        </div>
+
+        <div class="container">
+          <nav class="navbar navbar-blue">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="{{site.baseurl}}/hackforchange/">About</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="{{site.baseurl}}/hackforchange/participate">Participate</a></li>
+                <li><a href="{{site.baseurl}}/hackforchange/sponsors">Sponsor NDoCH SF</a></li>
+                <li><a href="{{site.baseurl}}/hackforchange/partners">Partner NDoCH SF</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="{{site.baseurl}}/hackforchange/resources">Resources</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!--/.container-fluid -->
+        </div>
+
+
         {% else %}
      <!-- FEATURED IMAGE AND INTRO -->
     <div class="title-parent">
@@ -109,5 +147,6 @@
     </div> <!-- /title-parent -->
 
     {% endif %}
+
 
         <div class="container">

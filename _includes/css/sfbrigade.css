@@ -781,3 +781,27 @@ left: -999em;
 #bulletLoc {
   list-style-type: none;
 }
+
+
+/* CUSTOMIZE THE CAROUSEL NDOCH
+-------------------------------------------------- */
+
+/* Carousel base class */
+.banner_ndoch {
+  height: 700px;
+  background-image: url({{site.baseurl}}/images/goldengate-top.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+
+.natban {
+margin-top: 20px;
+margin-bottom: 40px;
+}
+
+.shader{
+  background-color: rgba(0,0,0,0.44)
+}
