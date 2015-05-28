@@ -4,14 +4,14 @@ title: Taking all things together, how happy would you say you are?
 ---
 <div class="row" id="maincontent" tabindex="-1">
     <form id="happyForm">
-        <span class="required_notification">* Denotes Required Field</span>
+        <span class="required_notification">* Denotes Required Field</span></br>
         <label for="happiness">1 (very unhappy) to 5 (extremely happy):</label></br>
         <input type="radio" id="hap1" name="happiness" value="1"/>1
         <input type="radio" id="hap2" name="happiness" value="2"/>2
         <input type="radio" id="hap3" name="happiness" value="3"/>3
         <input type="radio" id="hap4" name="happiness" value="4"/>4
         <input type="radio" id="hap5" name="happiness" value="5"/>5
-                
+        </br>        
         <!--<span id="range">3</span>
         <input type="range" name="happiness" id="happiness" min="1" max="5" value="3" onchange="showValue(this.value)" />
         <script>
@@ -30,22 +30,23 @@ title: Taking all things together, how happy would you say you are?
         }
         </script>-->
         <label for="zip">Enter Home Zip Code:</label>
-        <input type="text" name="zip" id="zip" maxlength="5" placeholder="94***" pattern="^94\d{3}$" required="required" />
+        <input type="text" name="zip" id="zip" maxlength="5" placeholder="94***" pattern="^94\d{3}$" required="required" /></br>
 
         <h3>Optional (for statistical purposes only)</h3>        
         <label for="gender">Gender:</label>
-        <input type="text" name="gender" id="gender" />
+        <input type="text" name="gender" id="gender" /></br>
         <label for="commute">How long was your commute today?:</label>
-        <input type="text" name="commute" id="commute" pattern="^.*$" />
+        <input type="text" name="commute" id="commute" pattern="^.*$" /></br>
         <label for="housing">Housing:</label>
         <input type="hidden" name="housing" value="N/A" autocomplete="off" />
         <input type="radio" id="housing1" name="housing" value="own"/>own
-        <input type="radio" id="housing2" name="housing" value="rent"/>rent
+        <input type="radio" id="housing2" name="housing" value="rent"/>rent</br>
         <label for="age">Age:</label>
         <input type="hidden" name="age" value="N/A" autocomplete="off" />
         <input type="radio" id="age1" name="age" value="16-29"/>16-29
         <input type="radio" id="age2" name="age" value="30-59"/>30-59
         <input type="radio" id="age3" name="age" value="60+"/>60+
+        </br>
         <button class="submit" type="submit" value="Send">Submit Form</button>
     </form>
 </div>
