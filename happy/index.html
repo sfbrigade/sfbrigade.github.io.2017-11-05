@@ -4,6 +4,7 @@ title: SF Bay Area Happy Survey
 ---
 <div class="row" id="maincontent" tabindex="-1">
   <div class="row">
+    <div class="col-md-2"></div>
   <div class="col-md-8">
 
     <form id="happyForm" role="form">
@@ -13,18 +14,23 @@ title: SF Bay Area Happy Survey
         <fieldset>
           <legend>Taking all things together, how happy would you say you are?
         1 (very unhappy) to 5 (extremely happy):</br></legend>
-        <label for="hap1" class="radio-inline"><input type="radio" id="hap1" name="happiness" value="1"/>1  (very unhappy) </label>
-        <label for="hap2" class="radio-inline"><input type="radio" id="hap2" name="happiness" value="2"/>2</label>
-        <label for="hap3" class="radio-inline"><input type="radio" id="hap3" name="happiness" value="3"/>3</label>
-        <label for="hap4" class="radio-inline"><input type="radio" id="hap4" name="happiness" value="4"/>4</label>
-        <label for="hap5" class="radio-inline"><input type="radio" id="hap5" name="happiness" value="5"/>5  (extremely happy)</label>
-        </br>
+        <div class="row">
+        <div class="col-md-3"><input type="radio" id="hap1" name="happiness" value="1"/></div>
+        <div class="col-md-2"><input type="radio" id="hap2" name="happiness" value="2"/></div>
+        <div class="col-md-2"><input type="radio" id="hap3" name="happiness" value="3"/></div>
+        <div class="col-md-2"><input type="radio" id="hap4" name="happiness" value="4"/></div>
+        <div class="col-md-3"><input type="radio" id="hap5" name="happiness" value="5"/></div>
+        </div>
+        <div class="row">
+        <div class="col-md-3"><label for="hap1" >1 <br>(very unhappy) </label></div>
+        <div class="col-md-2"><label for="hap2" >2</label></div>
+        <div class="col-md-2"><label for="hap3" >3</label></div>
+        <div class="col-md-2"><label for="hap4" >4</label></div>
+        <div class="col-md-3"><label for="hap5" >5 <br>(extremely happy)</label>
+      </div>
+
       </fieldset>
 
-      <div data-role="fieldcontain">
-	<label for="happiness">  1 (very unhappy) to 5 (extremely happy):</label>
- 	<input type="range" name="happiness" id="happiness" value="3" min="1" max="5"  />
-</div>
 
         <!--<span id="range">3</span>
         <input type="range" name="happiness" id="happiness" min="1" max="5" value="3" onchange="showValue(this.value)" />
@@ -85,7 +91,7 @@ title: SF Bay Area Happy Survey
       </div>
     </form>
     </div>
-    <div class="col-md-4"></div>
+    <div class="col-md-2"></div>
   </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
