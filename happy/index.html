@@ -37,17 +37,18 @@ title: SF Bay Area Happy Survey
             }
         }
         </script>-->
-        <label for="zip">Enter Home Zip Code:</label>
-        <input type="text" name="zip" id="zip" maxlength="5" placeholder="94***" pattern="^94\d{3}$" required="required" /></br>
-
+        <div class="form-group">
+          <label for="zip">Enter Home Zip Code:</label>
+        <input type="text" name="zip" id="zip" maxlength="5" placeholder="94***" pattern="^94\d{3}$" required="required" class="form-control" /></br>
+</div>
         <h3>Optional (for statistical purposes only)</h3>
         <div class="form-group">
         <label for="gender">Gender:</label>
-        <input type="text" name="gender" id="gender" /></br>
+        <input type="text" name="gender" id="gender" class="form-control" /></br>
       </div>
         <div class="form-group">
         <label for="commute">How long was your commute today?:</label>
-        <input type="text" name="commute" id="commute" pattern="^.*$" /></br>
+        <input type="text" name="commute" id="commute" pattern="^.*$" class="form-control" /></br>
       </div>
 
         <fieldset>
