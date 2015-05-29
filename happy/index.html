@@ -44,7 +44,7 @@ title: SF Bay Area Happiness Survey
         <br>
         <div class="form-group">
           <label for="zip">Enter Home Zip Code:</label>
-        <input type="number" name="zip" id="zip" maxlength="5" placeholder="94***" pattern="^94\d{3}$" required="required" class="form-control" /></br>
+        <input type="number" name="zip" id="zip" maxlength="5" placeholder="94***" pattern="^94\d{3}$" required="required" class="form-control" /><br>
 </div>
         <h3>Optional (for statistical purposes only)</h3>
         <div class="form-group">
@@ -52,8 +52,15 @@ title: SF Bay Area Happiness Survey
         <input type="text" name="gender" id="gender" class="form-control" />
       </div>
         <div class="form-group">
-        <label for="commuteg">How long was your commute today?:</label>
-        <input type="text" name="commute" id="commuteg"  class="form-control" />
+        <!--label for="commute">How long was your commute today?:</label>
+        <input type="text" name="commute" id="commute"  class="form-control"  /-->
+
+        <label for="commute1" ><input type="radio" id="commute1" name="commute" value="0"/>I don't have a commute</label>
+        <label for="commute2" ><input type="radio" id="commute2" name="commute" value="1"/>Less than 15 minutes</label>
+        <label for="commute3" ><input type="radio" id="commute3" name="commute" value="2"/>  15-30 minutes</label>
+        <label for="commute4" ><input type="radio" id="commute4" name="commute" value="3"/>  30-60 minutes</label>
+        <label for="commute5" ><input type="radio" id="commute5" name="commute" value="4"/>  1-2 hours</label>
+        <label for="commute6" ><input type="radio" id="commute6" name="commute" value="5"/>  More than 2 hours</label>
       </div>
 
         <fieldset>
