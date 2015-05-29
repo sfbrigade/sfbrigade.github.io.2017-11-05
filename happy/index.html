@@ -10,11 +10,11 @@ title: SF Bay Area Happiness Survey
     <form id="happyForm" role="form">
       <div class="form-group">
 
-        <div class="row"><p><span class="required_notification">* Denotes Required Field</span><br></p></div>
+        <!--div class="row"><p><span class="required_notification">* Denotes Required Field</span><br></p></div-->
         <div class="row">
         <fieldset>
-          <legend>*Taking all things together, how happy would you say you are? <br>
-        1 (very unhappy) to 5 (extremely happy):<br></legend>
+          <legend>Taking all things together, how happy would you say you are? <br>
+        1 (very unhappy) to 5 (extremely happy)(required):<br></legend>
 
         <div class="col-md-2"><input type="radio" id="hap1" name="happiness" value="1"/> <label for="hap1"  > 1 (very unhappy) </label></div>
         <div class="col-md-2"><input type="radio" id="hap2" name="happiness" value="2"/> <label for="hap2" > 2</label></div>
@@ -43,7 +43,7 @@ title: SF Bay Area Happiness Survey
         </script>-->
         <br>
         <div class="form-group">
-          <label for="zip">*Enter Home Zip Code:</label>
+          <label for="zip">Enter Home Zip Code (required):</label>
         <input type="number" name="zip" id="zip" maxlength="5" placeholder="94***" pattern="^94\d{3}$" required="required" class="form-control" /><br>
 </div>
         <h3>Optional (for statistical purposes only)</h3>
