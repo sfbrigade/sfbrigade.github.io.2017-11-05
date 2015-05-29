@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    var request;    
-    
+    var request;
+
     $("#happyForm").submit(function(event) {
         // Abort any pending request
         if (request) {
@@ -47,6 +47,7 @@ $(document).ready(function() {
         request.always(function () {
             // Reenable the inputs
             $inputs.prop("disabled", false);
+            document.location = "./thankyou.html"; // Other page in same directory
         });
 
         // Prevent default posting of form
