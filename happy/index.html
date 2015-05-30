@@ -1,0 +1,99 @@
+---
+layout: default
+title: SF Bay Area Happiness Survey
+---
+<div class="row article-content" id="maincontent2" >
+  <div class="row">
+    <div class="col-xs-2"></div>
+  <div class="col-xs-8">
+
+    <form id="happyForm" role="form">
+      <div class="form-group">
+
+        <!--div class="row"><p><span class="required_notification">* Denotes Required Field</span><br></p></div-->
+        <div class="row">
+        <fieldset>
+          <legend>Taking all things together, how happy would you say you are? <br>
+        1 (very unhappy) to 5 (extremely happy)(required):<br></legend>
+
+        <div class="col-md-2"><input type="radio" id="hap1" name="happiness" value="1"/> <label for="hap1"  > 1 (very unhappy) </label></div>
+        <div class="col-md-2"><input type="radio" id="hap2" name="happiness" value="2"/> <label for="hap2" > 2</label></div>
+        <div class="col-md-2"><input type="radio" id="hap3" name="happiness" value="3"/> <label for="hap3" > 3</label></div>
+        <div class="col-md-2"><input type="radio" id="hap4" name="happiness" value="4"/> <label for="hap4" > 4</label></div>
+        <div class="col-md-2"><input type="radio" id="hap5" name="happiness" value="5"/> <label for="hap5" >5 (extremely happy)</label></div>
+      <div class="col-md-2"></div></fieldset>
+    </div>
+
+        <!--<span id="range">3</span>
+        <input type="range" name="happiness" id="happiness" min="1" max="5" value="3" onchange="showValue(this.value)" />
+        <script>
+        function showValue(newValue) {
+            if (newValue == 1) {
+                document.getElementById("range").innerHTML="1";
+            } else if (newValue == 2) {
+                document.getElementById("range").innerHTML="2";
+            } else if (newValue == 3) {
+                document.getElementById("range").innerHTML="3";
+            } else if (newValue == 4) {
+                document.getElementById("range").innerHTML="4";
+            } else {
+                document.getElementById("range").innerHTML="5";
+            }
+        }
+        </script>-->
+        <br>
+        <div class="form-group">
+          <label for="zip">Enter Home Zip Code (required):</label>
+        <input type="number" name="zip" id="zip" maxlength="5" placeholder="94***" pattern="^94\d{3}$" required="required" class="form-control" /><br>
+</div>
+        <h3>Optional (for statistical purposes only)</h3>
+        <div class="form-group">
+        <label for="gender">Gender:</label>
+        <input type="text" name="gender" id="gender" class="form-control" />
+      </div>
+
+        <!--label for="commute">How long was your commute today?:</label>
+        <input type="text" name="commute" id="commute"  class="form-control"  /-->
+  <fieldset>
+    <legend>How long was your commute today?</legend>
+        <div class="radio"><label for="commute1" ><input type="radio" id="commute1" name="commute" value="0"/>I don't have a commute</label></div>
+        <div class="radio"><label for="commute2" ><input type="radio" id="commute2" name="commute" value="1"/>Less than 15 minutes</label></div>
+        <div class="radio"><label for="commute3" ><input type="radio" id="commute3" name="commute" value="2"/>  15-30 minutes</label></div>
+        <div class="radio"><label for="commute4" ><input type="radio" id="commute4" name="commute" value="3"/>  30-60 minutes</label></div>
+        <div class="radio"><label for="commute5" ><input type="radio" id="commute5" name="commute" value="4"/>  1-2 hours</label></div>
+        <div class="radio"><label for="commute6" ><input type="radio" id="commute6" name="commute" value="5"/>  More than 2 hours</label></div>
+</fieldset>
+        <fieldset>
+          <legend>Housing:</legend>
+        <!--input type="hidden" name="housing" value="N/A" autocomplete="off" /-->
+        <div class="radio">
+        <label for="housing1" ><input type="radio" id="housing1" name="housing" value="own"/>own</label>
+        </div>
+        <div class="radio">
+        <label for="housing2"><input type="radio" id="housing2" name="housing" value="rent"/>rent</label>
+        </div>
+        </fieldset>
+        <fieldset>
+          <legend>Age:</legend>
+        <!--input type="hidden" name="age" value="N/A" autocomplete="off" /-->
+        <div class="radio">
+        <label for="age1"><input type="radio" id="age1" name="age" value="16-29"/>16-29</label>
+        </div>
+        <div class="radio">
+        <label for="age2"><input type="radio" id="age2" name="age" value="30-59"/>30-59</label>
+        </div>
+        <div class="radio">
+        <label for="age3"><input type="radio" id="age3" name="age" value="60+"/>60+</label>
+      </div>
+        </fieldset>
+        </br>
+        <button class="submit btn btn-primary" type="submit" value="Send">Submit</button>
+      </div>
+    </form>
+    </div>
+    <div class="col-xs-2"></div>
+  </div>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src=happyform.js></script>
