@@ -11,7 +11,7 @@ $(document).ready(function() {
 
         // Let's select and cache all the fields
         var $inputs = $form.find("input, select, button, textarea");
-
+        alert($inputs);
         // Serialize the data in the form
         var serializedData = $form.serialize();
 
