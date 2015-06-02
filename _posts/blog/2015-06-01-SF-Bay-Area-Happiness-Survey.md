@@ -2,7 +2,7 @@
 layout: blog
 published: true
 title: "Text if you’re happy or not says tech volunteer group"
-author: seung-hee_eu
+author: seunghee_eu
 
 ---
 FOR IMMEDIATE RELEASE
