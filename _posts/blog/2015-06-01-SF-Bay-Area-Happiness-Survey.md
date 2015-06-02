@@ -2,12 +2,12 @@
 layout: blog
 published: true
 title: "Text if you’re happy or not says tech volunteer group"
-author: seunghee_eu
+author: seunghee_eu_julio_feliciano
 
 ---
 FOR IMMEDIATE RELEASE
 
-TEXT IF YOU’RE HAPPY OR NOT SAYS TECH VOLUNTEER GROUP
+##TEXT IF YOU’RE HAPPY OR NOT SAYS TECH VOLUNTEER GROUP
 Civic Hackers Help Communities by Developing Technology for Good
 
 San Francisco, June 1, 2015 - Code for San Francisco volunteer hackers today launch the Happiness Survey to better understand the Bay Area state of mind. Any resident can take the two-minute survey now through June 3 to add their voice to National Day of Civic Hacking, a weekend dedicated to social and civic change using technology.
