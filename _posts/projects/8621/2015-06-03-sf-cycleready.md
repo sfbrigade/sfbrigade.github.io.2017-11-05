@@ -1,10 +1,11 @@
 ---
 category: projects
 layout: projects
-published: false
+published: true
 title: SF CycleReady
 lead: "Community-powered bike navigation"
 ---
+
 
 CycleReady is a web and mobile app that offers community-powered bike navigation, helps keep riders informed, and encourages hesitant cyclists to bike in San Francisco.
 
