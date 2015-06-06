@@ -4,6 +4,8 @@ layout: projects
 published: true
 title: Code for San Francisco Website
 lead: "The online presence for the San Francisco Brigade, Code for San Francisco"
+link: 'http://www.codeforsanfransico.org'
+code_url: 'https://github.com/sfbrigade/sfbrigade.github.io'
 ---
 
 ## Our Digital Front Door
