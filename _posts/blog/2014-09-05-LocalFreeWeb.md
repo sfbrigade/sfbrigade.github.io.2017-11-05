@@ -21,7 +21,7 @@ LocalFreeWeb was born out of a PARISOMA hackathon challenge to “help City orga
 
 ### How it works (summary)
 Every bus stop in San Francisco has a bus stop identification number. When someone at a bus stop sends a text message to a specific phone number (as prompted by a flyer on the bus stop), including the bus stop identification number, they will receive a text message response with the locations of the 3 closest free, internet-enabled computers, as well as the current day's hours of avaliablilty of those locations. The message response also prompts them to ask for “Free Internet” when they arrive at the location. Locations are not only sourced from an established database of community centers and libraries, but also from the crowd - anyone can add their knowledge of a free, internet-enabled computer. 
-[Photo of LocalFreeWeb text message](/images/blog/LocalFreeWebText.jpg)
+![Photo of LocalFreeWeb text message](/images/blog/LocalFreeWebText.jpg)
 
 ### How it works (technical details)
 
