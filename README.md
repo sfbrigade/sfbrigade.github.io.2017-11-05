@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/sfbrigade/sfbrigade.github.io.png?label=ready&title=Ready)](https://waffle.io/sfbrigade/sfbrigade.github.io)
 # CodeForSanFrancisco.org
 
 The website for the Code for San Francisco Brigade

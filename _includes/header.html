@@ -44,8 +44,8 @@
         <ul class="nav navbar-nav">
           <li><a href="{{ site.baseurl }}/about">About</a></li>
           <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
-          <!--<li><a href="{{ site.baseurl }}/events">Events</a></li>-->
-          <li><a href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/">Events</a></li>
+          <li><a href="{{ site.baseurl }}/events">Events</a></li>
+          <!-- li><a href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/">Events</a></li -->
           <li><a href="{{ site.baseurl }}/blog">Our Stories</a></li>
           <li><a href="{{site.baseurl}}/signup">Newsletter</a></li>
           <li class="featured-nav-link"><a href="{{ site.baseurl }}/getstarted">Get Started</a></li>
@@ -54,9 +54,8 @@
       </nav>
 
       {% if page.is_front %}
-         <div class="alert alert-success visible-xs" role="alert">
-           <span class="glyphicon glyphicon-ok-sign pull-left" style="font-size:24pt;"></span>
-           If you're currently at an SF Brigade event, <a href="http://j.mp/sfhacknight" alt="Click to sign in">why not check in?</a>
+         <div class="alert alert-success" role="alert">
+           Hack night is moved to Dr. Teeth and the Electric Mayhem for a summer social on August 5th
          </div>
 
          <!-- Carousel - only using one at the moment
@@ -79,7 +78,7 @@
                     We meet every week to hack for change. Join us, everyone is welcome!
                   </p>
                   </div>
-                  <a class="btn btn-lg btn-hack" href="{{site.baseurl}}/projects">Check out Projects</a> <a class="btn btn-lg btn-hack" href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/">Join us at hack night</a>
+                  <a class="btn btn-lg btn-hack" href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/">Join us for an upcoming Weekly Civic Hack Night!</a>
                 </div>
               </div>
             </div>
@@ -118,6 +117,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
+                <li><a href="{{site.baseurl}}/hackforchange/2015recap">2015 Recap</a></li>
                 <li><a href="{{site.baseurl}}/hackforchange/participate">Participate</a></li>
                 <li><a href="{{site.baseurl}}/hackforchange/projects">Projects</a></li>
                 <li><a href="{{site.baseurl}}/hackforchange/schedule">Schedule</a></li>
