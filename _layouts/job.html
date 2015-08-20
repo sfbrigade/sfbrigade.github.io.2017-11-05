@@ -4,7 +4,7 @@ layout: default
 
 <div id="main" role="main" class="job">
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-7">
       <article class="wrap" itemscope itemtype="http://schema.org/Article">
         {% if page.image.feature %}
         <div class="page-feature">
@@ -27,19 +27,19 @@ layout: default
             {{ content }}
             <hr />
             <div class="page-footer">
-              <p>Please submit your application or nomination by August 25. If you have questions about this new team and the process you can find out more on our FAQ page.</p>
+              <p>Please submit your application or nomination by September 1st by 11:59 PM. If you have questions about this new team and the process you can find out more on our <a href="{{site.baseurl}}/jobs/faq">FAQ page</a>.</p>
               <p>We are committed to building an inclusive, diverse organization.  Everyone is encouraged to apply.</p>
             </div>
             <!-- /.footer -->
-            <aside>
-              {% if page.comments == true %}{% include comments.html %}{% endif %}
-            </aside>
           </div>
           <!-- /.content -->
         </div>
         <!-- /.inner-wrap -->
       </article>
       <!-- ./wrap -->
+    </div>
+    <div class="col-md-5">
+      {% include application.html %}
     </div>
   </div>
 </div>
