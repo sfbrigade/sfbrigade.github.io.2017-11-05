@@ -16,6 +16,7 @@ Jesse and Maddie are both expecting new members to their families in January. Yo
 Functionally, you will work with the Executive Coordinator to handle any and all tasks that others cannot fulfil, no matter what they are, in order to sustain and advance Code for San Francisco’s efforts. You will likely be the first to arrive and the last to leave, you will direct people with questions to the appropriate Core Team, and you will provide counsel and advice to folks who simply need to connect with someone at Code for SF. 
 
 Other duties include:
+
 - Build and maintain a respectful and productive relationship with municipal partner and local government.
 - Be ultimately responsible for all activities involving Code for San Francisco
 - Commit to making your Brigade look like the community the Brigade is in.
@@ -40,6 +41,7 @@ Other duties include:
 
 ###Metrics
 The Captain will track the following:
+
 - Active members, teams, and partners growth rate
 - Overall number and usage of launched projects
 - Core Team member happiness
@@ -84,6 +86,7 @@ The Executive Coordinator will help the Captains to track and improve their metr
 
 ##PR Coordinator Description
 Are you amazing at networking or have an already large network of media contacts? Do people constantly imply you have a flair for social media? Do you write in a clear, concise manner? As Code for San Francisco’s PR Coordinator, you will:
+
 - Help project teams to come up with proper marketing strategies for launch
 - Help the brigade to take advantage of potential media-engagement opportunities
 - Develop and coordinate the PR / media strategy for the brigade with the Executive Team
