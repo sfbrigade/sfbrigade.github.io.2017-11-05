@@ -1,0 +1,4 @@
+---
+---
+name,description,link_url,code_url,status,tags{% for post in site.categories.projects reversed | sort: title %}
+{{ post.title}},{{post.excerpt}},{{post.link}},{{post.code_url}},"",""{% endfor %}

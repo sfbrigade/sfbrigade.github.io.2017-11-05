@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div id="main" role="main" class="job">
+  <div class="row">
+    <div class="col-md-7">
+      <article class="wrap" itemscope itemtype="http://schema.org/Article">
+        {% if page.image.feature %}
+        <div class="page-feature">
+          <div class="page-image">
+            <img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image"> {% if page.image.credit %}{% include image-credit.html %}{% endif %}
+          </div>
+          <!-- /.page-image -->
+        </div>
+        <!-- /.page-feature -->
+        {% endif %}
+        <!-- include breadcrumbs.html -->
+        <div class="inner-wrap">
+          <nav class="toc"></nav>
+          <!-- /.toc -->
+          <a href="{{site.baseurl}}/jobs">Return to jobs overview and application</a>
+          <div id="content" class="page-content" itemprop="articleBody">
+            <h2>Background</h2>
+              <p>Code for San Francisco is a collection of creative volunteers working to improve the lives of San Franciscans. We have grown a lot recently: from 400 people in January 2014 to 1700 people in July 2015. We continue to advocate for open public data, we continue to build useful civic apps like LocalFreeWeb and SF in Progress, and we continue to work on civic infrastructure like BallotAPI and OpenReferral.</p>
+              <p><b>But <u>we want to do more</u> and to do it better.</b> To that end, we are building our leadership team. 
+            {{ content }}
+            <hr />
+            <div class="page-footer">
+              <p>Please submit your application or nomination by September 1st by 11:59 PM. If you have questions about this new team and the process you can find out more on our <a href="{{site.baseurl}}/jobs/faq">FAQ page</a>.</p>
+              <p>We are committed to building an inclusive, diverse organization.  Everyone is encouraged to apply.</p>
+            </div>
+            <!-- /.footer -->
+          </div>
+          <!-- /.content -->
+        </div>
+        <!-- /.inner-wrap -->
+      </article>
+      <!-- ./wrap -->
+    </div>
+    <div class="col-md-5">
+      {% include application.html %}
+    </div>
+  </div>
+</div>
+<!-- /#main -->

@@ -7,6 +7,8 @@ author: joseph_tanigawa
 lead: Bringing the Web to those who can’t find it
 ---
 
+
+
 If you couldn’t access the internet right now, how would you figure out where to go to get online? Maybe you would go to the library, but what if it’s closed? What if there's a long wait? Where would you go then?
 
 Many organizations and institutions offer access to free, internet-enabled computers, but there is no way for someone to find these locations without being online already. In short, you need the internet to find the internet.
@@ -19,6 +21,7 @@ LocalFreeWeb was born out of a PARISOMA hackathon challenge to “help City orga
 
 ### How it works (summary)
 Every bus stop in San Francisco has a bus stop identification number. When someone at a bus stop sends a text message to a specific phone number (as prompted by a flyer on the bus stop), including the bus stop identification number, they will receive a text message response with the locations of the 3 closest free, internet-enabled computers, as well as the current day's hours of avaliablilty of those locations. The message response also prompts them to ask for “Free Internet” when they arrive at the location. Locations are not only sourced from an established database of community centers and libraries, but also from the crowd - anyone can add their knowledge of a free, internet-enabled computer. 
+![Photo of LocalFreeWeb text message](/images/blog/LocalFreeWebText.jpg)
 
 ### How it works (technical details)
 
