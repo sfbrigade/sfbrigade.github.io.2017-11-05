@@ -21,35 +21,34 @@ Are you a logistical mastermind? Can you organize a calendar of events better th
 - Guest Speakers
 - Greet /Check-in members
 - Responsible for food- ordering, making sure there’s enough, food planning, coordinating with the Finance Team to manage the food budget. Opportunity to engage with local small businesses!
-- Organize hack night special events 
+- Organize hack night special events
 - Quarterly Demo night
 - Socials- approximately once per quarter
 
 ##Coordinate with key folks internally
-Onboarding team
-Make sure someone is leading onboarding each night during hack night
-Help coordinate sign-in/check-in process
-Help connect newbies to projects
-Project team- help newbies plug into existing projects and highlight any projects during hack night
-Serve as a liaison between the onboarding team and the project team so that new people can plug into existing projects 
-Make sure the projects are being highlighted during hack night so that the community can understand how they can get involved and next steps.
-Showcase project successes and challenges during hack night!
-Manage guest speaker requests that come from external partners and brigade community
-Create a process flow to manage pitches and speakers at hack night
-Communicate hack night milestones for marketing, outreach, funding, and recruiting efforts
-Relevant Skills:
-Program or event management background
-Experience revising a process or workflow
-Adaptability
-Patience
-Seriously amazing communication skills
-Commitment:
-Attend weekly core team meetings (5:45-6:30pm) and hack nights 6:30-9pm
-Attend in-person monthly Core Team coordination meeting
-Available for 5-10 hours of communication per month outside of Hack Nights
-Metrics:
-The Hack Night Team will track the following:
-Hack night attendance- new and returning
-Hack night speakers and events 
-Active members and partners
-Other metrics as appropriate
+- Onboarding team
+- Make sure someone is leading onboarding each night during hack night
+- Help coordinate sign-in/check-in process
+- Help connect newbies to projects
+- Project team- help newbies plug into existing projects and highlight any projects during hack night
+- Serve as a liaison between the onboarding team and the project team so that new people can plug into existing projects
+- Make sure the projects are being highlighted during hack night so that the community can understand how they can get involved and next steps.
+- Showcase project successes and challenges during hack night!
+- Manage guest speaker requests that come from external partners and brigade community
+- Create a process flow to manage pitches and speakers at hack night
+- Communicate hack night milestones for marketing, outreach, funding, and recruiting efforts
+- Relevant Skills:
+  - Program or event management background
+  - Experience revising a process or workflow
+  - Adaptability
+  - Patience
+  - Seriously amazing communication skills
+- Commitment:
+  - Attend weekly core team meetings (5:45-6:30pm) and hack nights 6:30-9pm
+  - Attend in-person monthly Core Team coordination meeting
+  - Available for 5-10 hours of communication per month outside of Hack Nights
+- Metrics (tracked by the Hack Night Team):
+  - Hack night attendance - new and returning
+  - Hack night speakers and events
+  - Active members and partners
+  - Other metrics as appropriate
