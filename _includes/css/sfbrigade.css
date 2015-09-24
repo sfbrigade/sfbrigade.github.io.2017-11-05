@@ -14,10 +14,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 font-family: "Oswald","Helvetica Neue","Verdana", sans-serif;
 }
 
-h2, .h2 {
-  margin-top: 1.25em;
-}
-
 p {
   line-height: 1.8;
   margin-bottom: 1.1em;
@@ -274,9 +270,9 @@ table h3 {
 
 /* Custom page footer */
 .footer {
+  margin-top:10px;
   padding-top: 19px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
 }
 
 /* Customize container */
@@ -779,4 +775,27 @@ left: -999em;
             left: -14px;
             right: auto;
         }
+}
+
+
+#bulletLoc {
+  list-style-type: none;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL NDOCH
+-------------------------------------------------- */
+
+.banner_ndoch {
+  height: 400px;
+  background-image: url({{site.baseurl}}/images/goldengate-top.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+
+.navp {
+  margin-bottom: -20px;
 }

@@ -16,6 +16,7 @@
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/blog/feed.xml">
+
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -43,20 +44,20 @@
         <ul class="nav navbar-nav">
           <li><a href="{{ site.baseurl }}/about">About</a></li>
           <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
-          <!--<li><a href="{{ site.baseurl }}/events">Events</a></li>-->
-          <li><a href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/">Events</a></li>
+          <li><a href="{{ site.baseurl }}/events">Events</a></li>
+          <!-- li><a href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/">Events</a></li -->
           <li><a href="{{ site.baseurl }}/blog">Our Stories</a></li>
           <li><a href="{{site.baseurl}}/signup">Newsletter</a></li>
           <li class="featured-nav-link"><a href="{{ site.baseurl }}/getstarted">Get Started</a></li>
         </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="{{site.baseurl}}/jobs" style="margin-right: 20px; text-decoration: underline;">Join the Leadership Team</a></li>
+        </ul>
       </div><!-- /.navbar-collapse -->
       </nav>
-
+      
       {% if page.is_front %}
-         <div class="alert alert-success visible-xs" role="alert">
-           <span class="glyphicon glyphicon-ok-sign pull-left" style="font-size:24pt;"></span>
-           If you're currently at an SF Brigade event, <a href="http://j.mp/sfhacknight" alt="Click to sign in">why not check in?</a>
-         </div>
+
 
          <!-- Carousel - only using one at the moment
          ================================================== -->
@@ -78,7 +79,7 @@
                     We meet every week to hack for change. Join us, everyone is welcome!
                   </p>
                   </div>
-                  <a class="btn btn-lg btn-hack" href="/hackforchange">National Day of Civic Hacking is coming. Join us June 5th-7th!</a>
+                  <a class="btn btn-lg btn-hack" href="http://www.meetup.com/Code-for-San-Francisco-Civic-Hack-Night/">Join us for an upcoming Weekly Civic Hack Night!</a>
                 </div>
               </div>
             </div>
@@ -91,8 +92,50 @@
             <span class="glyphicon glyphicon-chevron-right"></span>
           </a> -->
         </div><!-- /.carousel -->
-        {% else %}
-     <!-- FEATURED IMAGE AND INTRO -->
+
+        {% elsif page.is_ndoch %}
+
+        <div id="banner" class="banner_ndoch "  >
+          <div class="container">
+            <div class="natban">
+              {% include ndoch_head.html %}
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="navp">
+          <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="{{site.baseurl}}/hackforchange/">About</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="{{site.baseurl}}/hackforchange/2015recap">2015 Recap</a></li>
+                <li><a href="{{site.baseurl}}/hackforchange/participate">Participate</a></li>
+                <li><a href="{{site.baseurl}}/hackforchange/projects">Projects</a></li>
+                <li><a href="{{site.baseurl}}/hackforchange/schedule">Schedule</a></li>
+                <li><a href="{{site.baseurl}}/hackforchange/judges">Judging</a></li>
+                <li><a href="{{site.baseurl}}/hackforchange/sponsors">Sponsor </a></li>
+                <li><a href="{{site.baseurl}}/hackforchange/partners">Partner</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="{{site.baseurl}}/hackforchange/resources">Resources</a></li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+
+    {% else %}
+
     <div class="title-parent">
 
       <div class="wide" {% if page.image %} style="background: #000000 url('{{ site.baseurl }}/images/projects/{{ page.image }}') no-repeat top center; background-size: cover;" {% else %} style="background: #cf1b41; color: #FFF;" {% endif %}>
@@ -109,4 +152,5 @@
 
     {% endif %}
 
-        <div class="container">
+
+  <div class="container">

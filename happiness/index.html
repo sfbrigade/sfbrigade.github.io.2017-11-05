@@ -1,0 +1,83 @@
+---
+layout: default
+title: SF Bay Area Happiness Survey
+---
+<div class="row article-content" id="maincontent2" >
+
+  <div class="row">
+    <div class="col-xs-2"></div>
+  <div class="col-xs-8">
+    <p>June 1, 2015 - Code for San Francisco volunteer hackers today launch the Happiness Survey to better
+      understand the Bay Area state of mind. Any resident can take the two-minute survey now
+      through June 3 to add their voice to National Day of Civic Hacking, a weekend dedicated
+      to social and civic change using technology. </p>
+    <form id="happyForm" role="form">
+      <div class="form-group">
+
+        <div class="row">
+        <fieldset>
+          <legend>Taking all things together, how happy would you say you are? <br>
+        1 (very unhappy) to 5 (extremely happy)(required):<br></legend>
+
+        <div class="col-md-2"><input type="radio" id="hap1" name="happiness" value="1"/> <label for="hap1" required > 1 (very unhappy) </label></div>
+        <div class="col-md-2"><input type="radio" id="hap2" name="happiness" value="2"/> <label for="hap2" > 2</label></div>
+        <div class="col-md-2"><input type="radio" id="hap3" name="happiness" value="3"/> <label for="hap3" > 3</label></div>
+        <div class="col-md-2"><input type="radio" id="hap4" name="happiness" value="4"/> <label for="hap4" > 4</label></div>
+        <div class="col-md-2"><input type="radio" id="hap5" name="happiness" value="5"/> <label for="hap5" >5 (extremely happy)</label></div>
+      <div class="col-md-2"></div></fieldset>
+    </div>
+        <br>
+        <div class="form-group">
+          <label for="zip">Enter Home ZIP Code (required):</label>
+        <input type="number" name="zipcode" id="zip" maxlength="5" placeholder="94***" pattern="^94\d{3}$" class="form-control" required /><br>
+</div>
+        <h2>Optional (for statistical purposes only)</h2>
+        <div class="form-group">
+        <label for="gender">Gender:</label>
+        <input type="text" name="gender" id="gender" class="form-control" />
+      </div>
+  <fieldset>
+    <legend>How long was your commute today?</legend>
+        <div class="radio"><label for="commute1" ><input type="radio" id="commute1" name="commute" value="I don't have a commute"/>I don't have a commute</label></div>
+        <div class="radio"><label for="commute2" ><input type="radio" id="commute2" name="commute" value="Less than 15 minutes"/>Less than 15 minutes</label></div>
+        <div class="radio"><label for="commute3" ><input type="radio" id="commute3" name="commute" value="15-30 minutes"/>  15-30 minutes</label></div>
+        <div class="radio"><label for="commute4" ><input type="radio" id="commute4" name="commute" value="30-60 minutes"/>  30-60 minutes</label></div>
+        <div class="radio"><label for="commute5" ><input type="radio" id="commute5" name="commute" value="1-2 hours"/>  1-2 hours</label></div>
+        <div class="radio"><label for="commute6" ><input type="radio" id="commute6" name="commute" value="More than 2 hours"/>  More than 2 hours</label></div>
+</fieldset>
+        <fieldset>
+          <legend>Housing:</legend>
+        <div class="radio">
+        <label for="housing1" ><input type="radio" id="housing1" name="housing" value="own"/>own</label>
+        </div>
+        <div class="radio">
+        <label for="housing2"><input type="radio" id="housing2" name="housing" value="rent"/>rent</label>
+        </div>
+        </fieldset>
+        <fieldset>
+          <legend>Age:</legend>
+        <div class="radio">
+        <label for="age1"><input type="radio" id="age1" name="age" value="16-29"/>16-29</label>
+        </div>
+        <div class="radio">
+        <label for="age2"><input type="radio" id="age2" name="age" value="30-59"/>30-59</label>
+        </div>
+        <div class="radio">
+        <label for="age3"><input type="radio" id="age3" name="age" value="60+"/>60+</label>
+      </div>
+        </fieldset>
+        </br>
+        <button class="submit btn btn-primary" type="submit" value="Send">Submit</button>
+      </div>
+    </form>
+    </div>
+    <div class="col-xs-2"></div>
+  </div>
+
+</div>
+<!--<script src='lib/shred.bundle.js' type='text/javascript'></script>-->
+<!--<script src='lib/swagger.js' type='text/javascript'></script>-->
+<!--<script src='lib/sdk-init.js' type='text/javascript'></script>-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!--<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>-->
+<script src=happyform.js></script>
