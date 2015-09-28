@@ -23,9 +23,9 @@ layout: default
             {{ content }}
             <hr />
             <div class="page-footer">
-              {% if page.categories %}{% include page-author.html %}{% endif %} {% if page.share != false %}{% include share-this.html %}{% endif %} 
+              {% if page.categories %}{% include page-author.html %}{% endif %} {% if page.share != false %}{% include share-this.html %}{% endif %}
 
-              {% include page-meta.html %} 
+              {% include page-meta.html %}
 
               {% include add-edit.html posttype="blog"%}
             </div>
@@ -51,9 +51,13 @@ layout: default
           {% if post.categories contains "blog" and post.path != page.path %}
           <li>
             <h4>
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-          <small class="pull-right">{{ post.date | date: "%-d %B %Y" }}</small>
-        </h4>
+              <small class="pull-right">
+                {{ post.date | date: "%-d %B %Y" }}
+              </small>
+              <a href="{{ site.baseurl }}{{ post.url }}">
+                {{ post.title }}
+              </a>
+            </h4>
           </li>
           {% endif %}
           {% endfor %}
