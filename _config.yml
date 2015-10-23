@@ -1,18 +1,18 @@
 permalink: /:categories/:title/
 markdown: kramdown
-url: "http://codeforsanfrancisco.org"
+url: "http://opensaltlake.org"
 defaultbranch: master
 
-name: Code for San Francisco
+name: Open Salt Lake
 description: A volunteer civic technology group.
 
 owner:
-  twitter: sfbrigade
+  twitter: opensaltlake
 
 prose:
   media: 'images/uploads'
   rooturl: '_posts'
-  siteurl: http://codeforsanfrancisco.org
+  siteurl: http://opensaltlake.org
   ignore:
     - index.md
     - _config.yml
@@ -33,14 +33,14 @@ prose:
         field:
           element: "multiselect"
           label: "Add Tags"
-          options: "http://codeforsanfrancisco.org/api/tags.json?callback=tagsCallback"
+          options: "http://opensaltlake.org/api/tags.json?callback=tagsCallback"
           alterable: true
           placeholder: "Choose Tags"
       - name: "author"
         field:
           element: "select"
           label: "Author"
-          options: "http://codeforsanfrancisco.org/api/authors.json?callback=authorsCallback"
+          options: "http://opensaltlake.org/api/authors.json?callback=authorsCallback"
     _posts/projects:
       - name: "layout"
         field:
