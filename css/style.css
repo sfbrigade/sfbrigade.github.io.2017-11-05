@@ -362,6 +362,26 @@ h2.first {
     text-align: center;
 }
 
+/*---------- use 10px gutter for small phones---------*/
+.logos {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+.logos div{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+@media (min-width: 480px) {
+    .logos {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .logos div {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
 
 
 .logos div{
@@ -370,10 +390,36 @@ h2.first {
     float: none;
     margin-left: -2px;
     margin-right: -2px;
-
 }
 
 .logos div img{
-    padding: 20px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------- 1/5 width columns -----*/
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
 }
 
