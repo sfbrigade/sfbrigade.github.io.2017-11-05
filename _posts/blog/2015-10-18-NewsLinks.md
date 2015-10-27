@@ -25,3 +25,4 @@ categories: news
 - <a href="http://altdaily.com/features/food/7082-helping-you-know-if-a-local-restaurant-might-be-nasty-the-openhealthinspection-com-app">Helping You Know If A Local Restaurant Might Be Nasty: The Openhealthinspection.com App</a>
 - <a href="http://altdaily.com/features/news/6482-you-re-invited-code-across-hampton-roads-2014">Techies For Good! Code Across Hampton Roads 2014</a>
 - <a href="http://altdaily.com/features/news/6274-a-roundup-of-saturday-s-hack-for-change">A Roundup of Saturday's Hack For Change </a>
+- <a href="http://hamptonroads.com/2015/10/hackathon-winners-app-will-help-users-explore-hampton-roads">Hackathon Winners App Will Help Users Explore Hampton Roads</a>
