@@ -10,7 +10,8 @@ The website for the Code for Hampton Roads Brigade
 
 ### Tech
 
-Built using [Jekyll](http://jekyllrb.com/), [Bootstrap](http://getbootstrap.com/), and the [CfAPI](https://github.com/codeforamerica/cfapi).
+Built using [Jekyll](http://jekyllrb.com/), [Bootstrap](http://getbootstrap.com/), 
+and the [CfAPI](https://github.com/codeforamerica/cfapi).
 
 ## Contributing
 
@@ -33,7 +34,7 @@ or
 
 Your computer should now be serving your local copy of the site at:
 
-[http://0.0.0.0:4000](http://0.0.0.0:4000).
+[http://localhost:4000](http://localhost:4000).
 
 ### Sharing Your Changes Using Jekit
 
@@ -41,11 +42,11 @@ You can use the nifty [Jekit](https://jekit.codeforamerica.org/) app to preview 
 
 To do this, fork this repo, and commit your changes on a branch to your fork. You can then preview what your changes look like by navigating to:
 
-https://jekit.codeforamerica.org/USERNAME/sfbrigade.github.io/BRANCHNAME/
+https://jekit.codeforamerica.org/USERNAME/code4hr/BRANCHNAME/
 
 For a basic example of its usage, if GitHub user **@lolname** has made changes to the projects page on their fork (on the `master` branch), they can preview their changes using Jekit by going to:
 
-https://jekit.codeforamerica.org/lolname/sfbrigade.github.io/master/projects
+https://jekit.codeforamerica.org/lolname/code4hr/master/projects
 
 ### Submitting a Pull Request
 
