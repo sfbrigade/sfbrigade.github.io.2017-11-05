@@ -41,6 +41,27 @@ prose:
           element: "select"
           label: "Author"
           options: "http://codeforsanfrancisco.org/api/authors.json?callback=authorsCallback"
+    _posts/newsletter:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "newsletter"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          options: "http://codeforsanfrancisco.org/api/tags.json?callback=tagsCallback"
+          alterable: true
+          placeholder: "Choose Tags"
+      - name: "author"
+        field:
+          element: "select"
+          label: "Author"
+          options: "http://codeforsanfrancisco.org/api/authors.json?callback=authorsCallback"
     _posts/projects:
       - name: "layout"
         field:

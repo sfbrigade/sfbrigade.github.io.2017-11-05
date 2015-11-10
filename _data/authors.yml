@@ -27,7 +27,7 @@ lawrence_grodeska:
   name: Lawrence Grodeska
   bio: ""
   gravatar: 7a6e46ed3a94c711d31f8ee4e343e958
-  
+
 allen_meyer:
   name: Allen Meyer
   bio: ""
@@ -47,12 +47,12 @@ andrew_hyder:
   name: Andrew Hyder
   bio: ""
   gravatar: ""
-  
+
 desmond_liang:
   name: Desmond Liang
   bio: ""
   gravatar: ""
-  
+
 maddie_suda:
   name: Maddie Suda
   bio: "Brigade Co-Captain"
@@ -73,3 +73,5 @@ asha_john_allen:
   bio: ""
   gravatar: ""
 
+newsletter_editor:
+  name: Newsletter Editor
