@@ -1,4 +1,4 @@
-# CodeForSanFrancisco.org
+# CodeForSanFrancisco.org [![Build Status](https://travis-ci.org/sfbrigade/sfbrigade.github.io.svg?branch=master)](https://travis-ci.org/sfbrigade/sfbrigade.github.io)
 
 The website for the Code for San Francisco Brigade
 
