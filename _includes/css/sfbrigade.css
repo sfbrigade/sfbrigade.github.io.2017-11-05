@@ -43,6 +43,11 @@ table h3 {
   margin: 25px;
 }
 
+a {
+  color: #2a6496;
+  text-decoration: none;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -56,13 +61,21 @@ table h3 {
 }
 
 .featured-nav-link {
-  background: #E2768D;
+  background: #CF1B41;
 }
 
 .navbar-default .navbar-nav>li.featured-nav-link>a {
   color: #fff;
   border-left: #cfcfcf 2px solid;
   border-right: #cfcfcf 2px solid;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #111;
+}
+
+.navbar-default .navbar-brand {
+  color: #111;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
@@ -144,7 +157,7 @@ table h3 {
 
 .jumbotron {
   margin-top: 20px;
-  background: rgba(0,0,0,0.44)
+  background: rgba(0,0,0,0.66)
 }
 
 .jumbotron .row {
@@ -472,8 +485,8 @@ transition: background 0.2s,border 0.2s;
   line-height: 3;
 }
 
-.btn-hack {
-  background-color: #0a83c5;
+.btn {
+  background-color: #0970a8;
   color: #fff;
 }
 
@@ -482,8 +495,13 @@ transition: background 0.2s,border 0.2s;
   color: #fff;
 }
 
-.btn-hack:hover, .btn-hack:focus {
+.btn-hack {
   background-color: #0970a8;
+  color: #fff;
+}
+
+.btn:hover, .btn:focus {
+  background-color: #092BA8;
   color: #fff;
 }
 
