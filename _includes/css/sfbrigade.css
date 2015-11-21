@@ -827,3 +827,10 @@ left: -999em;
 .navp {
   margin-bottom: -20px;
 }
+
+/* Override mailchimp CSS
+-------------------------------------------------- */
+body #mc_embed_signup .asterisk {
+  color: #a94442;
+  font-size: 200%;
+}
