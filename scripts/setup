@@ -1,0 +1,24 @@
+#!/bin/bash
+
+set -o errexit
+
+if ! which ruby ; then
+  echo "Please install ruby from https://www.ruby-lang.org/en/downloads/"
+fi
+
+if ! which bundle; then
+  echo "Please install the bundler ruby gem (e.g. gem install bundler)"
+fi
+
+if ! which npm ; then
+  echo "Please install nodejs from https://nodejs.org/en/download/"
+fi
+
+if ! which phantomjs ; then
+  echo "Please install phantomjs from http://phantomjs.org/download.html"
+  exit 1
+fi
+
+npm install accessibility-developer-tools@2.10.0
+
+bundle install
