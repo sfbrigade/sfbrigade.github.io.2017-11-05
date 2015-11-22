@@ -1,5 +1,6 @@
 sudo: false
 language: ruby
+install:
+  - scripts/setup
 script:
-  - bundle exec jekyll doctor
-  - bundle exec jekyll build
+  - scripts/test
