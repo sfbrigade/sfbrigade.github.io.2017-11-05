@@ -10,7 +10,16 @@ bundle exec jekyll build
 
 echo "Running accessibility checks"
 
+status=0
 for file in $(find _site -name '*.html' | sed -e 's/_site//') ; do
   echo "Checking $file"
-  phantomjs node_modules/accessibility-developer-tools/tools/runner/audit.js http://localhost:4000$file
+  output="$(phantomjs node_modules/accessibility-developer-tools/tools/runner/audit.js http://localhost:4000$file)"
+  echo "$output"
+  if [[ "$(echo "$output" | grep -E '(Failed to load|Warnings:)')" != '' ]] ; then
+    set +o errexit
+    let "status++"
+    set -o errexit
+  fi
 done
+
+exit $status
