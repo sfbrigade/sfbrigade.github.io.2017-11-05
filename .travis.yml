@@ -3,6 +3,7 @@ language: ruby
 install:
   - scripts/setup
 before_script:
-  -  bundle exec jekyll serve --detach
+  - bundle exec jekyll serve --detach
+  - phantomjs --version
 script:
   - scripts/test
