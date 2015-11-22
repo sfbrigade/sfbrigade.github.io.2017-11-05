@@ -1,9 +1,15 @@
 sudo: false
 language: ruby
+env:
+  - PATH=$HOME/bin:$PATH
 install:
+  # install newer phantomjs, see https://github.com/travis-ci/travis-ci/issues/3225 for discussion
+  - mkdir $HOME/bin
+  - curl https://s3.amazonaws.com/travis-phantomjs/phantomjs-2.0.0-ubuntu-12.04.tar.bz2 | tar Oxjv phantomjs > $HOME/bin/phantomjs
+  - chmod +x $HOME/bin/phantomjs
   - scripts/setup
 before_script:
-  - bundle exec jekyll serve --detach
   - phantomjs --version
+  - bundle exec jekyll serve --detach
 script:
   - scripts/test
