@@ -34,6 +34,23 @@ this is changing the path of the image to be images/blog/ rather then _posts/blo
 !this is important, as the image will not work if this is not done!
 - add in alt text for the image. alt text is important for user's that browse by websites using text readers.
 
+## Adding a Notification
+
+To add a new notification:
+
+0. Open up [_includes/header.html](https://github.com/sfbrigade/sfbrigade.github.io/blob/master/_includes/header.html)
+0. Click the `Edit` button
+0. Search for `Notification`
+0. Copy/paste the example and modify the title and description
+0. Preview your changes
+0. If satisfied, commit your changes with a small description of them. This
+   will create a pull request (basically a change request) and someone will
+   review your changes. If it is time sensitive, please reach out to someone on
+   the website and tools team directly (see
+   http://codeforsanfrancisco.org/about/) to have them review
+0. Later you should remove the notification by deleting it using the same
+   process as above
+
 ### Tech
 
 Built using [Jekyll](http://jekyllrb.com/), [Bootstrap](http://getbootstrap.com/), and the [CfAPI](https://github.com/codeforamerica/cfapi).
