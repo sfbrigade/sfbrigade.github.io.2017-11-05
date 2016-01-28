@@ -9,6 +9,9 @@ description: A volunteer civic technology group.
 owner:
   twitter: sfbrigade
 
+gems:
+  - jekyll-redirect-from
+
 prose:
   media: 'images/uploads'
   rooturl: '_posts'
