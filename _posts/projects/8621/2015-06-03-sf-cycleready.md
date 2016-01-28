@@ -3,13 +3,16 @@ category: projects
 layout: projects
 published: true
 title: SF CycleReady
-lead: "Community-powered bike navigation"
+lead: "Community-powered bike navigation: match riders to the routes that suit them best"
+contact: "hello@sbzoto.com"
+redirect_from:
+- /projects/test/
 ---
 
 
 CycleReady is a web and mobile app that offers community-powered bike navigation, helps keep riders informed, and encourages hesitant cyclists to bike in San Francisco.
 
-**[Visit cycleready.com for details about our project.](www.cycleready.com "SF CycleReady")**
+**[Visit cycleready.com for details about our project.](http://www.cycleready.com "SF CycleReady")**
 
 ## National Day of Civic Hacking
 
