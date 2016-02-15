@@ -101,6 +101,13 @@ If the above URL does not work (e.g. when using Chrome), try:
 (See [this issue](https://github.com/jekyll/jekyll/issues/3048) for more
 information.)
 
+### Accessibility
+
+An accessible website/app is our number one priority. We value all
+contributions that put user accessibility as the top consideration when
+creating or modifying user interface elements. See
+http://www.w3.org/WAI/intro/wcag and for information/examples about accessible
+forms/controls see http://webaim.org/techniques/forms/controls.
 
 ### Sharing Your Changes Using Jekit
 
