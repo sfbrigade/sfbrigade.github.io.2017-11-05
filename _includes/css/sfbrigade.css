@@ -143,8 +143,12 @@ table h3 {
 }
 
 .jumbotron {
-  margin-top: 50px;
+  margin-top: 20px;
   background: rgba(0,0,0,0.44)
+}
+
+.jumbotron .row {
+  margin-top: 10px;
 }
 
 
@@ -470,6 +474,11 @@ transition: background 0.2s,border 0.2s;
 
 .btn-hack {
   background-color: #0a83c5;
+  color: #fff;
+}
+
+.btn-special-event {
+  background-color: #E2768D;
   color: #fff;
 }
 
