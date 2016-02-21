@@ -150,7 +150,12 @@ function showProjectDetails(response) {
   console.log(response);
   repos = response;
   repos.issue_count = response.issues.length;
-  repos.contributor_count = response.github_details.contributors.length;
+
+  repos.contributor_count = 0;
+  if (response.github_details) {
+    repos.contributor_count = response.github_details.contributors.length;
+  }
+
   var repoPanels = ich.repoPanels({
     repos: repos
   });
