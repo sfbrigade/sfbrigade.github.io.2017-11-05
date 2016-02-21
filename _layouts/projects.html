@@ -120,7 +120,9 @@
   {{#repos}}
 
     <div class="panel panel-default">
-      <div class="panel-heading"> <a href="{{code_url}}">{{#github_details}}<h3 class="panel-title">/{{name}}</h3></a>
+      {{#github_details}}
+      <div class="panel-heading">
+        <a href="{{code_url}}">{{#github_details}}<h3 class="panel-title">/{{name}}</h3></a>
       </div>
       <div class="panel-body">
         <p>{{description}}</p>
