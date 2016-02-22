@@ -1,0 +1,29 @@
+#!/bin/bash
+
+set -o errexit
+
+echo "Running jekyll doctor"
+bundle exec jekyll doctor
+
+echo "Building"
+bundle exec jekyll build
+
+echo "Running accessibility checks"
+
+status=0
+for file in $(find _site -name '*.html' | sed -e 's/_site//') ; do
+  echo "Checking $file"
+  if [[ "$(curl -s http://localhost:4000$file)" == *'<title>Redirecting...</title>'* ]] ; then
+    echo "Skipping $file because it is a redirect" # https://github.com/jekyll/jekyll-redirect-from/pull/100
+    continue
+  fi
+  output="$(phantomjs scripts/audit.js http://localhost:4000$file)"
+  echo "$output"
+  if [[ "$(echo "$output" | grep -E '(Failed to load|Warnings:)')" != '' ]] ; then
+    set +o errexit
+    let "status++"
+    set -o errexit
+  fi
+done
+
+exit $status

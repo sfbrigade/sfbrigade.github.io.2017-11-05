@@ -6,7 +6,6 @@
         {% if post.layout == "blog" %}
         <div class="story-item">
           <div class="story-caption clearfix">
-            <div class="block-image pull-right" style="background-image:url({{site.baseurl}}/img/blog/{{post.thumbnail}})"></div>
             <time datetime="{{ post.date | date: " %Y-%m-%d " }}" itemprop="datePublished">
               {{ post.date | date: "%B %d, %Y" }}
             </time>

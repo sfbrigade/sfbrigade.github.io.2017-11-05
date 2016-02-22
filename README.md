@@ -69,7 +69,7 @@ Fork and clone the repository, then install dependencies (requires **ruby** and 
 
 ```` sh
 cd sfbrigade.github.io/
-bundle install
+./scripts/setup
 ````
 
 Finally, run the following command in the root directory of the repo:

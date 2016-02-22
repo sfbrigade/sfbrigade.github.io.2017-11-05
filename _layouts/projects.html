@@ -120,7 +120,9 @@
   {{#repos}}
 
     <div class="panel panel-default">
-      <div class="panel-heading"> <a href="{{code_url}}">{{#github_details}}<h3 class="panel-title">/{{name}}</h3></a>
+      {{#github_details}}
+      <div class="panel-heading">
+        <a href="{{code_url}}">{{#github_details}}<h3 class="panel-title">/{{name}}</h3></a>
       </div>
       <div class="panel-body">
         <p>{{description}}</p>
@@ -150,7 +152,12 @@ function showProjectDetails(response) {
   console.log(response);
   repos = response;
   repos.issue_count = response.issues.length;
-  repos.contributor_count = response.github_details.contributors.length;
+
+  repos.contributor_count = 0;
+  if (response.github_details) {
+    repos.contributor_count = response.github_details.contributors.length;
+  }
+
   var repoPanels = ich.repoPanels({
     repos: repos
   });
