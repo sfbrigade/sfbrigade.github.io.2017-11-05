@@ -33,10 +33,12 @@ function showProjects(response){
 
   });
 
+  var template = $('#projects').html();
+
   var featuredDiv = document.createElement('div');
   featuredDiv.id = 'featured';
   $("#hack-night-projects").append(featuredDiv);
-  $("#hack-night-projects").append(ich.projects({projects:projects}));
+  $("#hack-night-projects").append(Mustache.render(template, { projects: projects }));
   // Follow next page links
   if (response.pages.next) {
     $.getJSON(response.pages.next, showProjects);
