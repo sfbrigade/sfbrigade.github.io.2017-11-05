@@ -8,8 +8,7 @@
       <h2 class="first needs">Needs</h2>
       <button type="button" class="btn btn-success btn-block" data-toggle="modal" data-target="#exampleModal">I want to Help!</button>
     </div>
-
-    <h2 class="code">Code</h2> {% include updates.html %}
+<h2 class="code">Details</h2> {% include updates.html %}
   </div>
 </div>
 {% include footer.html%}
@@ -108,29 +107,29 @@
   </div>
 </div>
 
-<script id="needsList" type="text/html">
+<script id="needsList" type="x-tmpl-mustache">
   {% raw %}
   {{#needs}}
     <a href="{{html_url}}" class="list-group-item">{{title}}</a>
   {{/needs}}
   {% endraw %}
 </script>
-<script id="repoPanels" type="text/html">
+<script id="repoPanels" type="x-tmpl-mustache">
   {% raw %}
   {{#repos}}
-
     <div class="panel panel-default">
-      {{#github_details}}
       <div class="panel-heading">
-        <a href="{{code_url}}">{{#github_details}}<h3 class="panel-title">/{{name}}</h3></a>
+        <a href="{{link_url}}"><h3 class="panel-title">{{name}}</h3></a>
       </div>
       <div class="panel-body">
         <p>{{description}}</p>
       </div>
-      {{/github_details}}
       <div class="list-group">
-        <a href="{{code_url}}/issues" class="list-group-item">Issues<span class="badge">{{issue_count}}</span></a>
-        <a href="{{code_url}}/contributors" class="list-group-item">Contributors<span class="badge">{{contributor_count}}</span></a>
+        <a href="{{code_url}}" class="list-group-item">Code</a>
+        {{#github_details}}
+          <a href="{{code_url}}/issues" class="list-group-item">Issues<span class="badge">{{open_issues}}</span></a>
+          <a href="{{code_url}}/contributors" class="list-group-item">Contributors<span class="badge">{{contributors.length}}</span></a>
+        {{/github_details}}
       </div>
     </div>
   {{/repos}}
@@ -149,44 +148,11 @@ $.getJSON(cfapi_project, showProjectDetails);
 
 function showProjectDetails(response) {
   // Fill up the projects list
-  console.log(response);
-  repos = response;
-  repos.issue_count = response.issues.length;
-
-  repos.contributor_count = 0;
-  if (response.github_details) {
-    repos.contributor_count = response.github_details.contributors.length;
-  }
-
-  var repoPanels = ich.repoPanels({
-    repos: repos
+  var template = $('#repoPanels').html();
+  var repoPanels = Mustache.render(template, {
+    repos: response
   });
   $("h2.code").after(repoPanels);
-
-  // Follow next page links
-  /*if (data.pages.next) {
-    $.when($.getJSON(data.pages.next)).then(showProjects);
-  } else {
-    $.each(projects, function(i,json){
-      if(github_url.indexOf(json.code_url) > -1) {
-        json.issue_count = json.issues.length;
-        json.contributor_count = json.github_details.contributors.length;
-        issues = issues.concat(json.issues);
-        repos = repos.concat(json);
-      }
-    });
-    $.each(issues, function(i,json){
-      $.each(json.labels, function(j,label){
-        if(label.name == 'project-needs') {
-          needs = needs.concat(json);
-        }
-      });
-    });
-    var needsList = ich.needsList({needs: needs});
-    var repoPanels = ich.repoPanels({repos: repos});
-    $("h2.needs").after(needsList);
-    $("h2.code").after(repoPanels);
-  }*/
 }
 </script>
 </body>

@@ -11,7 +11,7 @@ lead: 'The fine works of Code for San Francisco'
 </section>
 
 <!-- Define the template for data loaded from the CFAPI -->
-<script id="projects" type="text/html">
+<script id="projects" type="x-tmpl-mustache">
 {%raw%}
 {{#projects}}
 
@@ -20,7 +20,7 @@ lead: 'The fine works of Code for San Francisco'
       <h1>{{name}} {{^cfsf_url}}
           <a href="https://github.com/login/oauth/authorize?client_id=c602a8bd54b1e774f864&scope=repo&redirect_uri=http://prose.io/#{{repository_nwo}}/new/{{default_branch}}/_posts/projects/{{id}}/{{file_name}}" class="btn btn-xs btn-success">Create detailed project page</a></strong><span style="display:none">{{id}}</span>
           {{/cfsf_url}}</h1>
-      <p class="lead">{{description}} 
+      <p class="lead">{{description}}
       {{#cfsf_url}}
       <strong><a href="{{cfsf_url}}">Learn more...</a></strong>
       {{/cfsf_url}}</p>
