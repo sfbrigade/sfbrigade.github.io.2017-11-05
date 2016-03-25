@@ -1,15 +1,14 @@
 ---
 layout: blog
-tags: 
-  - "null"
-author: jason_lally
-published: false
+tags:
+  - codeacross
+  - hackathon
+author: vedrana_trbusic
+published: true
 title: CodeAcross SF 2016
 ---
 
-
-## CodeAcross SF Brings together techies, nonprofits, and Bay Area residents to make San Francisco better   
-
+## CodeAcross SF Brings together techies, nonprofits, and Bay Area residents to make San Francisco better
 
 On March 5 we organized the third annual CodeAcross in San Francisco. The event, which was hosted at Microsoft Reactor, was part of a nationwide effort around the world to bring together people who want to collaborate to make their cities better. And collaborate we did! Nearly 100 people joined us to work on projects that benefit the community and San Francisco. 
  
