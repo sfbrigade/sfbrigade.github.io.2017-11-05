@@ -19,7 +19,7 @@ My professional background is in UX design, I've been working as a freelancer fo
 **What are you passionate about?**
 
 I'm passionate about making people's lives better, especially those who have historically been underserved, ignored, and oppressed. It's why I became a UX designer. I believe the key to sustainable positive change lies in ethical design. In the words of Gloria Steinem, I'm determined to leave this world a better place than when I found it.
- ![]({{site.baseurl}}/headshot%202.15.16.jpg)
+ ![]({{site.baseurl}}/images/headshot%202.15.16.jpg)
 **How did you get involved with Code for San Francisco and how long have you been a part of the SF Brigade?**
 
 I literally just showed up one night about two years ago and never left! I had just finished a UX bootcamp and was eager to find something to work on. I never thought I would end up leading a project.
