@@ -20,7 +20,7 @@ My professional background is in UX design, I've been working as a freelancer fo
 
 I'm passionate about making people's lives better, especially those who have historically been underserved, ignored, and oppressed. It's why I became a UX designer. I believe the key to sustainable positive change lies in ethical design. In the words of Gloria Steinem, I'm determined to leave this world a better place than when I found it.
 
-<img src="{{site.baseurl}}/images/headshot%202.15.16.jpg" width="250" height="250" />
+<img alt="April Steed head shot" src="{{site.baseurl}}/images/headshot%202.15.16.jpg" width="250" height="250" />
 
 **How did you get involved with Code for San Francisco and how long have you been a part of the SF Brigade?**
 
