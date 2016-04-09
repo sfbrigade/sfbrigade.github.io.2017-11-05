@@ -3,9 +3,10 @@ layout: blog
 tags: 
   - members
 author: vedrana_trbusic
-published: false
+published: true
 title: Created Meet SF Brigade Members
 ---
+
 
 ## Meet April Steed, a passionate UX designer and Lighten Project Pead
 
