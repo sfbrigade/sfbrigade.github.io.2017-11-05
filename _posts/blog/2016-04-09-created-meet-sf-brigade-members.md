@@ -4,7 +4,7 @@ tags:
   - members
 author: vedrana_trbusic
 published: true
-title: Created Meet SF Brigade Members
+title: Meet SF Brigade Members
 ---
 
 
