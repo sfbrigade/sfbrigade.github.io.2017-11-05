@@ -3,7 +3,7 @@ layout: blog
 tags: 
   - Data Science
 author: kasia_rachuta
-published: false
+published: true
 title: "SF Brigade's Data Science Working Group"
 ---
 # SF Brigade's Data Science Working Group
