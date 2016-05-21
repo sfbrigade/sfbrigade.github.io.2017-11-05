@@ -99,7 +99,7 @@ a {
 /* Carousel base class */
 .carousel {
   height: 425px;
-  background-image: url({{site.baseurl}}/images/goldengate-top.jpg);
+  background-image: url(/images/goldengate-top.jpg);
   background-size: cover;
   background-position: center bottom;
   margin-bottom: 60px;
@@ -816,7 +816,7 @@ left: -999em;
 
 .banner_ndoch {
   height: 400px;
-  background-image: url({{site.baseurl}}/images/goldengate-top.jpg);
+  background-image: url(/images/goldengate-top.jpg);
   background-size: cover;
   background-position: center bottom;
   margin-bottom: 20px;
