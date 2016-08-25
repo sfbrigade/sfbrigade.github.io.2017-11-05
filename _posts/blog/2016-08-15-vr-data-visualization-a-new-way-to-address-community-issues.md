@@ -1,7 +1,7 @@
 ---
 layout: blog
-author: jason_lally
-published: false
+author: allen_meyer
+published: true
 title: 'VR Data Visualization: A New Way to Address Community Issues'
 tags: ''
 ---
@@ -18,4 +18,3 @@ David then teamed up with Nick Breen and decided to take the data and see how it
 These clips are YouTube’s 360 videos, so only a smartphone is needed to experience them, making it accessible to many more people than full VR kits. If you would like to learn more about the process behind how the map was made, or turn your own CSV into a 360 video, then checkout the [GitHub repo](https://github.com/davidrs/vr-dataviz).
 
 Team Members: Steven Meloan, [Allen Meyer](http://allenmeyerdesign.com/), Peter Thompson, Seung-hee Eu, David Rust-Smith, Nick Breen
-
