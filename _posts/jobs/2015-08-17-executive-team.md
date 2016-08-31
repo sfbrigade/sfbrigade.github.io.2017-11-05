@@ -2,18 +2,34 @@
 layout: job
 categories: jobs
 ---
-Apply to support the Executive Team as it works to support the rest of Code for San Francisco’s Core Teams and help us grow into a more effective, impactful, and inclusive organization. We are looking for an additional Captain, an Executive Coordinator to support the Captains, and a PR Coordinator to build our brand distribution network.
+Apply to support the Executive Team as it works to support the rest of Code for
+San Francisco’s Core Teams and help us grow into a more effective, impactful,
+and inclusive organization. We are looking for an additional Captain, an
+Executive Coordinator to support the Captains, and a PR Coordinator to build
+our brand distribution network.
 
 Read the descriptions for each position:
 
-- [Captain](#captain-description)
+- [Co-Captain](#co-captain-description)
 - [Executive Coordinator](#executive-coordinator-description)
 - [PR Coordinator](#pr-coordinator-description)
 
-##Captain Description
-Jesse and Maddie are both expecting new members to their families in January. Your role will be to internalize the vision for Code for San Francisco and maintain an overall understanding of all of the brigade’s moving parts. We have purposefully created these new Core Teams in service of better brigade outputs and to avoid siloed actions. During January-March/April (at least), you will support all Core Teams, coordinate communication as appropriate, and remove blockers as needed. When the brigade stops moving forward, you must inspire and work with others to break that stagnation. 
+##Co-Captain Description
+Along with our esteemed captain, Maddie Suda, your role will be to internalize
+the vision for Code for San Francisco and maintain an overall understanding of
+all of the brigade’s moving parts. We have purposefully created these new Core
+Teams in service of better brigade outputs and to avoid siloed actions. During
+January-March/April (at least), you will support all Core Teams, coordinate
+communication as appropriate, and remove blockers as needed. When the brigade
+stops moving forward, you must inspire and work with others to break that
+stagnation.
 
-Functionally, you will work with the Executive Coordinator to handle any and all tasks that others cannot fulfil, no matter what they are, in order to sustain and advance Code for San Francisco’s efforts. You will likely be the first to arrive and the last to leave, you will direct people with questions to the appropriate Core Team, and you will provide counsel and advice to folks who simply need to connect with someone at Code for SF. 
+Functionally, you will work with the Executive Coordinator to handle any and
+all tasks that others cannot fulfil, no matter what they are, in order to
+sustain and advance Code for San Francisco’s efforts. You will likely be the
+first to arrive and the last to leave, you will direct people with questions to
+the appropriate Core Team, and you will provide counsel and advice to folks who
+simply need to connect with someone at Code for SF.
 
 Other duties include:
 
@@ -85,7 +101,10 @@ The Executive Coordinator will help the Captains to track and improve their metr
 - Other metrics to be determined
 
 ##PR Coordinator Description
-Are you amazing at networking or have an already large network of media contacts? Do people constantly imply you have a flair for social media? Do you write in a clear, concise manner? As Code for San Francisco’s PR Coordinator, you will:
+Are you amazing at networking or have an already large network of media
+contacts? Do people constantly imply you have a flair for social media? Do you
+write in a clear, concise manner? As Code for San Francisco’s PR Coordinator,
+you will:
 
 - Help project teams to come up with proper marketing strategies for launch
 - Help the brigade to take advantage of potential media-engagement opportunities
@@ -93,9 +112,18 @@ Are you amazing at networking or have an already large network of media contacts
 - Help the various teams to properly publicize their events
 - Coordinate Code for San Francisco’s social media presence
 
-Public relations (PR) is about managing reputation. You will help Code for San Francisco realize the public-facing part of its vision by encouraging understanding and support for the organization externally, likely through publicizing of projects, opinions, and events. 
+Public relations (PR) is about managing reputation. You will help Code for San
+Francisco realize the public-facing part of its vision by encouraging
+understanding and support for the organization externally, likely through
+publicizing of projects, opinions, and events.
 
-Functionally, you will use all forms of media and communication to build, maintain and manage our reputation. You or the appropriate Core Team Lead will communicate key messages, often using third party endorsements, to defined target audiences in order to establish and maintain goodwill and understanding between Code for San Francisco and its public. You will monitor publicity and conduct research to find out the concerns and expectations of our stakeholders and report and explain the findings to leads of the Core Teams.
+Functionally, you will use all forms of media and communication to build,
+maintain and manage our reputation. You or the appropriate Core Team Lead will
+communicate key messages, often using third party endorsements, to defined
+target audiences in order to establish and maintain goodwill and understanding
+between Code for San Francisco and its public. You will monitor publicity and
+conduct research to find out the concerns and expectations of our stakeholders
+and report and explain the findings to leads of the Core Teams.
 
 ###Relevant Skills
 - Experience in Public Relations
