@@ -22,7 +22,7 @@ partners to:
 
 ## Finance Team Responsibilities
 - Coordination
-- Build out and coordinate the FInance Team
+- Build out and coordinate the Finance Team
 - Collaborate with Captains, New Member, Project and Infrastructure Teams to build and get metrics for fundraising
 - Strategically plan budget for hack nights, events and partnerships along with the relevant teams
 - Communicate funding, budget, and recruiting efforts to the Brigade
