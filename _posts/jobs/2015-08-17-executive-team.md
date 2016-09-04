@@ -50,7 +50,7 @@ Other duties include:
 ### Commitment
 - There is a 1-year minimum commitment for this position
 - If accepted, you must work to find a replacement should you leave or step down
-- Attend in-person monthly Core Team coordination meeting
+- Attend semimonthly virtual Core Team coordination meeting
 - Attend monthly meeting for Onboarding Team members (coordinated among your team)
 - Attend hack nights and Brigade events that generate new members, such as hackathons
 - Available for 20+ hours of communication per month outside of Hack Nights on Core Team and external coordinating efforts
@@ -66,7 +66,10 @@ The Captain will track the following:
 - Other metrics to be determined
 
 ## Executive Coordinator Description
-Are you the most organized person you know? Are things in your home sorted alphabetically or by color? Do you take pleasure in helping others to achieve their goals? As Code for San Francisco’s Executive Coordinator, you will see everything the Captains see... and more in order to:
+Are you the most organized person you know? Are things in your home sorted
+alphabetically or by color? Do you take pleasure in helping others to achieve
+their goals? As Code for San Francisco’s Executive Coordinator, you will see
+everything the Captains see... and more in order to:
 
 - Help Captains to execute on action items
 - Ensure record keeping and scheduling at meetings
@@ -75,7 +78,14 @@ Are you the most organized person you know? Are things in your home sorted alpha
 - Help Captains to keep track of the progress of Core Team reporting
 - Coordinate among Core Teams as a supplement to the Captains’ efforts
 
-Understand that your role is one of the most critical in the organization, even if it may not always be recognized as such. The Executive Coordinator makes things happen. During meetings, which you will help to keep on schedule, you will guide the Core Team from ideas to concrete, assigned tasks with deadlines. During Hack Night, you may that may mean facilitating a portion of the evening's activities, protecting team members from distractions (especially our busy Captains), working on the future of the Brigade, project management of everything that's not hack night projects, or whatever else needs to be done. 
+Understand that your role is one of the most critical in the organization, even
+if it may not always be recognized as such. The Executive Coordinator makes
+things happen. During meetings, which you will help to keep on schedule, you
+will guide the Core Team from ideas to concrete, assigned tasks with deadlines.
+During Hack Night, you may that may mean facilitating a portion of the
+evening's activities, protecting team members from distractions (especially our
+busy Captains), working on the future of the Brigade, project management of
+everything that's not hack night projects, or whatever else needs to be done.
 
 ### Relevant Skills
 - Experience as an Executive Assistant
@@ -87,7 +97,7 @@ Understand that your role is one of the most critical in the organization, even 
 ### Commitment
 - There is a 3-month trial period for this position, with ideal candidates looking to stay for at least 6 months
 - If accepted, you must work to find a replacement should you leave or step down
-- Attend in-person monthly Core Team coordination meeting
+- Attend semimonthly virtual Core Team coordination meeting
 - Available for 2-4 hours per week outside of Hack Nights
 
 ### Metrics
@@ -135,7 +145,7 @@ and report and explain the findings to leads of the Core Teams.
 ### Commitment
 - There is a 3-month trial period for this position, with ideal candidates looking to stay for at least 6 months
 - If accepted, you must work to find and train a replacement should you leave or step down
-- Attend in-person monthly Core Team coordination meeting
+- Attend virtual semimonthly Core Team coordination meeting
 - Attend hack nights and Brigade events that generate new members, such as hackathons
 - Available for 2-4 hours per week outside of Hack Nights
 

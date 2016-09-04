@@ -14,7 +14,7 @@ specialize in specific roles.
 Are you a logistical mastermind?  Can you organize a calendar of events better
 than the Mayor's Scheduler? Can you get information from 7 different teams with
 time to spare before your deadline? Do you want to plan events attended which
-benefit the community and city of San Francisco? As the Events Leads or part of
+benefit the community and city of San Francisco? As the Events Lead or part of
 a team of Lead Supporters, you will plan our two major events and lead the
 coordination of our weekly Hack Nights.
 
@@ -28,7 +28,7 @@ coordination of our weekly Hack Nights.
 
 ## Commitment
 
-- Attend weekly core team meetings (every other week virtually)
+- Attend semimonthly virtual core team meetings
 - Attend 3x Hack Nights per month
 - Available for 5-10 hours of communication per month outside of Hack Nights
 

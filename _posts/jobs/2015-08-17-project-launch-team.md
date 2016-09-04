@@ -25,7 +25,7 @@ Do you love keeping things on track, removing obstacles to completion, and patie
     - Review and develop project methodology and tools
     - Evaluate feasibility of new project ideas (i.e. timing, thematic fit into Code for San Francisco’s core project requirements, values, etc.) and encourage development as appropriate
 - Support
-    - Help project leaders move their products from idea to launch and from launch to growth. 
+    - Help project leaders move their products from idea to launch and from launch to growth.
     - Help project leads stay aligned with Code for San Francisco’s goals
     - Help projects recruit for each stage of their lifecycle
     - Work with the Onboarding Team in support of the matching process to help volunteers and teams connect at each stage of their projects
