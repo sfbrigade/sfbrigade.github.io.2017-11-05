@@ -1,18 +1,18 @@
 permalink: /:categories/:title/
 markdown: kramdown
-url: "http://codeforsanfrancisco.org"
+url: "http://opensavannah.github.io"
 defaultbranch: master
 
-name: Code for San Francisco
+name: Open Savannah
 description: A volunteer civic technology group.
 
 owner:
-  twitter: sfbrigade
+  twitter: opensavannah
 
 prose:
   media: 'images/uploads'
   rooturl: '_posts'
-  siteurl: http://codeforsanfrancisco.org
+  siteurl: http://opensavannah.github.io
   ignore:
     - index.md
     - _config.yml
