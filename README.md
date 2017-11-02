@@ -1,5 +1,7 @@
 # CodeForSanFrancisco.org [![Build Status](https://travis-ci.org/sfbrigade/sfbrigade.github.io.svg?branch=master)](https://travis-ci.org/sfbrigade/sfbrigade.github.io)
 
+**Note: This repo is deprecated, the brigade has since moved to an installation of Brigadehub. If you're noticing an issue with something on the current site, please contact the leadership team at Code for San Francisco for further support.***
+
 The website for the Code for San Francisco Brigade
 
 ### Goals
