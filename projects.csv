@@ -1,4 +1,5 @@
 ---
 ---
-name,description,link_url,code_url,status,tags{% for post in site.categories.projects reversed | sort: title %}
-{{ post.title}},{{post.excerpt}},{{post.link}},{{post.code_url}},"",""{% endfor %}
+{% assign projects = site.categories.projects | sort: title | reversed %}
+name,description,link_url,code_url,status,tags{% for project in projects %}
+{{ project.title}},{{project.excerpt}},{{project.link}},{{project.code_url}},"",""{% endfor %}

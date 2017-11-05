@@ -9,7 +9,7 @@ description: A volunteer civic technology group.
 owner:
   twitter: sfbrigade
 
-gems:
+plugins:
   - jekyll-redirect-from
 
 prose:
