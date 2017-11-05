@@ -37,14 +37,14 @@ prose:
         field:
           element: "multiselect"
           label: "Add Tags"
-          options: "http://codeforsanfrancisco.org/api/tags.json?callback=tagsCallback"
+          options: "http://old.codeforsanfrancisco.org/api/tags.json?callback=tagsCallback"
           alterable: true
           placeholder: "Choose Tags"
       - name: "author"
         field:
           element: "select"
           label: "Author"
-          options: "http://codeforsanfrancisco.org/api/authors.json?callback=authorsCallback"
+          options: "http://old.codeforsanfrancisco.org/api/authors.json?callback=authorsCallback"
     _posts/projects:
       - name: "layout"
         field:
